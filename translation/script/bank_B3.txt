@@ -1,0 +1,751 @@
+# Text of bank $B3 (tools/script.py; codes and limits: docs/TRANSLATION.md).
+# One block per string part; @ id = CPU address. EN lines replace the part; no EN = unchanged.
+# Keep every {code} (positions, names, numbers). {end} parts: the game draws the next part after.
+
+@ B3A100 words=8
+JP ｱｰﾑｸﾗｯﾁ
+EN Arm Clutch
+
+@ B3A110 words=9
+JP ｱｰﾑﾎｲｯﾌﾟ
+EN Arm Whip
+
+@ B3A122 words=9
+JP ｱﾏﾚｽﾀｯｸﾙ
+EN Amateur Tackle
+
+@ B3A134 words=8
+JP ｱｷﾚｽ腱固め
+EN Achilles Hold
+
+@ B3A144 words=10
+JP ﾛｹｯﾄﾗﾝﾁｬｰ
+EN Rocket Launcher
+
+@ B3A158 words=6
+JP 浴びせ蹴り
+EN Rolling Axe Kick
+
+@ B3A164 words=10
+JP ｱﾙｾﾞﾝﾁﾝBB
+EN Argentine Rack
+
+@ B3A178 words=6
+JP 一本背負い
+EN Shoulder Throw
+
+@ B3A184 words=14
+JP ﾊﾟﾆｯｼﾝｸﾞﾎｰﾙﾄﾞ
+EN Punishing Hold
+
+@ B3A1A0 words=7
+JP 後ろ回し蹴り
+EN Spin Back Kick
+
+@ B3A1AE words=8
+JP 腕ひしぎ逆十字
+EN Cross Armbar
+
+@ B3A1BE words=9
+JP 裏ｱｷﾚｽ腱固め
+EN Inv. Achilles Hold
+
+@ B3A1D0 words=7
+JP ｳﾗｶﾝﾗﾅ
+EN Hurricanrana
+
+@ B3A1DE words=3
+JP 裏拳
+EN Backhand
+
+@ B3A1E4 words=4
+JP 裏投げ
+EN Uranage
+
+@ B3A1EC words=11
+JP ｼﾞｮｰｸﾗｯｼｬｰ
+EN Jaw Crusher
+
+@ B3A202 words=11
+JP ｴｸｽﾌﾟﾛｲﾀﾞｰ
+EN Exploder
+
+@ B3A218 words=4
+JP SSD
+EN SSD
+
+@ B3A220 words=4
+JP STF
+EN STF
+
+@ B3A228 words=4
+JP STF
+EN STF
+
+@ B3A230 words=12
+JP ｴﾙﾎﾞｰﾄﾞﾛｯﾌﾟ
+EN Elbow Drop
+
+@ B3A248 words=5
+JP 延髄斬り
+EN Enzui Kick
+
+@ B3A252 words=5
+JP 踵落とし
+EN Axe Kick
+
+@ B3A25C words=7
+JP ﾛｰﾊﾟﾝﾁ
+EN Low Punch
+
+@ B3A26A words=10
+JP ｶﾅﾃﾞｨｱﾝBB
+EN Canadian Rack
+
+@ B3A27E words=4
+JP 鎌固め
+EN Sickle Hold
+
+@ B3A286 words=8
+JP 空手ﾁｮｯﾌﾟ
+EN Karate Chop
+
+@ B3A296 words=6
+JP 河津落とし
+EN Kawazu Drop
+
+@ B3A2A2 words=12
+JP ｶﾝｸｰﾝﾄﾙﾈｰﾄﾞ
+EN Cancun Tornado
+
+@ B3A2BA words=5
+JP 監獄固め
+EN Prison Hold
+
+@ B3A2C4 words=7
+JP かんぬきSP
+EN Kannuki Suplex
+
+@ B3A2D2 words=7
+JP 顔面ﾅｯｸﾙ
+EN Face Knuckle
+
+@ B3A2E0 words=14
+JP ｲﾘｰｶﾞﾙﾄﾞﾗｲﾊﾞｰ
+EN Illegal Driver
+
+@ B3A2FC words=7
+JP ｷﾁﾝｼﾝｸ
+EN Kitchen Sink
+
+@ B3A30A words=8
+JP 逆片ｴﾋﾞ固め
+EN Half Crab
+
+@ B3A31A words=9
+JP 逆水平ﾁｮｯﾌﾟ
+EN Knife-Edge Chop
+
+@ B3A32C words=10
+JP ｷｬﾌﾟﾁｭｰﾄﾞ
+EN Captured
+
+@ B3A340 words=9
+JP ｷｬﾒﾙｸﾗｯﾁ
+EN Camel Clutch
+
+@ B3A352 words=5
+JP 凶器攻撃
+EN Weapon Attack
+
+@ B3A35C words=12
+JP ｷﾞﾛﾁﾝﾄﾞﾛｯﾌﾟ
+EN Guillotine Drop
+
+@ B3A374 words=5
+JP 急所蹴り
+EN Groin Kick
+
+@ B3A37E words=11
+JP 金的ｽﾄﾝﾋﾟﾝｸﾞ
+EN Groin Stomp
+
+@ B3A394 words=11
+JP ｸﾛｽｱｰﾑ式ﾎﾞﾑ
+EN Cross-Arm Bomb
+
+@ B3A3AA words=4
+JP 首絞め
+EN Choke
+
+@ B3A3B2 words=4
+JP 首投げ
+EN Headlock Throw
+
+@ B3A3BA words=4
+JP 脇固め
+EN Fujiwara Armbar
+
+@ B3A3C2 words=8
+JP ｱｲｱﾝｸﾛｰ
+EN Iron Claw
+
+@ B3A3D2 words=12
+JP ｸﾛｽﾋｰﾙﾎｰﾙﾄﾞ
+EN Cross Heel Hold
+
+@ B3A3EA words=9
+JP ｺﾌﾞﾗﾂｲｽﾄ
+EN Cobra Twist
+
+@ B3A3FC words=6
+JP ｻｲｷｯｸ
+EN Psychic
+
+@ B3A408 words=10
+JP ｻｲｸﾛﾝｸﾗｯﾁ
+EN Cyclone Clutch
+
+@ B3A41C words=7
+JP ｻｲﾄﾞSP
+EN Side Suplex
+
+@ B3A42A words=10
+JP ｻｲﾄﾞﾊﾞｽﾀｰ
+EN Side Buster
+
+@ B3A43E words=8
+JP 逆さ押さえ込み
+EN Inverted Cradle
+
+@ B3A44E words=9
+JP 祭蔵ｽﾍﾟｼｬﾙ
+EN Saizo Special
+
+@ B3A460 words=6
+JP ｻｿﾘ固め
+EN Scorpion Lock
+
+@ B3A46C words=4
+JP ｻﾙﾄ
+EN Salto
+
+@ B3A474 words=10
+JP TFﾊﾟﾜｰﾎﾞﾑ
+EN TF Powerbomb
+
+@ B3A488 words=5
+JP 地獄突き
+EN Hell Thrust
+
+@ B3A492 words=9
+JP ｼﾞｬｰﾏﾝSP
+EN German Suplex
+
+@ B3A4A4 words=13
+JP ｼﾞｬｲｱﾝﾄｽｲﾝｸﾞ
+EN Giant Swing
+
+@ B3A4BE words=16
+JP ｼﾞｬﾝﾋﾟﾝｸﾞﾆｰｱﾀｯｸ
+EN Jumping Knee
+
+@ B3A4DE words=16
+JP ｼｭｰﾃｨﾝｸﾞｽﾀｰﾌﾟﾚｽ
+EN Shooting Star
+
+@ B3A4FE words=9
+JP ｼｭﾐｯﾄ式BB
+EN Schmidt Breaker
+
+@ B3A510 words=3
+JP 掌打
+EN Palm
+
+@ B3A516 words=8
+JP 掌打ｱｯﾊﾟｰ
+EN Palm Uppercut
+
+@ B3A526 words=10
+JP ｼｮﾙﾀﾞｰｽﾙｰ
+EN Back Body Drop
+
+@ B3A53A words=12
+JP ｼｮﾙﾀﾞｰﾊﾞｽﾀｰ
+EN Shoulder Buster
+
+@ B3A552 words=9
+JP 垂直落下式DDT
+EN Vertical DDT
+
+@ B3A564 words=5
+JP 水面蹴り
+EN Leg Sweep
+
+@ B3A56E words=12
+JP ｽｸﾗｯﾌﾟﾊﾞｽﾀｰ
+EN Scrap Buster
+
+@ B3A586 words=4
+JP 脇固め
+EN Fujiwara Armbar
+
+@ B3A58E words=13
+JP ｽﾄﾗﾝｸﾞﾙﾎｰﾙﾄﾞ
+EN Strangle Hold
+
+@ B3A5A8 words=10
+JP ｽﾄﾚｯﾁﾌﾟﾗﾑ
+EN Stretch Plum
+
+@ B3A5BC words=9
+JP ｽﾄﾝﾋﾟﾝｸﾞ
+EN Stomping
+
+@ B3A5CE words=11
+JP ｽﾊﾟｲﾝﾊﾞｽﾀｰ
+EN Spine Buster
+
+@ B3A5E4 words=17
+JP ｽﾓｰﾙﾊﾟｯｹｰｼﾞﾎｰﾙﾄﾞ
+EN Small Package
+
+@ B3A606 words=12
+JP ｽﾘｰﾊﾟｰﾎｰﾙﾄﾞ
+EN Sleeper Hold
+
+@ B3A61E words=10
+JP ｽﾜﾝﾌﾟﾗﾝﾁｬ
+EN Spring Plancha
+
+@ B3A632 words=13
+JP ｽﾜﾝﾄﾍﾟｽｲｼｰﾀﾞ
+EN Spring Suicida
+
+@ B3A64C words=12
+JP ｽﾜﾝﾄﾍﾟｺﾝﾋｰﾛ
+EN Spring Con Hilo
+
+@ B3A664 words=13
+JP ｽﾜﾝﾄﾞﾛｯﾌﾟｷｯｸ
+EN Spring Dropkick
+
+@ B3A67E words=9
+JP ｽﾜﾝﾗﾘｱｯﾄ
+EN Spring Lariat
+
+@ B3A690 words=6
+JP ｾﾝﾄｰﾝ
+EN Senton
+
+@ B3A69C words=8
+JP 側転ｴﾙﾎﾞｰ
+EN Cartwheel Elbow
+
+@ B3A6AC words=8
+JP 回転ﾁｮｯﾌﾟ
+EN Spinning Chop
+
+@ B3A6BC words=8
+JP ﾀｲｶﾞｰSP
+EN Tiger Suplex
+
+@ B3A6CC words=13
+JP ﾀｲｶﾞｰﾄﾞﾗｲﾊﾞｰ
+EN Tiger Driver
+
+@ B3A6E6 words=14
+JP ﾀﾞｲﾋﾞﾝｸﾞﾁｮｯﾌﾟ
+EN Diving Chop
+
+@ B3A702 words=17
+JP ﾀﾞｲﾋﾞﾝｸﾞﾍｯﾄﾞﾊﾞｯﾄ
+EN Diving Headbutt
+
+@ B3A724 words=5
+JP ﾀｯｸﾙ
+EN Tackle
+
+@ B3A72E words=10
+JP ﾄﾍﾟｽｲｼｰﾀﾞ
+EN Tope Suicida
+
+@ B3A742 words=9
+JP ﾄﾍﾟｺﾝﾋｰﾛ
+EN Tope Con Hilo
+
+@ B3A754 words=11
+JP ﾀﾞﾌﾞﾙｱｰﾑSP
+EN Double Arm Suplex
+
+@ B3A76A words=12
+JP ﾀﾞﾌﾞﾙﾘｽﾄﾛｯｸ
+EN Double Wristlock
+
+@ B3A782 words=4
+JP 技なし
+EN No Move
+
+@ B3A78A words=16
+JP ﾁｷﾝｳｨﾝｸﾞﾌｪｰｽﾛｯｸ
+EN Chickenwing Lock
+
+@ B3A7AA words=11
+JP ﾁｮｰｸｽﾘｰﾊﾟｰ
+EN Choke Sleeper
+
+@ B3A7C0 words=6
+JP ｴﾙﾎﾞｰ
+EN Elbow
+
+@ B3A7CC words=18
+JP ﾂｰﾑｽﾄﾝﾊﾟｲﾙﾄﾞﾗｲﾊﾞｰ
+EN Tombstone
+
+@ B3A7F0 words=4
+JP DDT
+EN DDT
+
+@ B3A7F8 words=5
+JP 毒霧攻撃
+EN Poison Mist
+
+@ B3A802 words=7
+JP Dr.ﾎﾞﾑ
+EN Dr. Bomb
+
+@ B3A810 words=4
+JP 巴投げ
+EN Tomoe
+
+@ B3A818 words=8
+JP ﾄﾗｰｽｷｯｸ
+EN Superkick
+
+@ B3A828 words=9
+JP ﾄﾞﾗｺﾞﾝSP
+EN Dragon Suplex
+
+@ B3A83A words=12
+JP ﾄﾞﾗｺﾞﾝｽｸﾘｭｰ
+EN Dragon Screw
+
+@ B3A852 words=13
+JP ﾄﾞﾗｺﾞﾝｽﾘｰﾊﾟｰ
+EN Dragon Sleeper
+
+@ B3A86C words=10
+JP ﾄﾞﾛｯﾌﾟｷｯｸ
+EN Dropkick
+
+@ B3A880 words=12
+JP 投げっ放しｼﾞｬｰﾏﾝ
+EN Release German
+
+@ B3A898 words=13
+JP 投げっ放しﾊﾟﾜｰﾎﾞﾑ
+EN Release Powerbomb
+
+@ B3A8B2 words=9
+JP ﾆｰﾄﾞﾛｯﾌﾟ
+EN Knee Drop
+
+@ B3A8C4 words=6
+JP ﾆｰﾘﾌﾄ
+EN Knee Lift
+
+@ B3A8D0 words=7
+JP ﾆｰﾙｷｯｸ
+EN Flying Wheel Kick
+
+@ B3A8DE words=7
+JP ﾈｯｸﾛｯｸ
+EN Neck Lock
+
+@ B3A8EC words=11
+JP ﾉｰｻﾞﾝﾗｲﾄSP
+EN N. Lights Suplex
+
+@ B3A902 words=12
+JP ﾉｰｻﾞﾝﾗｲﾄﾎﾞﾑ
+EN N. Lights Bomb
+
+@ B3A91A words=6
+JP 咽輪落とし
+EN Chokeslam
+
+@ B3A926 words=6
+JP ﾊｲｷｯｸ
+EN High Kick
+
+@ B3A932 words=12
+JP ﾊﾟｲﾙﾄﾞﾗｲﾊﾞｰ
+EN Piledriver
+
+@ B3A94A words=10
+JP ﾊﾞｯｸｴﾙﾎﾞｰ
+EN Back Elbow
+
+@ B3A95E words=11
+JP ﾊﾞｯｸﾄﾞﾛｯﾌﾟ
+EN Backdrop
+
+@ B3A974 words=15
+JP ﾊﾞｯｸﾄﾞﾛｯﾌﾟ式ﾎﾞﾑ
+EN Backdrop Bomb
+
+@ B3A992 words=8
+JP ﾊﾟﾜｰｽﾗﾑ
+EN Power Slam
+
+@ B3A9A2 words=8
+JP ﾊﾟﾜｰﾎﾞﾑ
+EN Powerbomb
+
+@ B3A9B2 words=4
+JP 張り手
+EN Slap
+
+@ B3A9BA words=8
+JP ﾊﾝﾏｰﾛｯｸ
+EN Hammerlock
+
+@ B3A9CA words=9
+JP ﾋｰﾙﾎｰﾙﾄﾞ
+EN Heel Hold
+
+@ B3A9DC words=6
+JP 膝十字固め
+EN Kneebar
+
+@ B3A9E8 words=9
+JP ﾋｯﾌﾟｱﾀｯｸ
+EN Hip Attack
+
+@ B3A9FA words=11
+JP ﾌｨｽﾄﾄﾞﾛｯﾌﾟ
+EN Fist Drop
+
+@ B3AA10 words=13
+JP ﾌｨｯｼｬｰﾏﾝｽﾞSP
+EN Fisherman Suplex
+
+@ B3AA2A words=14
+JP ﾌｨｯｼｬｰﾏﾝﾊﾞｽﾀｰ
+EN Fisherman Buster
+
+@ B3AA46 words=6
+JP 風車式BB
+EN Windmill Breaker
+
+@ B3AA52 words=8
+JP ﾌｪｰｽﾛｯｸ
+EN Facelock
+
+@ B3AA62 words=14
+JP ﾌｪﾆｯｸｽｽﾌﾟﾗｯｼｭ
+EN Phoenix Splash
+
+@ B3AA7E words=9
+JP ﾌｯﾄｽﾀﾝﾌﾟ
+EN Foot Stomp
+
+@ B3AA90 words=13
+JP ﾌﾗｲﾝｸﾞｼｮﾙﾀﾞｰ
+EN Flying Shoulder
+
+@ B3AAAA words=16
+JP ﾌﾗｲﾝｸﾞﾎﾞﾃﾞｨｱﾀｯｸ
+EN Flying Body Press
+
+@ B3AACA words=12
+JP ﾌﾗｲﾝｸﾞﾗﾘｱｯﾄ
+EN Flying Lariat
+
+@ B3AAE2 words=13
+JP ｽﾌﾟﾗｯｼｭﾏｳﾝﾃﾝ
+EN Splash Mountain
+
+@ B3AAFC words=12
+JP ﾌﾗﾝｹﾝｼｭﾀｲﾅｰ
+EN Frankensteiner
+
+@ B3AB14 words=7
+JP ﾌﾟﾗﾝﾁｬ
+EN Plancha
+
+@ B3AB22 words=11
+JP ﾌﾞﾚｰﾝﾊﾞｽﾀｰ
+EN Brainbuster
+
+@ B3AB38 words=12
+JP ﾌﾙﾈﾙｿﾝﾊﾞｽﾀｰ
+EN F. Nelson Buster
+
+@ B3AB50 words=7
+JP ﾌﾙﾈﾙｿﾝ
+EN Full Nelson
+
+@ B3AB5E words=11
+JP ﾌﾞﾛｯｸﾊﾞｽﾀｰ
+EN Blockbuster
+
+@ B3AB74 words=9
+JP ﾌﾟﾛﾚｽｷｯｸ
+EN Front Kick
+
+@ B3AB86 words=7
+JP ﾌﾛﾝﾄSP
+EN Front Suplex
+
+@ B3AB94 words=8
+JP ﾍﾞｱﾊｯｸﾞ
+EN Bear Hug
+
+@ B3ABA4 words=9
+JP ﾍｯﾄﾞﾊﾞｯﾄ
+EN Headbutt
+
+@ B3ABB6 words=8
+JP ﾍｯﾄﾞﾛｯｸ
+EN Headlock
+
+@ B3ABC6 words=9
+JP ﾎﾞﾃﾞｨｽﾗﾑ
+EN Body Slam
+
+@ B3ABD8 words=10
+JP ﾎﾞﾃﾞｨﾊﾟﾝﾁ
+EN Body Blow
+
+@ B3ABEC words=9
+JP ﾊｰﾌｱｰﾑSP
+EN Half Arm Suplex
+
+@ B3ABFE words=4
+JP 卍固め
+EN Octopus
+
+@ B3AC06 words=10
+JP ｴﾙﾎﾞｰｱﾀｯｸ
+EN Elbow Smash
+
+@ B3AC1A words=8
+JP ﾐﾄﾞﾙｷｯｸ
+EN Middle Kick
+
+@ B3AC2A words=11
+JP ﾑｰﾝｻﾙﾄﾌﾟﾚｽ
+EN Moonsault Press
+
+@ B3AC40 words=15
+JP ﾑｰﾝｻﾙﾄﾌｯﾄｽﾀﾝﾌﾟ
+EN Moonsault Stomp
+
+@ B3AC5E words=13
+JP 振り降ろしﾓﾝｺﾞﾘｱﾝ
+EN Overhead Mongolian
+
+@ B3AC78 words=13
+JP ﾓﾝｺﾞﾘｱﾝﾁｮｯﾌﾟ
+EN Mongolian Chop
+
+@ B3AC92 words=7
+JP ｹﾝｶｷｯｸ
+EN Kenka Kick
+
+@ B3ACA0 words=6
+JP ４の字固め
+EN Figure-Four
+
+@ B3ACAC words=17
+JP ｼﾞｬﾝﾋﾟﾝｸﾞﾊﾟﾜｰﾎﾞﾑ
+EN Jumping Powerbomb
+
+@ B3ACCE words=5
+JP 跳び蹴り
+EN Flying Kick
+
+@ B3ACD8 words=10
+JP {at 80,33}.ｹﾌﾞﾗｰﾀﾞ
+EN {at 80,33}Quebrada
+
+@ B3ACEC words=6
+JP ﾗﾘｱｯﾄ
+EN Lariat
+
+@ B3ACF8 words=11
+JP ﾘﾌﾄｱｯﾌﾟｽﾗﾑ
+EN Lift-Up Slam
+
+@ B3AD0E words=9
+JP ﾚｯｸﾞｸﾗｯﾁ
+EN Leg Clutch
+
+@ B3AD20 words=6
+JP ﾛｰｷｯｸ
+EN Low Kick
+
+@ B3AD2C words=12
+JP ﾛｰﾘﾝｸﾞｴﾙﾎﾞｰ
+EN Rolling Elbow
+
+@ B3AD44 words=12
+JP ﾛｰﾘﾝｸﾞｿﾊﾞｯﾄ
+EN Rolling Sobat
+
+@ B3AD5C words=5
+JP 火炎放射
+EN Fire Breath
+
+@ B3AD66 words=8
+JP 逆片ｴﾋﾞ固め
+EN Half Crab
+
+@ B3AD76 words=4
+JP あおり
+EN Taunt
+
+@ B3AD7E words=4
+JP 首狩り
+EN Headhunter
+
+@ B3AD86 words=6
+JP ﾏｯﾁｮ1
+EN Macho 1
+
+@ B3AD92 words=9
+JP ｶﾞｯﾂだぜぃ!
+EN That's Guts!
+
+@ B3ADA4 words=5
+JP ｶﾓｰﾝ
+EN C'mon!
+
+@ B3ADAE words=3
+JP 拍手
+EN Clap
+
+@ B3ADB4 words=6
+JP ﾏｯﾁｮ2
+EN Macho 2
+
+@ B3ADC0 words=6
+JP ﾏｯﾁｮ3
+EN Macho 3
+
+@ B3ADCC words=8
+JP 両手ｶﾞｯﾂ!
+EN Double Fist!
+
+@ B3ADDC words=5
+JP 押忍!!
+EN Osu!!
+
+@ B3ADE6 words=7
+JP ｵｯｼｬｰｯ
+EN Yeeeah!
+
+@ B3ADF4 words=4
+JP 体固め
+EN Body Pin

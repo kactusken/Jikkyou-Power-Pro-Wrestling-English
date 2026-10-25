@@ -1,0 +1,1491 @@
+# Text of bank $B4 (tools/script.py; codes and limits: docs/TRANSLATION.md).
+# One block per string part; @ id = CPU address. EN lines replace the part; no EN = unchanged.
+# Keep every {code} (positions, names, numbers). {end} parts: the game draws the next part after.
+
+@ B48000 words=21
+JP {skip}「ふん、手抜きをさせてもらったぜ。  {end}
+EN {skip}"Hmph, I took it easy out there.{end}
+
+@ B4802A words=18
+JP 　あの程度の相手とやっても、大した{end}
+EN  Beating a nobody like that just{end}
+
+@ B4804E words=17
+JP 　マネーにはならんからなっ!!」
+EN  doesn't make me any money!!"
+
+@ B48070 words=19
+JP {skip}「コンディション、技のキレ、試合の{end}
+EN {skip}"Condition, technique, ring{end}
+
+@ B48096 words=18
+JP 　組み立て…。どこをとってもヤツに{end}
+EN  smarts... No matter how you look{end}
+
+@ B480BA words=15
+JP 　合格点はやれんわいっ!!」
+EN  at it, the guy gets a failing grade!!"
+
+@ B480D8 words=19
+JP {skip}「とりあえずＢＯＭのレスラーどもを{end}
+EN {skip}"First I'll roast every last one{end}
+
+@ B480FE words=14
+JP 　全員、丸焼きにしてやる。{end}
+EN  of those BOM wrestlers alive.{end}
+
+@ B4811A words=19
+JP 　気にくわんヤツが多すぎるぞっ!!」
+EN  Way too many punks there I hate!!"
+
+@ B48140 words=19
+JP {skip}「カメラとレコーダーを持って、つい{end}
+EN {skip}"Grab your camera and recorder and{end}
+
+@ B48166 words=19
+JP 　てこいっ!!　今からヤツの控え室に{end}
+EN  follow me!! I'm gonna go storm{end}
+
+@ B4818C words=16
+JP 　殴り込みに行くからなっ!!」
+EN  that guy's locker room right now!!"
+
+@ B481AC words=20
+JP {skip}「老いぼれだと思ってやがるのかっ!?{end}
+EN {skip}"You think I'm some old has-been!?{end}
+
+@ B481D4 words=18
+JP 　あのヒヨッコどもの相手をするには{end}
+EN  Against those greenhorns, it's{end}
+
+@ B481F8 words=17
+JP 　ちょうどいいハンデだぜっ!!」
+EN  just the right handicap!!"
+
+@ B4821A words=19
+JP {skip}「俺様と引き分けて、いい気になって{end}
+EN {skip}"Gets a draw with me and thinks{end}
+
+@ B48240 words=15
+JP 　やがると容赦しねえぞっ!!{end}
+EN  he's hot stuff? No mercy for that!!{end}
+
+@ B4825E words=18
+JP 　次は必ず消し炭にしてやるっ!!」
+EN  Next time I burn him to cinders!!"
+
+@ B48282 words=9
+JP {skip}「グフフフ…。{end}
+EN {skip}"Guhuhuhu...{end}
+
+@ B48294 words=18
+JP 　あの程度の試合で優勝とは、これは{end}
+EN  A title for a match like that?{end}
+
+@ B482B8 words=16
+JP 　ちょうどいい小遣い稼ぎだな」
+EN  Nice bit of pocket money, that."
+
+@ B482D8 words=18
+JP {skip}「全員、逃げ腰になってやがった。{end}
+EN {skip}"They all had cold feet out there.{end}
+
+@ B482FC words=18
+JP 　それはそうだろう、望んで火あぶり{end}
+EN  And why not? Nobody's dying to{end}
+
+@ B48320 words=20
+JP 　になりたいヤツはいねえからなっ!!」
+EN  get burned at the stake, are they!!"
+
+@ B48348 words=19
+JP {skip}「ファンなど目障りで、うっとうしい{end}
+EN {skip}"Fans are an eyesore and a pain in{end}
+
+@ B4836E words=18
+JP 　わいっ。痛い思いをしたくないなら{end}
+EN  the neck. If you don't wanna get{end}
+
+@ B48392 words=17
+JP 　俺様に近付くんじゃねえっ!!」
+EN  hurt, stay the hell away from me!!"
+
+@ B483B4 words=18
+JP {skip}「それは相手に聞いてやんなっ!!{end}
+EN {skip}"Go ask the other guy that!!{end}
+
+@ B483D8 words=18
+JP 　ただし、あの腫れあがった顔で声が{end}
+EN  That is, if he can still talk{end}
+
+@ B483FC words=13
+JP 　出せるならなあっ!!」
+EN  with his face all swollen up!!"
+
+@ B48416 words=20
+JP {skip}「ゲハハハハハハハハハハハハハッ!!{end}
+EN {skip}"Gehahahahahahahahahahahaha!!{end}
+
+@ B4843E words=18
+JP 　点数だとオ？　プレスはくだらねえ{end}
+EN  A score? You press guys ask the{end}
+
+@ B48462 words=18
+JP 　ことを聞きたがるから、笑えるぜ」
+EN  dumbest stuff. Cracks me up."
+
+@ B48486 words=19
+JP {skip}「片っ端から、ぶっ壊すだけよっ!!{end}
+EN {skip}"I'm just gonna smash 'em all!!{end}
+
+@ B484AC words=18
+JP 　俺のナックルは、ブラックジャック{end}
+EN  These knuckles of mine hit harder{end}
+
+@ B484D0 words=15
+JP 　より威力があるぜえっ!!」
+EN  than any blackjack!!"
+
+@ B484EE words=19
+JP {skip}「あれで、なぜ引き分けなんだっ!?{end}
+EN {skip}"How the hell was that a draw!?{end}
+
+@ B48514 words=18
+JP 　ヤツは自分の足で控え室に戻ること{end}
+EN  The guy couldn't even walk back{end}
+
+@ B48538 words=18
+JP 　さえできない程だったぜえっ!!」
+EN  to the locker room on his own!!"
+
+@ B4855C words=19
+JP {skip}「俺の腕の太さを見てから言えっ!!{end}
+EN {skip}"Take a look at my arms first!!{end}
+
+@ B48582 words=17
+JP 　ヘタすりゃ、アイツの太ももより{end}
+EN  I bet they're thicker than that{end}
+
+@ B485A4 words=16
+JP 　太いかもしれねえぜえっ!!」
+EN  punk's thighs, yeah!!"
+
+@ B485C4 words=15
+JP {skip}「命拾いしやがったなっ!!{end}
+EN {skip}"They got lucky this time!!{end}
+
+@ B485E2 words=18
+JP 　俺と、試合を組まれないことを祈り{end}
+EN  Pray you never get booked with me,{end}
+
+@ B48606 words=19
+JP 　ながら震えているがいいぜえっ!!」
+EN  and keep on shaking in your boots!!"
+
+@ B4862C words=15
+JP {skip}「最高にハイな気分だっ!!{end}
+EN {skip}"I'm on top of the world, baby!!{end}
+
+@ B4864A words=18
+JP 　ラリアットで吹っ飛ぶヤツらの面が{end}
+EN  The faces of those punks flying off{end}
+
+@ B4866E words=19
+JP 　今も、目に焼き付いてやがるっ!!」
+EN  my lariat are burned in my eyes!!"
+
+@ B48694 words=19
+JP {skip}「テクニックだ、タクティクスだ、な{end}
+EN {skip}"Technique, tactics, blah blah...{end}
+
+@ B486BA words=19
+JP 　んてほざいても、結果はこれだっ!!{end}
+EN  Say what you want, here's the{end}
+
+@ B486E0 words=19
+JP 　パワーが１番ってことだぜえっ!!」
+EN  result!! Power is number one!!"
+
+@ B48706 words=19
+JP {skip}「次に、誰がぶっ潰されるところが見{end}
+EN {skip}"Who do you wanna see me crush{end}
+
+@ B4872C words=9
+JP 　たいんだっ!?{end}
+EN  next!?{end}
+
+@ B4873E words=18
+JP 　お前たちが決めていいぜえっ!!」
+EN  You get to decide, people!!"
+
+@ B48762 words=11
+JP {skip}「不運だったな…。{end}
+EN {skip}"Unlucky, wasn't he...{end}
+
+@ B48778 words=18
+JP 　ヤツが相手にしたのは、冥界からの{end}
+EN  Unlucky that the one he faced was{end}
+
+@ B4879C words=14
+JP 　使者だったことが、だ…」
+EN  a messenger from the underworld..."
+
+@ B487B8 words=14
+JP {skip}「それに答えたところで、{end}
+EN {skip}"Answering that would be no{end}
+
+@ B487D4 words=18
+JP 　冥府の底に堕ちたヤツの手向けには{end}
+EN  parting gift for one who has fallen{end}
+
+@ B487F8 words=8
+JP 　なるまい…」
+EN  to the depths of the netherworld..."
+
+@ B48808 words=19
+JP {skip}「次に私が闘う相手は、運命が決める{end}
+EN {skip}"Fate will decide who I fight next...{end}
+
+@ B4882E words=18
+JP 　ことだ…。そして、その男が、私の{end}
+EN  And it is fate, too, that this man{end}
+
+@ B48852 words=17
+JP 　手で闇に葬られるのも運命だ…」
+EN  shall be buried in darkness by me."
+
+@ B48874 words=19
+JP {skip}「ヤツのファイトは、あまりに無様で{end}
+EN {skip}"His fighting was far too clumsy and{end}
+
+@ B4889A words=18
+JP 　見苦しい…。　覚悟が決まるまで、{end}
+EN  unsightly... I shall wait to finish{end}
+
+@ B488BE words=17
+JP 　引導を渡すのは待ってやろう…」
+EN  him until he has made his peace..."
+
+@ B488E0 words=20
+JP {skip}「君は、よく分かっていないようだな。{end}
+EN {skip}"You do not seem to understand.{end}
+
+@ B48908 words=18
+JP 　私の闘いは、もはや体調や技術に左{end}
+EN  My fighting is far beyond being{end}
+
+@ B4892C words=17
+JP 　右されるような次元ではない…」
+EN  swayed by condition or technique..."
+
+@ B4894E words=19
+JP {skip}「貴様が見たものは、地獄の入り口に{end}
+EN {skip}"What you saw was nothing more{end}
+
+@ B48974 words=8
+JP 　すぎない…。{end}
+EN  than the gates of Hell...{end}
+
+@ B48984 words=18
+JP 　真の恐怖はこんなものではない…」
+EN  True terror is far worse than this."
+
+@ B489A8 words=19
+JP {skip}「そんなことよりも、冥府に堕ちた男{end}
+EN {skip}"Rather than that, praise the past{end}
+
+@ B489CE words=18
+JP 　たちの過去の栄光でも、称えてやり{end}
+EN  glories of the men who fell to{end}
+
+@ B489F2 words=7
+JP 　たまえ…」
+EN  the netherworld..."
+
+@ B48A00 words=19
+JP {skip}「誰もが自分の勝利を信じてやまなか{end}
+EN {skip}"Each of them was so sure he would{end}
+
+@ B48A26 words=18
+JP 　ったようだな…。死神が背後にいた{end}
+EN  win... Never knowing that Death{end}
+
+@ B48A4A words=11
+JP 　ことも知らずに…」
+EN  stood right behind him..."
+
+@ B48A60 words=19
+JP {skip}「ヒーローを倒されたファンたちの悲{end}
+EN {skip}"I can see why fans are sad to see{end}
+
+@ B48A86 words=18
+JP 　しみは分からんでもないが、かけて{end}
+EN  their heroes fall, but I have no{end}
+
+@ B48AAA words=14
+JP 　やる言葉は知らないな…」
+EN  words of comfort for them..."
+
+@ B48AC6 words=19
+JP {skip}「まっこと、エキサイティングな試合{end}
+EN {skip}"Now that were an excitin' match!!{end}
+
+@ B48AEC words=19
+JP 　じゃったっ!!　世の中にはまだまだ{end}
+EN  There's still plenty o' strong men{end}
+
+@ B48B12 words=18
+JP 　強い男がおるものじゃのうっ!!」
+EN  out there in this world, I tell ya!!"
+
+@ B48B36 words=19
+JP {skip}「俺が考えちょる『マルチバトル』は{end}
+EN {skip}"The 'Multi-Battle' I've got in mind{end}
+
+@ B48B5C words=16
+JP 　まだ試行錯誤の真っ最中じゃ。{end}
+EN  is still all trial and error.{end}
+
+@ B48B7C words=18
+JP 　点数をつけるがは、まだ早いぜよ」
+EN  Too early to score it yet, partner."
+
+@ B48BA0 words=19
+JP {skip}「近い将来、ＲＥＡＬ'Ｓを世界中の{end}
+EN {skip}"Someday soon, REAL'S'll be a place{end}
+
+@ B48BC6 words=18
+JP 　格闘技者が１つのリングで闘える団{end}
+EN  where fighters from all over the{end}
+
+@ B48BEA words=14
+JP 　体にすることぜよっ!!」
+EN  world can fight in one ring!!"
+
+@ B48C06 words=19
+JP {skip}「人間は、追いつめられると予想外な{end}
+EN {skip}"Folks backed into a corner do the{end}
+
+@ B48C2C words=18
+JP 　行動をとるものぜよ。格闘技とは、{end}
+EN  darnedest things, partner. Fightin'{end}
+
+@ B48C50 words=13
+JP 　まっこと奥が深いのう」
+EN  sure runs deep, don't it."
+
+@ B48C6A words=19
+JP {skip}「トレーニングプログラムで完全管理{end}
+EN {skip}"My trainin' program keeps me in{end}
+
+@ B48C90 words=17
+JP 　しちょるから、体調は万全じゃ。{end}
+EN  shape, so my body was in top form.{end}
+
+@ B48CB2 words=18
+JP 　俺の未熟さが引き分けの原因ぜよ」
+EN  That draw's on my own greenness."
+
+@ B48CD6 words=20
+JP {skip}「まっこと強い男じゃ!!俺はどうして{end}
+EN {skip}"You're one tough feller!! Now I just{end}
+
+@ B48CFE words=19
+JP 　もあんたに勝ちたくなったがじゃ!!{end}
+EN  gotta beat you, no matter what!!{end}
+
+@ B48D24 words=17
+JP 　もう一勝負、してくれんかの？」
+EN  How 'bout one more go, partner?"
+
+@ B48D46 words=20
+JP {skip}「たまるか、こりゃ最高の気分じゃ!!{end}
+EN {skip}"Whoo-ee, I feel just great!!{end}
+
+@ B48D6E words=18
+JP 　世界の強豪たちを相手に闘えたがは{end}
+EN  Gettin' to fight the world's best{end}
+
+@ B48D92 words=19
+JP 　まっこと、シビレる思いぜよっ!!」
+EN  sure gives me the chills, partner!!"
+
+@ B48DB8 words=19
+JP {skip}「皆、個性的なアスリートじゃった。{end}
+EN {skip}"Every one of 'em was one-of-a-kind.{end}
+
+@ B48DDE words=18
+JP 　彼らから盗むべき技術は、たくさん{end}
+EN  There's lots of tricks I oughta{end}
+
+@ B48E02 words=11
+JP 　あったぜよっ!!」
+EN  steal from 'em, partner!!"
+
+@ B48E18 words=19
+JP {skip}「一度でいいから試合会場にきてファ{end}
+EN {skip}"Just once, come out to an arena{end}
+
+@ B48E3E words=14
+JP 　イトを見て欲しいんじゃ。{end}
+EN  and watch the fights.{end}
+
+@ B48E5A words=18
+JP 　きっと格闘技が好きになるっ!!」
+EN  You'll fall for fightin', I bet!!"
+
+@ B48E7E words=19
+JP {skip}「セメントで来るなら、セメントで応{end}
+EN {skip}"If he wants a shoot, I'm ready to{end}
+
+@ B48EA4 words=10
+JP 　える用意はある。{end}
+EN  answer with a shoot.{end}
+
+@ B48EB8 words=16
+JP 　その勇気と実力があるならね」
+EN  If he has the guts and the skill."
+
+@ B48ED8 words=19
+JP {skip}「５０点ってとこだな。何度か極める{end}
+EN {skip}"I'd say 50 points. I had a few{end}
+
+@ B48EFE words=15
+JP 　チャンスはあったのだが…。{end}
+EN  chances to lock it in, but...{end}
+
+@ B48F1C words=13
+JP 　俺もまだ甘チャンだな」
+EN  Guess I'm still too soft."
+
+@ B48F36 words=19
+JP {skip}「俺は完全主義者だ。それはパーフェ{end}
+EN {skip}"I'm a perfectionist. Not a perfect{end}
+
+@ B48F5C words=18
+JP 　クトな人間ではなく、完全を追い求{end}
+EN  man, mind you - a man who keeps{end}
+
+@ B48F80 words=18
+JP 　める人間のことだと思って欲しい」
+EN  chasing perfection. Remember that."
+
+@ B48FA4 words=19
+JP {skip}「実際に闘った者の意見だが、ルール{end}
+EN {skip}"Speaking as one who fought: the{end}
+
+@ B48FCA words=18
+JP 　の改善が必要だと思う。あれでは、{end}
+EN  rules need work. As they are, the{end}
+
+@ B48FEE words=15
+JP 　強い者が勝つとは限らない」
+EN  stronger man won't always win."
+
+@ B4900C words=19
+JP {skip}「試合に向けてメニューを調整して、{end}
+EN {skip}"I tune my training to the match so{end}
+
+@ B49032 words=18
+JP 　当日ピークに達するように仕上げて{end}
+EN  I peak on the day itself. In other{end}
+
+@ B49056 words=15
+JP 　いる。つまりベストだった」
+EN  words, I was at my best."
+
+@ B49074 words=19
+JP {skip}「納得がいかないのは、俺も同じだ。{end}
+EN {skip}"I'm not satisfied either.{end}
+
+@ B4909A words=18
+JP 　互いにやる気があるなら、再戦を組{end}
+EN  If we both want it, setting up{end}
+
+@ B490BE words=14
+JP 　むのは易しいことだろう」
+EN  a rematch should be easy enough."
+
+@ B490DA words=19
+JP {skip}「楽勝とまでは言わないが、まだ余力{end}
+EN {skip}"I won't call it easy, but it's true{end}
+
+@ B49100 words=14
+JP 　を残しているのは事実だ。{end}
+EN  I still had something left.{end}
+
+@ B4911C words=18
+JP 　これで俺が最強とは思いたくない」
+EN  I'd hate to think this makes me #1."
+
+@ B49140 words=19
+JP {skip}「プロを名乗るのをやめて欲しい選手{end}
+EN {skip}"Some guys out there shouldn't call{end}
+
+@ B49166 words=18
+JP 　も何人かいたようだ。キッチリ制裁{end}
+EN  themselves pros. I made sure{end}
+
+@ B4918A words=11
+JP 　しておいたけどね」
+EN  to teach them a lesson, though."
+
+@ B491A0 words=19
+JP {skip}「プロレスリングには一見、理解しに{end}
+EN {skip}"Pro wrestling has lots of moves{end}
+
+@ B491C6 words=18
+JP 　くいテクニックがたくさんあるが、{end}
+EN  that are hard to grasp at first.{end}
+
+@ B491EA words=17
+JP 　ファンも注意して見て欲しいな」
+EN  I hope fans will watch closely."
+
+@ B4920C words=19
+JP {skip}「接近しての打撃戦こそが真田流格闘{end}
+EN {skip}"Close-range striking is the heart{end}
+
+@ B49232 words=18
+JP 　術の真髄だ。真剣勝負において遅れ{end}
+EN  of Sanada-ryu. In a real fight,{end}
+
+@ B49256 words=14
+JP 　をとることはありえない」
+EN  I will never fall behind."
+
+@ B49272 words=19
+JP {skip}「相手は戦闘不能だから９０点かな。{end}
+EN {skip}"He can't fight on, so 90 points.{end}
+
+@ B49298 words=18
+JP 　合戦だったらトドメを刺さない限り{end}
+EN  On a battlefield, though, without{end}
+
+@ B492BC words=17
+JP 　１００点とは言えないのだが…」
+EN  the deathblow it's no 100..."
+
+@ B492DE words=19
+JP {skip}「真田流格闘術が喧嘩芸術と呼ばれる{end}
+EN {skip}"To prove why Sanada-ryu is called{end}
+
+@ B49304 words=18
+JP 　所以を実証するためには、１人でも{end}
+EN  the art of the brawl, I must beat{end}
+
+@ B49328 words=17
+JP 　多くの格闘技者を倒さなければ」
+EN  as many fighters as I can."
+
+@ B4934A words=19
+JP {skip}「あんな逃げ腰の闘いをしているから{end}
+EN {skip}"Fight that timidly and people will{end}
+
+@ B49370 words=18
+JP 　バカにされるのさ。格闘技は潰すか{end}
+EN  laugh at you. A fight means you{end}
+
+@ B49394 words=16
+JP 　潰されるか、のはずだろう？」
+EN  crush or get crushed, right?"
+
+@ B493B4 words=19
+JP {skip}「勝ち続けていれば何の問題もない。{end}
+EN {skip}"Keep winning and there's no problem.{end}
+
+@ B493DA words=18
+JP 　先週も、真田流格闘術の大会で優勝{end}
+EN  Just last week I won a Sanada-ryu{end}
+
+@ B493FE words=11
+JP 　してきたばかりさ」
+EN  tournament, too."
+
+@ B49414 words=18
+JP 「臆病者にかけてやる言葉はないよ」
+EN "I have no words for cowards."
+
+@ B49438 words=19
+JP {skip}「他流試合は気疲れするよ。しかし、{end}
+EN {skip}"Fighting other styles is tiring.{end}
+
+@ B4945E words=18
+JP 　これで真田流格闘術に、ハクの一つ{end}
+EN  Still, it should add some prestige{end}
+
+@ B49482 words=9
+JP 　もついたかな」
+EN  to Sanada-ryu."
+
+@ B49494 words=19
+JP {skip}「こういう大会を制すコツは短期決戦{end}
+EN {skip}"The trick to winning events like{end}
+
+@ B494BA words=18
+JP 　にある。合戦から学んだ、真田流格{end}
+EN  this is quick fights. A secret of{end}
+
+@ B494DE words=9
+JP 　闘術の極意さ」
+EN  Sanada-ryu, learned in battle."
+
+@ B494F0 words=19
+JP {skip}「これで真田流格闘術が、みてくれだ{end}
+EN {skip}"I'll be glad if this shows people{end}
+
+@ B49516 words=18
+JP 　けの骨董品ではないことを分かって{end}
+EN  Sanada-ryu isn't just some pretty{end}
+
+@ B4953A words=12
+JP 　もらえれば嬉しいよ」
+EN  antique for show."
+
+@ B49552 words=19
+JP {skip}「右のハイがきれいに入っただろう？{end}
+EN {skip}"Saw that right high kick land?{end}
+
+@ B49578 words=18
+JP 　あいつが決まれば、あとは必勝パタ{end}
+EN  Once that hits, I just roll into{end}
+
+@ B4959C words=20
+JP 　ーンにもちこむだけだよ。押忍っ!!」
+EN  my winning pattern. Osu!!"
+
+@ B495C4 words=19
+JP {skip}「立ち技以外は、まだまだ勉強中なん{end}
+EN {skip}"I'm still learning everything but{end}
+
+@ B495EA words=17
+JP 　でね…。及第点はつけられんよ。{end}
+EN  standup... Can't give a passing{end}
+
+@ B4960C words=8
+JP 　押忍っ!!」
+EN  grade. Osu!!"
+
+@ B4961C words=19
+JP {skip}「最終的には空手で、あらゆる格闘技{end}
+EN {skip}"In the end, I want karate to go{end}
+
+@ B49642 words=17
+JP 　と渡り合えるようになりたいね。{end}
+EN  toe-to-toe with every fighting art.{end}
+
+@ B49664 words=8
+JP 　押忍っ!!」
+EN  Osu!!"
+
+@ B49674 words=19
+JP {skip}「グラウンドになると思うように攻め{end}
+EN {skip}"On the ground I couldn't attack{end}
+
+@ B4969A words=18
+JP 　ていけないのが、アダとなった…。{end}
+EN  the way I wanted. That cost me...{end}
+
+@ B496BE words=8
+JP 　押忍っ!!」
+EN  Osu!!"
+
+@ B496CE words=12
+JP {skip}「調整は充分だった。{end}
+EN {skip}"I was well prepared.{end}
+
+@ B496E6 words=18
+JP 　不足していたのはミックスファイト{end}
+EN  What I lacked was mixed-fight{end}
+
+@ B4970A words=14
+JP 　の経験だよ。押忍っ!!」
+EN  experience. Osu!!"
+
+@ B49726 words=12
+JP {skip}「手ごたえはあった。{end}
+EN {skip}"I felt it connect.{end}
+
+@ B4973E words=18
+JP 　次は必ず、そのアゴに強烈な蹴りを{end}
+EN  Next time, I'll plant a brutal{end}
+
+@ B49762 words=14
+JP 　叩き込んでやるぜっ!!」
+EN  kick right on his jaw!!"
+
+@ B4977E words=19
+JP {skip}「もしも無様な負け方をしていたら、{end}
+EN {skip}"If I'd lost in a sorry way, I{end}
+
+@ B497A4 words=18
+JP 　館長に合わせる顔がないから、とに{end}
+EN  couldn't face my master. So I{end}
+
+@ B497C8 words=19
+JP 　かく必死だったんだよ。押忍っ!!」
+EN  fought like my life depended on it!!"
+
+@ B497EE words=19
+JP {skip}「この手のスタイルでやる場合、グラ{end}
+EN {skip}"Fighting in this style, ground{end}
+
+@ B49814 words=18
+JP 　ウンド技術は必須だな。いい勉強に{end}
+EN  skills are a must. It was a good{end}
+
+@ B49838 words=13
+JP 　なったよ。押忍っ!!」
+EN  lesson. Osu!!"
+
+@ B49852 words=19
+JP {skip}「寝技で互角にやれるようになれば、{end}
+EN {skip}"Once I can hold my own on the mat,{end}
+
+@ B49878 words=18
+JP 　立場は逆転する。次は豪快なＫＯを{end}
+EN  the tables turn. Next time I may{end}
+
+@ B4989C words=18
+JP 　もっと見せられるかもしれないな」
+EN  show you more big KOs."
+
+@ B498C0 words=19
+JP {skip}「一度捕まえたら、どんな体勢からで{end}
+EN {skip}"Once I get hold of you, I'll go for{end}
+
+@ B498E6 words=17
+JP 　もスープレックスを狙っていく。{end}
+EN  a suplex from any position at all.{end}
+
+@ B49908 words=10
+JP 　当然、ＫＯもだ」
+EN  And for the KO too, of course."
+
+@ B4991C words=19
+JP {skip}「もっと有利に試合を組み立てられる{end}
+EN {skip}"I must learn to build my matches{end}
+
+@ B49942 words=18
+JP 　ようにならなくては、点数どころで{end}
+EN  to my advantage. Forget a score -{end}
+
+@ B49966 words=18
+JP 　はない。打撃には毎回、手こずる」
+EN  strikers give me trouble every time."
+
+@ B4998A words=19
+JP {skip}「私はＲＥＡＬ'Ｓのスタイルが一番{end}
+EN {skip}"I believe the REAL'S style is the{end}
+
+@ B499B0 words=18
+JP 　だと思っている。マルチバトル選手{end}
+EN  strongest. My goal for now is to win{end}
+
+@ B499D4 words=14
+JP 　権、奪取が当面の目標だ」
+EN  the Multi-Battle Championship."
+
+@ B499F0 words=17
+JP {skip}「スポーツは潰し合いではない。{end}
+EN {skip}"Sport is not about crippling each{end}
+
+@ B49A12 words=18
+JP 　決着がつかなかったのは、ルール上{end}
+EN  other. Under the rules, a match with{end}
+
+@ B49A36 words=12
+JP 　仕方のないことだ…」
+EN  no decision was unavoidable..."
+
+@ B49A4E words=19
+JP {skip}「この試合に備えて、充分にコンディ{end}
+EN {skip}"I prepared my body fully for this{end}
+
+@ B49A74 words=18
+JP 　ションを整えてきた。当然、勝利を{end}
+EN  match. Naturally, so that I could{end}
+
+@ B49A98 words=10
+JP 　つかむためにだ」
+EN  seize the victory."
+
+@ B49AAC words=14
+JP {skip}「次こそは、絶対に勝つ。{end}
+EN {skip}"Next time, I win. No question.{end}
+
+@ B49AC8 words=18
+JP 　格闘家の誇りと、それを育んだ祖国{end}
+EN  I swear it on my fighter's pride and{end}
+
+@ B49AEC words=12
+JP 　の大地に誓って!!」
+EN  the soil of the land that raised it!!"
+
+@ B49B04 words=19
+JP {skip}「この栄誉を、祖国で私の勝利を願っ{end}
+EN {skip}"I want my family and comrades back{end}
+
+@ B49B2A words=18
+JP 　てくれている家族と、同志たちに、{end}
+EN  home, who prayed for my victory, to{end}
+
+@ B49B4E words=12
+JP 　いち早く知らせたい」
+EN  hear of this honor right away."
+
+@ B49B66 words=19
+JP {skip}「彼らの打撃は、私にとって脅威であ{end}
+EN {skip}"Their strikes were a threat to me,{end}
+
+@ B49B8C words=18
+JP 　ると同時にチャンスだった。キャッ{end}
+EN  but a chance as well. Once I catch{end}
+
+@ B49BB0 words=17
+JP 　チしてしまえばこっちのものだ」
+EN  them, they belong to me."
+
+@ B49BD2 words=19
+JP {skip}「遠い祖国にいるファンたちにも、私{end}
+EN {skip}"I wonder... do my fans in my far-off{end}
+
+@ B49BF8 words=18
+JP 　の声は届いているのだろうか…？」
+EN  homeland hear my voice too...?"
+
+@ B49C1C words=19
+JP {skip}「キャッチ・アズ・キャッチ・キャン{end}
+EN {skip}"Glad I practiced catch-as-catch-can.{end}
+
+@ B49C42 words=18
+JP 　の練習をして良かったよ。アマレス{end}
+EN  Amateur wrestling skills alone won't{end}
+
+@ B49C66 words=17
+JP 　の技術だけでは勝てないからね」
+EN  win you matches, you know."
+
+@ B49C88 words=19
+JP {skip}「８０点…と、いいたいところだが、{end}
+EN {skip}"I'd like to say 80 points... but if{end}
+
+@ B49CAE words=18
+JP 　甘い点をつけていたのでは、ボクの{end}
+EN  I go easy on myself, my strength{end}
+
+@ B49CD2 words=17
+JP 　強さの成長が止まってしまうな」
+EN  will stop growing, won't it?"
+
+@ B49CF4 words=19
+JP {skip}「キックやパンチをマスターするのが{end}
+EN {skip}"My task is to master kicks and{end}
+
+@ B49D1A words=18
+JP 　ボクの課題だね。シャークデン（ダ{end}
+EN  punches. I'm training hard at the{end}
+
+@ B49D3E words=16
+JP 　リルのジム）で特訓中なんだ」
+EN  Shark Den (Daryl's gym) right now."
+
+@ B49D5E words=19
+JP {skip}「ナメていた訳じゃないが、もっと打{end}
+EN {skip}"I didn't take them lightly, but I{end}
+
+@ B49D84 words=18
+JP 　撃を警戒するべきだったね。攻めあ{end}
+EN  should've watched for strikes more.{end}
+
+@ B49DA8 words=17
+JP 　ぐねていたのは、否めないよ…」
+EN  I can't deny I struggled to attack..."
+
+@ B49DCA words=19
+JP {skip}「悪くはなかったが、いいとも言えな{end}
+EN {skip}"Not bad, but not great either. I'm{end}
+
+@ B49DF0 words=18
+JP 　い状態だった。ハードなファイトに{end}
+EN  rebuilding my body so it can stand{end}
+
+@ B49E14 words=16
+JP 　耐えうる肉体に改造中なんだ」
+EN  up to hard-hitting fights."
+
+@ B49E34 words=19
+JP {skip}「メダリストのプライドを粉々に砕い{end}
+EN {skip}"You smashed a medalist's pride to{end}
+
+@ B49E5A words=17
+JP 　てくれたことには、感謝するよ。{end}
+EN  pieces, and I thank you for it.{end}
+
+@ B49E7C words=18
+JP 　ボクの闘志に火がついたのだから」
+EN  It's set my fighting spirit ablaze."
+
+@ B49EA0 words=19
+JP {skip}「あまり、誉められた試合はできなか{end}
+EN {skip}"I didn't put on matches worth much{end}
+
+@ B49EC6 words=18
+JP 　ったが、この優勝はボクにとって、{end}
+EN  praise, but winning this tournament{end}
+
+@ B49EEA words=13
+JP 　とても嬉しいことだよ」
+EN  makes me really happy."
+
+@ B49F04 words=19
+JP {skip}「グラウンドに持ち込んだら、相手を{end}
+EN {skip}"Once I took it to the mat, keeping{end}
+
+@ B49F2A words=18
+JP 　コントロールするのはボクにとって{end}
+EN  my opponent under control wasn't{end}
+
+@ B49F4E words=15
+JP 　難しいことじゃなかったよ」
+EN  hard for me at all."
+
+@ B49F6C words=19
+JP {skip}「困ったな。１戦、１戦勝ち抜くのに{end}
+EN {skip}"Oh, dear. I was so busy fighting{end}
+
+@ B49F92 words=18
+JP 　必死で、その手のコメントに対する{end}
+EN  to win one match at a time, I never{end}
+
+@ B49FB6 words=16
+JP 　答えを何も考えていなかった」
+EN  thought of an answer to that one."
+
+@ B49FD6 words=19
+JP {skip}「確かにキャリアでは負けてたけど、{end}
+EN {skip}"Sure, I lost on experience, but I{end}
+
+@ B49FFC words=18
+JP 　勝利への執着心は負けてなかった。{end}
+EN  never lost on hunger to win. That's{end}
+
+@ B4A020 words=18
+JP 　勝因はズバリ、そこでしょっ!!」
+EN  the reason I won, plain and simple!!"
+
+@ B4A044 words=11
+JP {skip}「１００点ですよ。{end}
+EN {skip}"100 points!{end}
+
+@ B4A05A words=17
+JP 　そして次は、２００点。その次は{end}
+EN  And next time, 200. And the time{end}
+
+@ B4A07C words=18
+JP 　４００点を獲りにいきますっ!!」
+EN  after that, I'm going for 400!!"
+
+@ B4A0A0 words=17
+JP {skip}「先輩全員に勝つことですっ!!{end}
+EN {skip}"To beat every senior here!! In my{end}
+
+@ B4A0C2 words=18
+JP 　気持ちの上じゃ椎名さんやダグラス{end}
+EN  heart, I don't feel like I'd lose to{end}
+
+@ B4A0E6 words=15
+JP 　にも負ける気がしないもん」
+EN  Shiina or Douglas, either!"
+
+@ B4A104 words=20
+JP {skip}「あんなのレスリングじゃないよっ!!{end}
+EN {skip}"That wasn't wrestling at all!!{end}
+
+@ B4A12C words=18
+JP 　逃げてばっかりで、ズルいよ。とて{end}
+EN  All he did was run away. Cheap! I{end}
+
+@ B4A150 words=17
+JP 　も尊敬なんかできないね（怒）」
+EN  can't respect that one bit. (Grr!)"
+
+@ B4A172 words=19
+JP {skip}「まだ身体ができていないのは、自分{end}
+EN {skip}"I know my body isn't filled out yet.{end}
+
+@ B4A198 words=18
+JP 　でも分かってますよ。でも、デカけ{end}
+EN  But being big doesn't make you{end}
+
+@ B4A1BC words=18
+JP 　りゃ強いって訳じゃないでしょ？」
+EN  strong, right?"
+
+@ B4A1E0 words=20
+JP {skip}「次はボコボコにしてやるかんなっ!!{end}
+EN {skip}"Next time I'm gonna beat you up!!{end}
+
+@ B4A208 words=13
+JP 　シュート？　セメント？{end}
+EN  A shoot? A real fight?{end}
+
+@ B4A222 words=13
+JP 　望むところだいっ!!」
+EN  Bring it on!!"
+
+@ B4A23C words=21
+JP {skip}「どうだっ!!　俺が、村上　誠だっ!!{end}
+EN {skip}"How 'bout that!! I'm Makoto Murakami!!{end}
+
+@ B4A266 words=18
+JP 　…って感じで、来週号の表紙にして{end}
+EN  ...Like that, on next week's cover,{end}
+
+@ B4A28A words=14
+JP 　くれます？　プロ通さん」
+EN  okay? Mr. Pro-Wres News?"
+
+@ B4A2A6 words=19
+JP {skip}「緊張なんか、全然なかったよっ!!{end}
+EN {skip}"Nervous? Not one bit!! I mean, I{end}
+
+@ B4A2CC words=18
+JP 　だって俺、誰よりも強いつもりなん{end}
+EN  figure I'm stronger than anybody,{end}
+
+@ B4A2F0 words=10
+JP 　だからさっ!!」
+EN  see!!"
+
+@ B4A304 words=15
+JP 「俺が、村上　誠だあっ!!」
+EN "I'm Makoto Murakami!!"
+
+@ B4A322 words=19
+JP {skip}「レスリングだ、サンボだ、マルチバ{end}
+EN {skip}"Wrestling, sambo, multi-battle, act{end}
+
+@ B4A348 words=18
+JP 　トルだってイキがっても、つかまれ{end}
+EN  as tough as you like - if you can't{end}
+
+@ B4A36C words=20
+JP 　なきゃただのサンドバッグだぜっ!!」
+EN  grab me, you're just a punching bag!!"
+
+@ B4A394 words=16
+JP {skip}「六分のデキってところかな。{end}
+EN {skip}"I'd say I was at 60 percent. In my{end}
+
+@ B4A3B4 words=18
+JP 　全盛期の体力なら、これほど手こず{end}
+EN  prime, he wouldn't have given me{end}
+
+@ B4A3D8 words=14
+JP 　ることはなかったろうよ」
+EN  this much trouble."
+
+@ B4A3F4 words=17
+JP {skip}「誰とだってやってやるぜっ!!{end}
+EN {skip}"I'll take on anybody!! ...Only, I'd{end}
+
+@ B4A416 words=18
+JP 　…ただよ、デスマッチは勘弁して欲{end}
+EN  rather skip the death matches, if{end}
+
+@ B4A43A words=17
+JP 　しいなあ。ありゃあ、痛えんだ」
+EN  it's all the same. Those hurt, man."
+
+@ B4A45C words=19
+JP {skip}「試合の途中で息が上がっちまった。{end}
+EN {skip}"I ran out of breath mid-match.{end}
+
+@ B4A482 words=15
+JP 　なんとも情けねえ話だぜ…」
+EN  Pretty pathetic, if you ask me..."
+
+@ B4A4A0 words=19
+JP {skip}「そりゃあよ、俺も、もう結構な歳だ{end}
+EN {skip}"Well, I'm gettin' on in years, see,{end}
+
+@ B4A4C6 words=18
+JP 　から、完璧って訳にゃあいかんよ。{end}
+EN  so I can't be perfect. I gotta make{end}
+
+@ B4A4EA words=16
+JP 　経験でカバーしなくちゃな…」
+EN  up for it with experience..."
+
+@ B4A50A words=17
+JP {skip}「あんた、なかなか強かったぜ。{end}
+EN {skip}"You were pretty tough, pal. So how{end}
+
+@ B4A52C words=18
+JP 　今度はどうだい？　一丁、キックボ{end}
+EN  about it? Next time, let's go at it{end}
+
+@ B4A550 words=17
+JP 　クシングルールでやらねえか？」
+EN  under kickboxing rules, huh?"
+
+@ B4A572 words=19
+JP {skip}「まあな。もう１発も蹴れねえってく{end}
+EN {skip}"Yeah. I kicked so much I couldn't{end}
+
+@ B4A598 words=18
+JP 　らい、蹴りまくったおかげでスネが{end}
+EN  throw one more, and now my shins{end}
+
+@ B4A5BC words=13
+JP 　腫れ上がっちまったよ」
+EN  are all swollen up."
+
+@ B4A5D6 words=19
+JP {skip}「ダラダラやってちゃ、スタミナがも{end}
+EN {skip}"Draggin' it out, my stamina won't{end}
+
+@ B4A5FC words=18
+JP 　たねえからよ。チャンスを狙って、{end}
+EN  last. Had to wait for my chance and{end}
+
+@ B4A620 words=18
+JP 　速攻勝負に賭けるしかなかったぜ」
+EN  bet it all on a quick finish."
+
+@ B4A644 words=18
+JP {skip}「若え頃は何とも思わなかったが、{end}
+EN {skip}"Never bothered me when I was young,{end}
+
+@ B4A668 words=18
+JP 　歳食うと、インタビューに答えるな{end}
+EN  but now I'm old, answering interviews{end}
+
+@ B4A68C words=17
+JP 　んざ、照れくさくていけねえぜ」
+EN  is just plain embarrassing."
+
+@ B4A6AE words=19
+JP {skip}「これが、タイランド仕込みのキック{end}
+EN {skip}"That's the edge of a kick trained in{end}
+
+@ B4A6D4 words=18
+JP 　の切れ味だ。奴に見切ることは到底{end}
+EN  Thailand. No way could he ever{end}
+
+@ B4A6F8 words=9
+JP 　無理なことだ」
+EN  read it."
+
+@ B4A70A words=19
+JP {skip}「パンチとキックで５０点。サブミッ{end}
+EN {skip}"50 points for punches and kicks.{end}
+
+@ B4A730 words=17
+JP 　ションは３０点くらいだろうか？{end}
+EN  Submissions, maybe about 30?{end}
+
+@ B4A752 words=18
+JP 　埋めるべき穴は分かっているさ…」
+EN  I know which holes I must fill..."
+
+@ B4A776 words=19
+JP {skip}「もちろん、ＲＥＡＬ'Ｓのチャンピ{end}
+EN {skip}"The REAL'S Championship, of course.{end}
+
+@ B4A79C words=18
+JP 　オンシップだ。あれは世界に誇れる{end}
+EN  That title has a value the whole{end}
+
+@ B4A7C0 words=11
+JP 　ほどの価値がある」
+EN  world can be proud of."
+
+@ B4A7D6 words=19
+JP {skip}「試合を優勢に進めていたのは俺だ。{end}
+EN {skip}"I was the one controlling the match.{end}
+
+@ B4A7FC words=17
+JP 　判定ならば、俺が勝っていた…」
+EN  On a decision, I would have won..."
+
+@ B4A81E words=19
+JP {skip}「ドイツのジムで、徹底的な調整を行{end}
+EN {skip}"I did a thorough tune-up at a gym in{end}
+
+@ B4A844 words=18
+JP 　ってきた。グラウンドテクニックに{end}
+EN  Germany. I've been polishing my{end}
+
+@ B4A868 words=12
+JP 　も磨きをかけている」
+EN  ground technique as well."
+
+@ B4A880 words=19
+JP {skip}「ヒジ、ヒザ、それらは使い方によっ{end}
+EN {skip}"Elbows, knees - used right, they{end}
+
+@ B4A8A6 words=18
+JP 　ては凶器になる。お前を潰すのは、{end}
+EN  become weapons. Crushing you will{end}
+
+@ B4A8CA words=12
+JP 　難しいことではない」
+EN  not be difficult."
+
+@ B4A8E2 words=19
+JP {skip}「ヨーロッパのプロ格闘技界には奴等{end}
+EN {skip}"Europe's pro fighting scene has{end}
+
+@ B4A908 words=18
+JP 　程度の相手はいくらでもいる。それ{end}
+EN  countless fighters at their level.{end}
+
+@ B4A92C words=18
+JP 　に比べれば、素人同然のレベルだ」
+EN  Next to those, these are amateurs."
+
+@ B4A950 words=19
+JP {skip}「どんなにタフな奴にも鍛えきれない{end}
+EN {skip}"Even the toughest man has a weak{end}
+
+@ B4A976 words=18
+JP 　急所がある。そこへ強烈な蹴りをみ{end}
+EN  spot he can't train. Land a hard kick{end}
+
+@ B4A99A words=16
+JP 　まえば、結果は分かるだろう」
+EN  there, and you know the result."
+
+@ B4A9BA words=19
+JP {skip}「今回の闘いは、ほんのエキシビジョ{end}
+EN {skip}"This fight was a mere exhibition.{end}
+
+@ B4A9E0 words=18
+JP 　ンだよ。俺の本当の闘いはこれから{end}
+EN  My real battle is only now{end}
+
+@ B4AA04 words=8
+JP 　始まるのだ」
+EN  beginning."
+
+@ B4AA14 words=19
+JP {skip}「サブミッションは、ミリ単位を競う{end}
+EN {skip}"Submission is a battle of{end}
+
+@ B4AA3A words=18
+JP 　攻防だ。彼のポイントはわずかに、{end}
+EN  millimeters. His position was off{end}
+
+@ B4AA5E words=8
+JP 　ズレていた」
+EN  by just a little."
+
+@ B4AA6E words=19
+JP {skip}「試合に点数をつけるなんてことは、{end}
+EN {skip}"Putting a score on a match is an{end}
+
+@ B4AA94 words=18
+JP 　ベストを尽くした相手に対し、礼を{end}
+EN  insult to an opponent who gave his{end}
+
+@ B4AAB8 words=11
+JP 　欠いた行為だよ…」
+EN  very best..."
+
+@ B4AACE words=19
+JP {skip}「強い相手がいるなら、誰とでも闘う{end}
+EN {skip}"If there is someone strong, I'm{end}
+
+@ B4AAF4 words=18
+JP 　用意がある。無論、ＲＥＡＬ'Ｓの{end}
+EN  ready to fight anyone. To prove the{end}
+
+@ B4AB18 words=18
+JP 　スタイルの強さを証明するために」
+EN  might of the REAL'S style, naturally."
+
+@ B4AB3C words=17
+JP {skip}「競技者を守るためのルールだ。{end}
+EN {skip}"Rules exist to protect the fighters.{end}
+
+@ B4AB5E words=18
+JP 　このまま続けていたら、どちらかが{end}
+EN  Had it gone on, one of us might{end}
+
+@ B4AB82 words=16
+JP 　潰されていたかも知れない…」
+EN  have been crushed..."
+
+@ B4ABA2 words=19
+JP {skip}「格闘技は、グッドシェイプをキープ{end}
+EN {skip}"Fighting begins with keeping in good{end}
+
+@ B4ABC8 words=18
+JP 　するところから始まる。そして、技{end}
+EN  shape. Then you polish your skills{end}
+
+@ B4ABEC words=15
+JP 　を磨き、精神を鍛えるのだ」
+EN  and temper your spirit."
+
+@ B4AC0A words=19
+JP {skip}「私は勝敗に執着しない。それは結果{end}
+EN {skip}"I don't cling to winning or losing.{end}
+
+@ B4AC30 words=18
+JP 　として神が与えてくれるものだから{end}
+EN  That's something God grants as a{end}
+
+@ B4AC54 words=17
+JP 　さ。私はプロセスを重視したい」
+EN  result. I value the process."
+
+@ B4AC76 words=19
+JP {skip}「今日は私が優勝したが、明日は違う{end}
+EN {skip}"I won today, but tomorrow it may be{end}
+
+@ B4AC9C words=18
+JP 　人物かもしれない…。常勝はありえ{end}
+EN  someone else... No one can win{end}
+
+@ B4ACC0 words=18
+JP 　なくとも、トライする価値はある」
+EN  forever, but it's worth the try."
+
+@ B4ACE4 words=19
+JP {skip}「過酷な闘いの連続だったが、それで{end}
+EN {skip}"It was brutal fight after fight,{end}
+
+@ B4AD0A words=18
+JP 　も手の内を知り尽くされた、椎名た{end}
+EN  but fighting Shiina and the others,{end}
+
+@ B4AD2E words=16
+JP 　ちとの闘いの方がしんどいよ」
+EN  who know all my tricks, is tougher."
+
+@ B4AD4E words=19
+JP {skip}「今、シャークデン（彼のジム）には{end}
+EN {skip}"Right now, the Shark Den (his gym){end}
+
+@ B4AD74 words=18
+JP 　有望な選手が数人いる。近いうちに{end}
+EN  has a few promising fighters. They{end}
+
+@ B4AD98 words=18
+JP 　デビューするので期待して欲しい」
+EN  debut soon, so look out for them."
+
+@ B4ADBC words=16
+JP {skip}「あれが俺の真の実力なのか？{end}
+EN {skip}"Was that my true strength?{end}
+
+@ B4ADDC words=18
+JP 　確かに相手を叩きのめしたが、何の{end}
+EN  I did beat him down, but I felt{end}
+
+@ B4AE00 words=15
+JP 　手ごたえも感じなかった…」
+EN  nothing from it at all..."
+
+@ B4AE1E words=19
+JP {skip}「俺にはレスリングの正体がまだ理解{end}
+EN {skip}"I still don't understand what{end}
+
+@ B4AE44 words=18
+JP 　できない。だから、試合に点数をつ{end}
+EN  wrestling really is. So I can't put{end}
+
+@ B4AE68 words=14
+JP 　けることなどできない…」
+EN  a score on a match..."
+
+@ B4AE84 words=19
+JP {skip}「４冠の統一。…いや、それはジーク{end}
+EN {skip}"Unifying the four belts. ...No, that{end}
+
+@ B4AEAA words=18
+JP 　フリートの野望であって、俺の目標{end}
+EN  is Siegfried's ambition. I don't{end}
+
+@ B4AECE words=11
+JP 　ではないと思う…」
+EN  think it is my goal..."
+
+@ B4AEE4 words=16
+JP {skip}「彼の心は恐怖に満ちていた。{end}
+EN {skip}"His heart was full of fear.{end}
+
+@ B4AF04 words=18
+JP 　これ以上、攻撃を続ける必要はない{end}
+EN  There's no need to keep attacking{end}
+
+@ B4AF28 words=7
+JP 　だろう…」
+EN  him..."
+
+@ B4AF36 words=19
+JP {skip}「ジークフリートのコーチは、とても{end}
+EN {skip}"Siegfried's coaching was very{end}
+
+@ B4AF5C words=18
+JP 　厳しかった。しかし、今ではウォー{end}
+EN  harsh. But now it is just right{end}
+
+@ B4AF80 words=14
+JP 　ミングアップに丁度いい」
+EN  as a warm-up."
+
+@ B4AF9C words=17
+JP {skip}「２度と闘う必要はないだろう。{end}
+EN {skip}"We'll never need to fight again.{end}
+
+@ B4AFBE words=18
+JP 　君の力では、俺の全開パワーを引き{end}
+EN  Now I know your power can't bring{end}
+
+@ B4AFE2 words=18
+JP 　出すことが出来ないのは分かった」
+EN  out my full strength."
+
+@ B4B006 words=19
+JP {skip}「この優勝を、喜んでいいことなのか{end}
+EN {skip}"I can't tell if I should be happy{end}
+
+@ B4B02C words=18
+JP 　俺には理解できない。どの試合も全{end}
+EN  about this win. Every match ends{end}
+
+@ B4B050 words=17
+JP 　開になる前に終わってしまう…」
+EN  before I can go all out..."
+
+@ B4B072 words=17
+JP {skip}「俺は、自分の実力を知りたい。{end}
+EN {skip}"I want to know my real strength.{end}
+
+@ B4B094 words=18
+JP 　俺が全開のパワーを発揮したとき、{end}
+EN  When I unleash my full power,{end}
+
+@ B4B0B8 words=13
+JP 　どれ程の強さなのか…」
+EN  just how strong will I be...?"
+
+@ B4B0D2 words=13
+JP {skip}「今の俺には必要ない。{end}
+EN {skip}"I don't need it now. What I need{end}
+
+@ B4B0EC words=18
+JP 　俺に必要なのは、自分を極限に追い{end}
+EN  is the hunger to push myself to{end}
+
+@ B4B110 words=13
+JP 　つめるハングリーさだ」
+EN  the limit."
+
+@ B4B12A words=14
+JP 「……………………………」
+EN "......................."

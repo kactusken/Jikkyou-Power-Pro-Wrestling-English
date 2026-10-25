@@ -1,0 +1,3864 @@
+# Text of bank $8F (tools/script.py; codes and limits: docs/TRANSLATION.md).
+# One block per string part; @ id = CPU address. EN lines replace the part; no EN = unchanged.
+# Keep every {code} (positions, names, numbers). {end} parts: the game draws the next part after.
+
+@ 8F8000 words=11
+JP 予測不可能な試合結果
+EN Unpredictable result
+
+@ 8F8016 words=9
+JP 時間切れ引き分け
+EN Time-limit draw
+
+@ 8F8028 words=5
+JP 反則勝ち
+EN DQ win
+
+@ 8F8032 words=9
+JP リングアウト勝ち
+EN Count-out win
+
+@ 8F8048 words=5
+JP 引き分け
+EN Draw
+
+@ 8F8052 words=9
+JP 両者リングアウト
+EN Double count-out
+
+@ 8F8064 words=6
+JP ＴＫＯ勝ち
+EN TKO win
+
+@ 8F8074 words=5
+JP ＫＯ勝ち
+EN KO win
+
+@ 8F807E words=2
+JP ★
+
+@ 8F8082 words=2
+JP 凰
+
+@ 8F808A words=3
+JP 烈火
+
+@ 8F8092 words=12
+JP {at 70,34}あなたの生年月日は？
+EN {at 70,34}When's your birthday?
+
+@ 8F80AE words=31
+JP {at 86,82}{c13}月{c14}日生まれ{pos 62,114}これでよろしいですか？{pos 86,138}はい　　いいえ
+EN {at 86,82}Born {c13}/{c14}{pos 62,114}Is this correct?{pos 86,138}Yes{x 48}No
+
+@ 8F80F4 words=62
+JP {at 64,34}何かスポーツの経験は？{pos 26,82}レスリング{pos 116,82}柔道{pos 188,82}相撲{pos 26,98}バスケット{pos 116,98}空手{pos 188,98}陸上{pos 44,114}水泳{pos 116,114}体操{pos 170,114}ボディビル{pos 44,130}なし
+EN {at 64,34}Any sports background?{pos 26,82}Wrestling{pos 116,82}Judo{pos 188,82}Sumo{pos 26,98}Basketball{pos 116,98}Karate{pos 188,98}Track{pos 44,114}Swim{pos 116,114}Gym{pos 170,114}Bodybldg{pos 44,130}None
+
+@ 8F8170 words=6
+JP {at 62,82}経験なし
+EN {at 62,82}No sports
+
+@ 8F817C words=7
+JP {at 62,82}{c1e}経験あり
+EN {at 62,82}{c1e} exp.
+
+@ 8F818A words=22
+JP {at 62,114}これでよろしいですか？{pos 86,138}はい　　いいえ
+EN {at 62,114}Is this correct?{pos 86,138}Yes{x 48}No
+
+@ 8F81D2 words=7
+JP {at 32,4}赤コーナー
+EN {at 32,4}Red Corner
+
+@ 8F81E0 words=7
+JP {at 32,4}青コーナー
+EN {at 32,4}Blue Corner
+
+@ 8F81EE words=9
+JP {at 40,32}ｱｰｻｰ 新田
+EN {at 40,32}A. Nitta
+
+@ 8F8200 words=9
+JP {at 40,46}ｿﾛﾓﾝ 内海
+EN {at 40,46}S. Utsumi
+
+@ 8F8212 words=4
+JP {at 96,60}入場
+EN {at 96,60}Intro
+
+@ 8F821A words=8
+JP {c0f}cm {c10}kg
+EN {c0f}cm {c10}kg
+
+@ 8F822A words=10
+JP {at 72,64}所属: ＳＪＰＷ
+EN {at 72,64}Org: SJPW
+
+@ 8F823E words=9
+JP {at 72,64}所属: ＷＷＫ
+EN {at 72,64}Org: WWK
+
+@ 8F8250 words=9
+JP {at 72,64}所属: ＢＯＭ
+EN {at 72,64}Org: BOM
+
+@ 8F8262 words=12
+JP {at 72,64}所属: ＲＥＡＬ'Ｓ
+EN {at 72,64}Org: REAL'S
+
+@ 8F827A words=8
+JP {at 72,64}所属: 不明
+EN {at 72,64}Org: Unknown
+
+@ 8F828A words=28
+JP {at 86,42}続けて稽古する{pos 86,74}新しく入門する{pos 80,122}前の画面にもどる
+EN {at 86,42}Keep Training{pos 86,74}New Recruit{pos 80,122}Back
+
+@ 8F83C6 words=7
+JP {at 56,84}【受付嬢】
+EN {at 56,84}[Receptionist]
+
+@ 8F83D4 words=13
+JP {at 62,100}「名字、名前ともに記入
+EN {at 62,100}"Please enter both your
+
+@ 8F83EE words=11
+JP {at 62,116}　して下さいね。」
+EN {at 62,116}given and family name."
+
+@ 8F8404 words=5
+JP {at 88,88}{name1}　{name2}
+EN {at 88,88}{name1} {name2}
+
+@ 8F840E words=13
+JP {at 56,108}これがあなたの名前です
+EN {at 56,108}This is your name.
+
+@ 8F8428 words=10
+JP {at 92,124}決定　　考え直す
+EN {at 92,124}OK{x 48}Redo
+
+@ 8F843C words=11
+JP トレーニング中です。
+EN Now training.
+
+@ 8F8462 words=17
+JP {skip}さあ、トレーニングを始めるぞ!{end}
+EN {skip}All right, let's start training!{end}
+
+@ 8F8484 words=15
+JP さて、お前の今の状態だが …
+EN Now, here's how you're doing...
+
+@ 8F84A2 words=14
+JP {skip}さあ、今日は待ちに待った{end}
+EN {skip}All right, today's the day{end}
+
+@ 8F84BE words=7
+JP 試合の日だ!{end}
+EN you've been waiting for!{end}
+
+@ 8F84CC words=12
+JP 試合場に出かけるぞ!!
+EN We're heading to the arena!!
+
+@ 8F84E4 words=14
+JP {skip}さあ、今日はトーナメント{end}
+EN {skip}All right, today's the{end}
+
+@ 8F8500 words=7
+JP 試合の日だ!{end}
+EN tournament!{end}
+
+@ 8F850E words=15
+JP 出るなら最後まで生き残れ!!
+EN If you enter, go all the way!!
+
+@ 8F852C words=15
+JP {skip}{c1f}続いてスパーリングだ!!{end}
+EN {skip}{c1f}Now, time for sparring!!{end}
+
+@ 8F854A words=5
+JP 今日は{c1b}{end}
+EN Today {c1b}{end}
+
+@ 8F8554 words=8
+JP が相手だぞ!!
+EN is your opponent!!
+
+@ 8F8564 words=15
+JP {skip}{c1f}続いてスパーリングだ!!{end}
+EN {skip}{c1f}Now, time for sparring!!{end}
+
+@ 8F8582 words=8
+JP 今日はなんと{c1b}{end}
+EN Today, believe it or not, {c1b}{end}
+
+@ 8F8592 words=14
+JP が稽古をつけてくれるぞ!!
+EN is gonna work with you!!
+
+@ 8F85AE words=13
+JP よし、スパーリングやめ!
+EN OK, sparring's over!
+
+@ 8F85C8 words=18
+JP {skip}{c1f}今月の行動は全て終わりました。{end}
+EN {skip}{c1f}This month's activities are done.{end}
+
+@ 8F85EC words=16
+JP ﾚｽﾗｰの記録を行っています。{end}
+EN Saving wrestler records.{end}
+
+@ 8F860C words=15
+JP ｽｲｯﾁを切らないで下さい。
+EN Do not turn off the power.
+
+@ 8F862A words=12
+JP {skip}今月は誕生日だった。{end}
+EN {skip}It was your birthday this month.{end}
+
+@ 8F8642 words=12
+JP 君は一回り成長したぞ!
+EN You've grown a little more!
+
+@ 8F865A words=12
+JP ＧＡＭＥ   ＯＶＥＲ
+EN GAME OVER
+
+@ 8F8672 words=11
+JP {skip}{c0f}年{c18}月になった。{end}
+EN {skip}It is now {c0f}/{c18}.{end}
+
+@ 8F8688 words=16
+JP 新しいプロレス通信の内容は!？
+EN What's new in Pro-Wres News?
+
+@ 8F86A8 words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F86B2 words=11
+JP 体重は今がベストだ。
+EN Your weight is ideal.
+
+@ 8F86C8 words=13
+JP 少しウェイトオーバーだ。
+EN You're a bit overweight.
+
+@ 8F86E2 words=11
+JP ウェイトオーバーだ。
+EN You're overweight.
+
+@ 8F86F8 words=14
+JP ひどいウェイトオーバーだ。
+EN You're way overweight.
+
+@ 8F8714 words=11
+JP 体重は今がベストだ。
+EN Your weight is ideal.
+
+@ 8F872A words=13
+JP 少しウェイトがたりない。
+EN You're a bit underweight.
+
+@ 8F8744 words=11
+JP ウェイトがたりない。
+EN You're underweight.
+
+@ 8F875A words=14
+JP ウェイトがたりなさすぎる。
+EN You're way underweight.
+
+@ 8F8776 words=11
+JP まったく体力がない。
+EN You've got no stamina.
+
+@ 8F878C words=11
+JP 少し体力がたりない。
+EN Stamina's a bit low.
+
+@ 8F87A2 words=9
+JP 体力は一人前だ。
+EN Stamina's decent.
+
+@ 8F87B4 words=11
+JP なかなかいい体力だ。
+EN Stamina's pretty good.
+
+@ 8F87CA words=10
+JP すばらしい体力だ。
+EN Great stamina.
+
+@ 8F87DE words=12
+JP 体力は変わらなかった。
+EN Stamina didn't change.
+
+@ 8F87F6 words=9
+JP 体力が下降した。
+EN Stamina went down.
+
+@ 8F8808 words=9
+JP 体力が上昇した。
+EN Stamina went up.
+
+@ 8F881A words=11
+JP 体がガチガチに硬い。
+EN You're stiff as a board.
+
+@ 8F8830 words=8
+JP 少し体が硬い。
+EN You're a bit stiff.
+
+@ 8F8840 words=13
+JP 体の柔らかさは一人前だ。
+EN Flexibility's decent.
+
+@ 8F885A words=11
+JP 体はだいぶ柔らかい。
+EN You're fairly flexible.
+
+@ 8F8870 words=11
+JP 体は非常に柔らかい。
+EN You're very flexible.
+
+@ 8F8886 words=12
+JP 柔軟の効果がなかった。
+EN Stretching didn't help.
+
+@ 8F889E words=11
+JP 体が少し硬くなった。
+EN You got a bit stiffer.
+
+@ 8F88B4 words=10
+JP 柔軟の効果がでた。
+EN Stretching paid off.
+
+@ 8F88C8 words=10
+JP パワーが全然ない。
+EN You've got no power.
+
+@ 8F88DC words=12
+JP 少しパワーがたりない。
+EN Power's a bit low.
+
+@ 8F88F4 words=10
+JP パワーは一人前だ。
+EN Power's decent.
+
+@ 8F8908 words=13
+JP パワーは結構ついている。
+EN Power's pretty solid.
+
+@ 8F8922 words=11
+JP すばらしいパワーだ。
+EN Great power.
+
+@ 8F8938 words=13
+JP 筋トレの効果がなかった。
+EN Weights didn't help.
+
+@ 8F8952 words=11
+JP パワーが少し落ちた。
+EN Power dropped a bit.
+
+@ 8F8968 words=11
+JP 筋トレの効果が出た。
+EN Weights paid off.
+
+@ 8F897E words=12
+JP {skip}スピードが鈍すぎる。{end}
+EN {skip}Way too slow.{end}
+
+@ 8F8996 words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F89A0 words=12
+JP {skip}少しスピードが鈍い。{end}
+EN {skip}A bit slow.{end}
+
+@ 8F89B8 words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F89C2 words=12
+JP {skip}スピードは一人前だ。{end}
+EN {skip}Speed's decent.{end}
+
+@ 8F89DA words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F89E4 words=13
+JP {skip}だいぶ動きがすばやい。{end}
+EN {skip}You're pretty quick.{end}
+
+@ 8F89FE words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F8A08 words=13
+JP {skip}すばらしいスピードだ。{end}
+EN {skip}Great speed.{end}
+
+@ 8F8A22 words=5
+JP 以上だ。
+EN That's all.
+
+@ 8F8A2C words=14
+JP 走りこみの効果はなかった。
+EN Running didn't help.
+
+@ 8F8A48 words=9
+JP 足が遅くなった。
+EN You got slower.
+
+@ 8F8A5A words=12
+JP スピードがアップした。
+EN Speed went up.
+
+@ 8F8A72 words=14
+JP {skip}ガードが全然なってない。{end}
+EN {skip}Your guard's a mess.{end}
+
+@ 8F8A8E words=14
+JP 攻撃を受けることも大切だ。
+EN Taking hits matters too.
+
+@ 8F8AAA words=16
+JP {skip}そんなガードじゃ通用しない。{end}
+EN {skip}That guard won't cut it.{end}
+
+@ 8F8ACA words=14
+JP もっと攻撃を受けて鍛えろ。
+EN Take more hits and toughen up.
+
+@ 8F8AE6 words=10
+JP ガードは一人前だ。
+EN Guard's decent.
+
+@ 8F8AFA words=14
+JP {skip}それだけガードが出来れば{end}
+EN {skip}With a guard like that{end}
+
+@ 8F8B16 words=9
+JP そこそこ行ける。
+EN you'll do all right.
+
+@ 8F8B28 words=10
+JP ガードは、鉄壁だ。
+EN Guard's rock solid.
+
+@ 8F8B3C words=10
+JP {skip}攻撃が弱すぎる。{end}
+EN {skip}Your offense is too weak.{end}
+
+@ 8F8B50 words=14
+JP もっと相手に向かっていけ。
+EN Go after your opponent more!
+
+@ 8F8B6C words=8
+JP {skip}攻撃が軽い。{end}
+EN {skip}Your offense is light.{end}
+
+@ 8F8B7C words=11
+JP もっと相手を攻めろ。
+EN Attack more!
+
+@ 8F8B92 words=9
+JP 攻撃は一人前だ。
+EN Offense is decent.
+
+@ 8F8BA4 words=15
+JP なかなかいい攻撃をしている。
+EN Your offense is pretty good.
+
+@ 8F8BC2 words=8
+JP 攻撃は完璧だ。
+EN Offense is perfect.
+
+@ 8F8BD2 words=10
+JP {skip}防御が弱すぎる。{end}
+EN {skip}Your defense is too weak.{end}
+
+@ 8F8BE6 words=14
+JP 攻撃を受けて技術を磨くのも{end}
+EN Taking hits to hone your{end}
+
+@ 8F8C02 words=5
+JP 大切だ。
+EN skills matters.
+
+@ 8F8C0C words=8
+JP {skip}防御が甘い。{end}
+EN {skip}Your defense is sloppy.{end}
+
+@ 8F8C1C words=16
+JP もっと攻撃を受けて技術を磨け。
+EN Take more hits, hone your skill.
+
+@ 8F8C3C words=9
+JP 防御は一人前だ。
+EN Defense is decent.
+
+@ 8F8C4E words=15
+JP なかなかいい防御をしている。
+EN Your defense is pretty good.
+
+@ 8F8C6C words=8
+JP 防御は完璧だ。
+EN Defense is perfect.
+
+@ 8F8C7C words=15
+JP {skip}今回はスパーリングの成果を{end}
+EN {skip}I didn't see any results{end}
+
+@ 8F8C9A words=9
+JP 感じられないぞ。
+EN from sparring this time.
+
+@ 8F8CAC words=10
+JP 打撃技が上達した。
+EN Strikes improved.
+
+@ 8F8CC0 words=10
+JP 投げ技が上達した。
+EN Throws improved.
+
+@ 8F8CD4 words=10
+JP 関節技が上達した。
+EN Holds improved.
+
+@ 8F8CE8 words=14
+JP 打撃技を鍛えたほうがいい。
+EN Work on your strikes.
+
+@ 8F8D04 words=14
+JP 投げ技を鍛えたほうがいい。
+EN Work on your throws.
+
+@ 8F8D20 words=14
+JP 関節技を鍛えたほうがいい。
+EN Work on your holds.
+
+@ 8F8D3C words=9
+JP 体力が回復した。
+EN Stamina recovered.
+
+@ 8F8D4E words=13
+JP ガードは上達しなかった。
+EN Guard didn't improve.
+
+@ 8F8D68 words=10
+JP ガードが上達した。
+EN Guard improved.
+
+@ 8F8D7C words=14
+JP 攻撃技術は上達しなかった。
+EN Offense didn't improve.
+
+@ 8F8D98 words=11
+JP 攻撃技術が上達した。
+EN Offense improved.
+
+@ 8F8DAE words=14
+JP 防御技術は上達しなかった。
+EN Defense didn't improve.
+
+@ 8F8DCA words=11
+JP 防御技術が上達した。
+EN Defense improved.
+
+@ 8F8DE0 words=12
+JP 次回は打撃の練習だな!
+EN Strikes next time!
+
+@ 8F8DF8 words=12
+JP 次回は投げの練習だな!
+EN Throws next time!
+
+@ 8F8E10 words=12
+JP 次回は技術の練習だな!
+EN Technique next time!
+
+@ 8F8E28 words=13
+JP 今回はバランスもいいぞ!
+EN Nice balance this time!
+
+@ 8F8E42 words=33
+JP {skip}{c2a}{c1f}ﾊﾞｷｯ! ﾋﾞｷｯ! ﾌﾞｷｯ! ﾍﾞｷｯ !ﾎﾞｷｯ!{end}
+EN {skip}{c2a}{c1f}CRACK! SNAP! CRUNCH! CRICK! CRACK!{end}
+
+@ 8F8E84 words=16
+JP ギャーーーーーー!!!!!!!
+EN GYAAAAAAAH!!!!!!!
+
+@ 8F8EA4 words=17
+JP {skip}ガン!!と音を立てて突然道場の{end}
+EN {skip}BANG!! Suddenly the dojo{end}
+
+@ 8F8EC6 words=16
+JP ドアが開いた。そこには見知らぬ{end}
+EN door flies open. A stranger{end}
+
+@ 8F8EE6 words=10
+JP 男が立っている…。{end}
+EN stands there...{end}
+
+@ 8F8EFA words=8
+JP 道場破りだ!!
+EN A dojo raider!!
+
+@ 8F8F0A words=12
+JP {skip}{c20}【タイタン城ノ内】{end}
+EN {skip}{c20}[Titan Jonouchi]{end}
+
+@ 8F8F22 words=14
+JP おやおや。これはまた困った{end}
+EN Oh my. What a troublesome{end}
+
+@ 8F8F3E words=10
+JP お客がきましたね。{end}
+EN guest we have.{end}
+
+@ 8F8F52 words=10
+JP {skip}丁度いい。{name1}君、{end}
+EN {skip}Perfect. {name1},{end}
+
+@ 8F8F66 words=14
+JP 君がお相手して差し上げては{end}
+EN why don't you entertain{end}
+
+@ 8F8F82 words=8
+JP いかがですか？{end}
+EN our guest?{end}
+
+@ 8F8F92 words=11
+JP {skip}君は、どう答える？{end}
+EN {skip}What do you say?{end}
+
+@ 8F8FA8 words=12
+JP 　｢任せて下さい!!｣{end}
+EN  "Leave it to me!!"{end}
+
+@ 8F8FC0 words=27
+JP 　｢僕には無理です…｣{c0e}{w1e00}{w902c}{skip}{c2a}{c20}【タイタン城ノ内】{end}
+EN  "I can't do this..."{c0e}{w1e00}{w902c}{skip}{c2a}{c20}[Titan Jonouchi]{end}
+
+@ 8F8FF6 words=14
+JP …やれやれ、しょうがない。{end}
+EN ...Sigh. Very well.{end}
+
+@ 8F9012 words=13
+JP 私がお相手しましょう…。
+EN I shall deal with him...
+
+@ 8F902C words=15
+JP {at 0,26}{w906e}{skip}{c2a}{c20}【タイタン城ノ内】{end}
+EN {at 0,26}{w906e}{skip}{c2a}{c20}[Titan Jonouchi]{end}
+
+@ 8F904A words=5
+JP 結構!!{end}
+EN Splendid!!{end}
+
+@ 8F9054 words=13
+JP それでこそ超日の若虎だ。
+EN Spoken like an SJPW young tiger.
+
+@ 8F906E words=8
+JP {skip}{c20}【椎名優】{end}
+EN {skip}{c20}[Yu Shiina]{end}
+
+@ 8F907E words=14
+JP かっかっかっ!おもしろい奴{end}
+EN Har har har! An interestin'{end}
+
+@ 8F909A words=7
+JP が来たぜよ!{end}
+EN feller's showed up!{end}
+
+@ 8F90A8 words=9
+JP {skip}どうじゃ、{name1}。{end}
+EN {skip}How 'bout it, {name1}?{end}
+
+@ 8F90BA words=14
+JP おまん相手してやらんかや？{end}
+EN Why don't you take him on?{end}
+
+@ 8F90D6 words=11
+JP {skip}君は、どう答える？{end}
+EN {skip}What do you say?{end}
+
+@ 8F90EC words=12
+JP 　｢任せて下さい!!｣{end}
+EN  "Leave it to me!!"{end}
+
+@ 8F9104 words=22
+JP 　｢僕には無理です…｣{c0e}{w1e00}{w9166}{skip}{c20}【椎名優】{end}
+EN  "I can't do this..."{c0e}{w1e00}{w9166}{skip}{c20}[Yu Shiina]{end}
+
+@ 8F9130 words=15
+JP {c2a}…おまん、ノリが悪いのう。{end}
+EN {c2a}...You're no fun at all.{end}
+
+@ 8F914E words=12
+JP わしが相手しちゃるき。
+EN I'll take him on myself.
+
+@ 8F9166 words=11
+JP {at 0,26}{w91c2}{skip}{c2a}{c20}【椎名優】{end}
+EN {at 0,26}{w91c2}{skip}{c2a}{c20}[Yu Shiina]{end}
+
+@ 8F917C words=11
+JP そうか、やるがか!!{end}
+EN So you'll do it, eh!!{end}
+
+@ 8F9192 words=15
+JP {skip}おまん、見かけによらず肝が{end}
+EN {skip}You got more guts than you{end}
+
+@ 8F91B0 words=9
+JP 座っちゅうぜよ!
+EN look, partner!
+
+@ 8F91C2 words=12
+JP {skip}{c20}【タイタン城ノ内】{end}
+EN {skip}{c20}[Titan Jonouchi]{end}
+
+@ 8F91DA words=9
+JP いや、御見事!!{end}
+EN Well done indeed!!{end}
+
+@ 8F91EC words=7
+JP {skip}どうです、{end}
+EN {skip}You see?{end}
+
+@ 8F91FA words=14
+JP ガチンコの稽古をしておいて{end}
+EN Aren't you glad you did{end}
+
+@ 8F9216 words=10
+JP 良かったでしょう？
+EN all that full-contact training?
+
+@ 8F922A words=8
+JP {skip}{c20}【椎名優】{end}
+EN {skip}{c20}[Yu Shiina]{end}
+
+@ 8F923A words=10
+JP おまんの勝ちじゃ!{end}
+EN You won, partner!{end}
+
+@ 8F924E words=10
+JP 完全勝利ぜよっ!!{end}
+EN A total victory!!{end}
+
+@ 8F9262 words=12
+JP {skip}これで、度胸の一つも{end}
+EN {skip}That oughta give ya{end}
+
+@ 8F927A words=9
+JP ついたじゃろう？{end}
+EN some nerve, eh?{end}
+
+@ 8F928C words=8
+JP かっかっかっ!
+EN Har har har!
+
+@ 8F929C words=12
+JP {skip}{c20}【タイタン城ノ内】{end}
+EN {skip}{c20}[Titan Jonouchi]{end}
+
+@ 8F92B4 words=7
+JP 情けない…。{end}
+EN Pathetic...{end}
+
+@ 8F92C2 words=16
+JP なんてザマですか、まったく!!
+EN What a disgrace, honestly!!
+
+@ 8F92E2 words=8
+JP {skip}{c20}【椎名優】{end}
+EN {skip}{c20}[Yu Shiina]{end}
+
+@ 8F92F2 words=13
+JP そんなにビビっていては、{end}
+EN Shakin' in your boots like that,{end}
+
+@ 8F930C words=15
+JP 勝てるものも、勝てんぜよ…。
+EN you'll lose fights you could win...
+
+@ 8F932A words=11
+JP {skip}{c1f}【ミスター祭蔵】{end}
+EN {skip}{c1f}[Mister Saizo]{end}
+
+@ 8F9340 words=14
+JP 御免っ!拙者はミスター祭蔵{end}
+EN Pardon me! I am Mister Saizo,{end}
+
+@ 8F935C words=10
+JP と申す、忍びの者。{end}
+EN a shinobi.{end}
+
+@ 8F9370 words=15
+JP {skip}こたびは各々方が流派との腕{end}
+EN {skip}I have come to test my skill{end}
+
+@ 8F938E words=15
+JP くらべに馳せ参じた次第に候。{end}
+EN against thy school's fighters.{end}
+
+@ 8F93AC words=8
+JP いざっ勝負!!
+EN Have at thee!!
+
+@ 8F93BC words=11
+JP {skip}{c1f}【ミスター祭蔵】{end}
+EN {skip}{c1f}[Mister Saizo]{end}
+
+@ 8F93D2 words=14
+JP なかなかの腕前でござったが{end}
+EN Thou art skilled, but{end}
+
+@ 8F93EE words=13
+JP それがしの勝ちでござる。
+EN the victory is mine.
+
+@ 8F9408 words=11
+JP {skip}{c1f}【ミスター祭蔵】{end}
+EN {skip}{c1f}[Mister Saizo]{end}
+
+@ 8F941E words=16
+JP 参った!!　降参でござるっ!!{end}
+EN I yield!! I surrender!!{end}
+
+@ 8F943E words=15
+JP {skip}やはり、通信教育の忍法では{end}
+EN {skip}Alas, mail-order ninjutsu{end}
+
+@ 8F945C words=15
+JP 歯が立たなかったでござる…。{end}
+EN was no match for thee...{end}
+
+@ 8F947A words=10
+JP ７万もしたのに…。
+EN And it cost 70,000 yen...
+
+@ 8F948E words=10
+JP {skip}{c1f}【柳生剣豪郎】{end}
+EN {skip}{c1f}[Kengoro Yagyu]{end}
+
+@ 8F94A2 words=8
+JP どうらあっ!!{end}
+EN Hraaah!!{end}
+
+@ 8F94B2 words=15
+JP プロレス道場ってのはここか!{end}
+EN This the pro-wrestling dojo!?{end}
+
+@ 8F94D0 words=15
+JP {skip}ケンカキング柳生剣豪郎さま{end}
+EN {skip}The Brawl King, Kengoro Yagyu,{end}
+
+@ 8F94EE words=14
+JP がその高い鼻ぶち折ってくれ{end}
+EN is gonna knock you down a peg,{end}
+
+@ 8F950A words=13
+JP るから覚悟しやがれっ!!
+EN so brace yourself!!
+
+@ 8F9524 words=10
+JP {skip}{c1f}【柳生剣豪郎】{end}
+EN {skip}{c1f}[Kengoro Yagyu]{end}
+
+@ 8F9538 words=14
+JP どうだ、格の違いってモンが{end}
+EN Well? Now you see who's in{end}
+
+@ 8F9554 words=11
+JP よーく判ったかっ!!
+EN a whole other league!!
+
+@ 8F956A words=10
+JP {skip}{c1f}【柳生剣豪郎】{end}
+EN {skip}{c1f}[Kengoro Yagyu]{end}
+
+@ 8F957E words=8
+JP まいったっス!{end}
+EN I give, man!{end}
+
+@ 8F958E words=14
+JP もう戦えねえっス、マジで!{end}
+EN I can't fight no more, seriously!{end}
+
+@ 8F95AA words=15
+JP {skip}あんたら、プロが素人相手に{end}
+EN {skip}C'mon, you pros didn't have to{end}
+
+@ 8F95C8 words=14
+JP ここまでやらなくても、いい{end}
+EN go this far against an amateur{end}
+
+@ 8F95E4 words=12
+JP じゃないっスか!（泣）
+EN like me! (sob)
+
+@ 8F95FC words=15
+JP {skip}{c1f}【マスクド・クラーケン】{end}
+EN {skip}{c1f}[Masked Kraken]{end}
+
+@ 8F961A words=14
+JP キュキュキュッキューッ!!{end}
+EN Kyu-kyu-kyu-kyuuu!!{end}
+
+@ 8F9636 words=15
+JP 私はマスクド・クラーケン!!{end}
+EN I am Masked Kraken!!{end}
+
+@ 8F9654 words=14
+JP {skip}君たちはぬる過ぎるっ!!{end}
+EN {skip}You're all way too soft!!{end}
+
+@ 8F9670 words=14
+JP 諸君らがいかにぬるいか私が{end}
+EN I shall show you just how soft{end}
+
+@ 8F968C words=14
+JP 思いしらせてあげキュー!!
+EN you really are-kyu!!
+
+@ 8F96A8 words=15
+JP {skip}{c1f}【マスクド・クラーケン】{end}
+EN {skip}{c1f}[Masked Kraken]{end}
+
+@ 8F96C6 words=11
+JP キュッキュッキュッ!{end}
+EN Kyu! Kyu! Kyu!{end}
+
+@ 8F96DC words=13
+JP 私の勝ちだったキュー!!
+EN Victory is mine-kyu!!
+
+@ 8F96F6 words=15
+JP {skip}{c1f}【マスクド・クラーケン】{end}
+EN {skip}{c1f}[Masked Kraken]{end}
+
+@ 8F9714 words=9
+JP ギブっ、ギブっ、{end}
+EN I-I give, I give...{end}
+
+@ 8F9726 words=8
+JP ギバーップ!!{end}
+EN I GIVE UP!!{end}
+
+@ 8F9736 words=15
+JP {skip}実はボク、大学のプロ研で学{end}
+EN {skip}See, I'm a student wrestler in{end}
+
+@ 8F9754 words=15
+JP 生レスラーやってるんですよ。{end}
+EN my college's pro-wrestling club.{end}
+
+@ 8F9772 words=10
+JP サインくれません？{end}
+EN Can I get your autograph?{end}
+
+@ 8F9786 words=8
+JP {c2a}{c23}バキッ!!
+EN {c2a}{c23}WHACK!!
+
+@ 8F9796 words=10
+JP {at 16,106}・次回の試合予定
+EN {at 16,106}- Upcoming bouts
+
+@ 8F97AA words=9
+JP {at 16,122}・ベルトの行方
+EN {at 16,122}- Title holders
+
+@ 8F97BC words=5
+JP {at 52,146}終　了
+EN {at 52,146}Exit
+
+@ 8F97C6 words=9
+JP {at 14,42}超日本プロレス
+EN {at 14,42}Super Japan
+
+@ 8F97D8 words=3
+JP {at 50,66}？
+EN {at 50,66}?
+
+@ 8F97DE words=3
+JP {at 50,90}？
+EN {at 50,90}?
+
+@ 8F97E4 words=3
+JP {at 50,114}？
+EN {at 50,114}?
+
+@ 8F97EA words=5
+JP {at 38,138}夜逃げ
+EN {at 38,138}Run off
+
+@ 8F97F4 words=9
+JP {at 14,170}前の画面に戻る
+EN {at 14,170}Back
+
+@ 8F9818 words=5
+JP 移籍予定
+EN Plan:
+
+@ 8F9822 words=5
+JP {at 142,42}超日へ
+EN {at 142,42}To SJPW
+
+@ 8F982C words=9
+JP {at 136,42}REAL'Sへ
+EN {at 136,42}To REAL'S
+
+@ 8F983E words=6
+JP {at 145,42}BOMへ
+EN {at 145,42}To BOM
+
+@ 8F984A words=6
+JP {at 145,42}WWKへ
+EN {at 145,42}To WWK
+
+@ 8F9856 words=4
+JP {at 196,42}なし
+EN {at 176,42}None
+
+@ 8F9876 words=9
+JP {at 142,42}夜逃げする予定
+EN {at 142,42}Running off
+
+@ 8F9888 words=8
+JP {at 23,66}ＲＥＡＬ'Ｓ
+EN {at 23,66}REAL'S
+
+@ 8F9898 words=5
+JP {at 38,90}ＢＯＭ
+EN {at 38,90}BOM
+
+@ 8F98A2 words=5
+JP {at 38,114}ＷＷＫ
+EN {at 38,114}WWK
+
+@ 8F98AC words=11
+JP {skip}{c1f}【アーサー新田】{end}
+EN {skip}{c1f}[Arthur Nitta]{end}
+
+@ 8F98C2 words=16
+JP やる気があるなら、ウチはいつで{end}
+EN If you've got the drive, our{end}
+
+@ 8F98E2 words=16
+JP も受け入れる準備があるぞっ!!{end}
+EN door is always open to you!!{end}
+
+@ 8F9902 words=6
+JP {skip}{c20}【{name1}】{end}
+EN {skip}{c20}[{name1}]{end}
+
+@ 8F990E words=15
+JP 　「お世話になりますっ!!」{end}
+EN  "Count me in!!"{end}
+
+@ 8F992C words=27
+JP 　「もう一度、考えます」{c0e}{w1e00}{w999c}{skip}{c2a}{c1f}【アーサー新田】{end}
+EN  "Let me think it over."{c0e}{w1e00}{w999c}{skip}{c2a}{c1f}[Arthur Nitta]{end}
+
+@ 8F9962 words=16
+JP そうだ、よく考えろ。お前がいた{end}
+EN Good, think hard. We've come a{end}
+
+@ 8F9982 words=13
+JP 頃とは技術レベルが違う。
+EN long way since your time here.
+
+@ 8F999C words=14
+JP {at 0,26}{w99ea}{skip}{c2a}{c1f}【アーサー新田】{end}
+EN {at 0,26}{w99ea}{skip}{c2a}{c1f}[Arthur Nitta]{end}
+
+@ 8F99B8 words=8
+JP よろしいっ!!{end}
+EN Excellent!!{end}
+
+@ 8F99C8 words=17
+JP 早速、来月試合に出てもらおう!!
+EN You're in a match next month!!
+
+@ 8F99EA words=9
+JP {skip}{c1f}【椎名　優】{end}
+EN {skip}{c1f}[Yu Shiina]{end}
+
+@ 8F99FC words=16
+JP おうっ、待っちょったぞっ!!　{end}
+EN Hey, I been waitin' on ya!!{end}
+
+@ 8F9A1C words=14
+JP やっと来る気になったがか?{end}
+EN Finally made up yer mind, eh?{end}
+
+@ 8F9A38 words=6
+JP {skip}{c20}【{name1}】{end}
+EN {skip}{c20}[{name1}]{end}
+
+@ 8F9A44 words=15
+JP 　「お世話になりますっ!!」{end}
+EN  "Count me in!!"{end}
+
+@ 8F9A62 words=25
+JP 　「もう一度、考えます」{c0e}{w1e00}{w9acc}{skip}{c2a}{c1f}【椎名　優】{end}
+EN  "Let me think it over."{c0e}{w1e00}{w9acc}{skip}{c2a}{c1f}[Yu Shiina]{end}
+
+@ 8F9A94 words=12
+JP 迷っちょるようじゃの。{end}
+EN Still on the fence, eh?{end}
+
+@ 8F9AAC words=16
+JP 決心ついたら、いつでも来いや。
+EN Come on by once ya decide.
+
+@ 8F9ACC words=12
+JP {at 0,26}{w9b1c}{skip}{c2a}{c1f}【椎名　優】{end}
+EN {at 0,26}{w9b1c}{skip}{c2a}{c1f}[Yu Shiina]{end}
+
+@ 8F9AE4 words=12
+JP そうか、来るがかっ!?{end}
+EN So ya're comin'!?{end}
+
+@ 8F9AFC words=16
+JP 君もＲＥＡＬ'Ｓの一員ぜよっ!
+EN Welcome to REAL'S, partner!
+
+@ 8F9B1C words=10
+JP {skip}{c1f}【番堂　長門】{end}
+EN {skip}{c1f}[Nagato Bando]{end}
+
+@ 8F9B30 words=15
+JP ウチは見ての通り弱小団体だ。{end}
+EN As you see, we're a small outfit.{end}
+
+@ 8F9B4E words=14
+JP ギャラも十分じゃないが…。{end}
+EN And the pay isn't much...{end}
+
+@ 8F9B6A words=6
+JP {skip}{c20}【{name1}】{end}
+EN {skip}{c20}[{name1}]{end}
+
+@ 8F9B76 words=15
+JP 　「お世話になりますっ!!」{end}
+EN  "Count me in!!"{end}
+
+@ 8F9B94 words=26
+JP 　「もう一度、考えます」{c0e}{w1e00}{w9c00}{skip}{c2a}{c1f}【番堂　長門】{end}
+EN  "Let me think it over."{c0e}{w1e00}{w9c00}{skip}{c2a}{c1f}[Nagato Bando]{end}
+
+@ 8F9BC8 words=16
+JP それがいいな。ウチは、はたから{end}
+EN Good idea. It's harder here than{end}
+
+@ 8F9BE8 words=12
+JP 見るほど楽じゃない…。
+EN it looks from outside...
+
+@ 8F9C00 words=13
+JP {at 0,26}{w9c56}{skip}{c2a}{c1f}【番堂　長門】{end}
+EN {at 0,26}{w9c56}{skip}{c2a}{c1f}[Nagato Bando]{end}
+
+@ 8F9C1A words=17
+JP 来てくれるのか、ありがとうっ!!{end}
+EN You'll join us? Thank you!!{end}
+
+@ 8F9C3C words=13
+JP 君がいれば百人力だっ!!
+EN With you, we're unstoppable!!
+
+@ 8F9C56 words=14
+JP {skip}{c1f}【ジークフリート会長】{end}
+EN {skip}{c1f}[Chairman Siegfried]{end}
+
+@ 8F9C72 words=16
+JP 来る者は拒まず、去る者は追わな{end}
+EN We turn no one away and chase{end}
+
+@ 8F9C92 words=15
+JP いのが、ＷＷＫの基本姿勢だ。{end}
+EN no one who leaves. That's WWK.{end}
+
+@ 8F9CB0 words=6
+JP {skip}{c20}【{name1}】{end}
+EN {skip}{c20}[{name1}]{end}
+
+@ 8F9CBC words=15
+JP 　「お世話になりますっ!!」{end}
+EN  "Count me in!!"{end}
+
+@ 8F9CDA words=30
+JP 　「もう一度、考えます」{c0e}{w1e00}{w9d56}{skip}{c2a}{c1f}【ジークフリート会長】{end}
+EN  "Let me think it over."{c0e}{w1e00}{w9d56}{skip}{c2a}{c1f}[Chairman Siegfried]{end}
+
+@ 8F9D16 words=16
+JP もう少しエンターテイメントを磨{end}
+EN Polish your showmanship a bit{end}
+
+@ 8F9D36 words=16
+JP いてから、また来てくれたまえ。
+EN more, then come see me again.
+
+@ 8F9D56 words=17
+JP {at 0,26}{w9db8}{skip}{c2a}{c1f}【ジークフリート会長】{end}
+EN {at 0,26}{w9db8}{skip}{c2a}{c1f}[Chairman Siegfried]{end}
+
+@ 8F9D78 words=16
+JP 全米のレスリングファンを魅了す{end}
+EN I expect fights that will thrill{end}
+
+@ 8F9D98 words=16
+JP るようなファイトを期待するよ。
+EN wrestling fans all over America.
+
+@ 8F9DB8 words=17
+JP {skip}本当に｢夜逃げ｣するのですか？{end}
+EN {skip}Really skip town in the night?{end}
+
+@ 8F9DDA words=6
+JP {skip}{c20}【{name1}】{end}
+EN {skip}{c20}[{name1}]{end}
+
+@ 8F9DE6 words=13
+JP 　「俺には向いてない…」{end}
+EN  "This life isn't for me..."{end}
+
+@ 8F9E00 words=33
+JP 　「逃げてたまるかっ!!」{c0e}{w1e00}{w9e42}{c2a}君は弱気をガッツで払いのけた。
+EN  "I won't run!!"{c0e}{w1e00}{w9e42}{c2a}Your guts won out!
+
+@ 8F9E42 words=19
+JP {at 0,26}{w9e68}{c2a}ついに、君はギブアップした…。
+EN {at 0,26}{w9e68}{c2a}At last, you threw in the towel...
+
+@ 8F9E68 words=6
+JP {skip}『{c1e}』は{end}
+EN {skip}"{c1e}" is{end}
+
+@ 8F9E74 words=15
+JP 現在、所属している団体です。
+EN the promotion you belong to now.
+
+@ 8F9E92 words=7
+JP {at 26,42}ちょっぴり
+EN {at 42,43}Light
+
+@ 8F9EA0 words=6
+JP {at 32,66}腹八分目
+EN {at 39,67}Normal
+
+@ 8F9EAC words=6
+JP {at 32,90}たらふく
+EN {at 38,91}Hearty
+
+@ 8F9EB8 words=6
+JP {at 38,122}終  了
+EN {at 45,123}Exit
+
+@ 8F9EC4 words=11
+JP {at 128,42}現在は：ちょっぴり
+EN {at 128,42}Now: Light
+
+@ 8F9EDA words=12
+JP {at 128,42}現在は： 腹八分目 
+EN {at 128,42}Now: Normal
+
+@ 8F9EF2 words=12
+JP {at 128,42}現在は： たらふく 
+EN {at 128,42}Now: Hearty
+
+@ 8F9F0A words=12
+JP {skip}食事をへらしますか？{end}
+EN {skip}Eat less?{end}
+
+@ 8F9F22 words=9
+JP 　｢減らします｣{end}
+EN  "Eat less"{end}
+
+@ 8F9F34 words=18
+JP 　｢イヤです｣{c0e}{w1e00}{w9f58}{c2a}くいしんぼ…
+EN  "No way!"{c0e}{w1e00}{w9f58}{c2a}What a glutton...
+
+@ 8F9F58 words=12
+JP {at 0,26}{w9f70}{c2a}今日から痩せます
+EN {at 0,26}{w9f70}{c2a}Dieting from today
+
+@ 8F9F70 words=14
+JP {skip}食事を普通にとりますか？{end}
+EN {skip}Eat normal meals?{end}
+
+@ 8F9F8C words=9
+JP 　｢そうします｣{end}
+EN  "Okay"{end}
+
+@ 8F9F9E words=16
+JP 　｢イヤです｣{c0e}{w1e00}{w9fbe}{c2a}そうか…
+EN  "No way!"{c0e}{w1e00}{w9fbe}{c2a}I see...
+
+@ 8F9FBE words=15
+JP {at 0,26}{w9fdc}{c2a}今日から普通に食べます
+EN {at 0,26}{w9fdc}{c2a}Back to normal meals
+
+@ 8F9FDC words=12
+JP {skip}食事を増やしますか？{end}
+EN {skip}Eat more?{end}
+
+@ 8F9FF4 words=9
+JP 　｢増やします｣{end}
+EN  "Eat more"{end}
+
+@ 8FA006 words=17
+JP 　｢イヤです｣{c0e}{w1e00}{wa028}{c2a}食べろよ…
+EN  "No way!"{c0e}{w1e00}{wa028}{c2a}Then eat, man...
+
+@ 8FA028 words=17
+JP {at 0,26}{wa04a}{c2a}今日からスタミナをつけます
+EN {at 0,26}{wa04a}{c2a}Bulking up from today
+
+@ 8FA04A words=9
+JP それは実行中です
+EN Already doing that
+
+@ 8FA05C words=27
+JP {at 8,50}ﾚｽﾗｰの穴1{pos 8,66}ﾚｽﾗｰの穴2{pos 8,82}ﾚｽﾗｰの穴3
+EN {at 10,51}Slot 1{pos 10,67}Slot 2{pos 10,83}Slot 3
+
+@ 8FA092 words=22
+JP {at 8,114}ﾚｽﾗｰの穴を空にする{pos 8,138}前の画面に戻る
+EN {at 10,115}Clear slot{pos 10,139}Back
+
+@ 8FA0BE words=9
+JP {at 8,114}前の画面に戻る
+EN {at 8,114}Back
+
+@ 8FA0D0 words=21
+JP {at 80,162}ﾚｽﾗｰを穴から出す{pos 86,178}前の画面に戻る
+EN {at 80,162}Load wrestler{pos 86,178}Back
+
+@ 8FA0FA words=57
+JP {at 20,162}ﾚｽﾗｰを穴に入れる　　 前の画面に戻る{pos 20,178}ﾚｽﾗｰを穴から出す　　　　 OPTION{pos 20,194}ﾚｽﾗｰを穴から削除
+EN {at 20,162}Save to slot{x 126}Back{pos 20,178}Load from slot{x 126}OPTION{pos 20,194}Delete from slot
+
+@ 8FA16C words=10
+JP だれもいません　　
+EN Empty
+
+@ 8FA180 words=10
+JP NO - SRAM
+
+@ 8FA194 words=10
+JP 入っています　　　
+EN In use
+
+@ 8FA1A8 words=18
+JP {at 32,114} ロードします。よろしいですか？
+EN {at 32,114} Load this file. Are you sure?
+
+@ 8FA1CC words=18
+JP {at 32,114} セーブします。よろしいですか？
+EN {at 32,114} Save to this file. Are you sure?
+
+@ 8FA1F0 words=18
+JP {at 32,114} 上書きします。よろしいですか？
+EN {at 32,114} Overwrite this file. Sure?
+
+@ 8FA214 words=17
+JP {at 32,114} 削除します。よろしいですか？
+EN {at 32,114} Delete this file. Sure?
+
+@ 8FA236 words=15
+JP {at 80,134}はい        いいえ
+EN {at 80,134}Yes{x 72}No
+
+@ 8FA264 words=22
+JP {at 19,114}ｷｬﾝｾﾙ 　　　　　　　　　　　　　　
+EN {at 19,114}Cancel
+
+@ 8FA398 words=20
+JP {skip}各ポイントを消費して技を習得します。{end}
+EN {skip}Spend points to learn new moves.{end}
+
+@ 8FA3C0 words=17
+JP 新しく習得した技は、エディットで{end}
+EN New moves can't be used until you{end}
+
+@ 8FA3E2 words=15
+JP 設定しないと使用出来ません。
+EN set them up in Edit.
+
+@ 8FA400 words=14
+JP {skip}コンバートで習得した技を{end}
+EN {skip}Assign moves learned with{end}
+
+@ 8FA41C words=11
+JP 操作にふりわけます。
+EN Convert to your buttons.
+
+@ 8FA432 words=8
+JP 技がありません
+EN No moves
+
+@ 8FA456 words=31
+JP {at 8,26}参加人数{pos 8,42}試合時間{pos 8,58}試合会場{pos 8,74}その他{pos 8,98}参加レスラー
+EN {at 8,26}Players{pos 8,42}Time{pos 8,58}Venue{pos 8,74}Other{pos 8,98}Wrestlers
+
+@ 8FA494 words=29
+JP {at 8,114}赤ｺｰﾅｰ{pos 8,146}青ｺｰﾅｰ{pos 8,186}試合開始{pos 8,202}前の画面に戻る
+EN {at 8,114}Red{pos 8,146}Blue{pos 8,186}Start{pos 8,202}Back
+
+@ 8FA4CE words=20
+JP {at 8,194}ﾄｰﾅﾒﾝﾄ表へ　　　前の画面に戻る
+EN {at 8,194}Bracket{x 108}Back
+
+@ 8FA4F6 words=17
+JP {at 8,194}リーグ表へ　　　前の画面に戻る
+EN {at 8,194}Standings{x 108}Back
+
+@ 8FA518 words=19
+JP 　　　　 1P vs CPU　　　　
+EN {x 54}1P vs CPU
+
+@ 8FA53E words=19
+JP 　　　　 1P vs 2P　　　　 
+EN {x 54}1P vs 2P
+
+@ 8FA564 words=19
+JP 　　　　CPU vs CPU　　　　
+EN {x 48}CPU vs CPU
+
+@ 8FA58A words=22
+JP 　　　1P 1P vs CPU CPU　　
+EN {x 36}1P 1P vs CPU CPU
+
+@ 8FA5B6 words=21
+JP 　　　1P 1P vs 2P 2P　　　
+EN {x 36}1P 1P vs 2P 2P
+
+@ 8FA5E0 words=22
+JP 　　　1P 2P vs CPU CPU　　
+EN {x 36}1P 2P vs CPU CPU
+
+@ 8FA60C words=21
+JP 　　　1P 1P vs 2P 3P　　　
+EN {x 36}1P 1P vs 2P 3P
+
+@ 8FA636 words=21
+JP 　　　1P 2P vs 3P 3P　　　
+EN {x 36}1P 2P vs 3P 3P
+
+@ 8FA660 words=21
+JP 　　　1P 2P vs 3P 4P　　　
+EN {x 36}1P 2P vs 3P 4P
+
+@ 8FA68A words=23
+JP 　　CPU CPU vs CPU CPU　　
+EN {x 24}CPU CPU vs CPU CPU
+
+@ 8FA6B8 words=27
+JP  1P CPU CPU vs CPU CPU CPU
+
+@ 8FA6EE words=26
+JP 　 1P 1P 1P vs CPU CPU CPU
+EN {x 20}1P 1P 1P vs CPU CPU CPU
+
+@ 8FA722 words=25
+JP 　 1P 1P 1P vs 2P 2P 2P　 
+EN {x 30}1P 1P 1P vs 2P 2P 2P
+
+@ 8FA754 words=26
+JP 　1P 2P CPU vs CPU CPU CPU
+EN {x 18}1P 2P CPU vs CPU CPU CPU
+
+@ 8FA788 words=26
+JP 　 1P 2P 3P vs CPU CPU CPU
+EN {x 20}1P 2P 3P vs CPU CPU CPU
+
+@ 8FA7BC words=25
+JP 　 1P 2P 3P vs 4P 4P 4P　 
+EN {x 30}1P 2P 3P vs 4P 4P 4P
+
+@ 8FA7EE words=25
+JP 　1P 2P CPU vs 3P 4P CPU　
+EN {x 24}1P 2P CPU vs 3P 4P CPU
+
+@ 8FA820 words=26
+JP 　 1P 2P 3P vs 4P CPU CPU 
+EN {x 24}1P 2P 3P vs 4P CPU CPU
+
+@ 8FA854 words=27
+JP CPU CPU CPU vs CPU CPU CPU
+
+@ 8FA88A words=53
+JP {at 72,60}無制限一本勝負{pos 72,72}15分　1本勝負 {pos 72,84}30分　1本勝負 {pos 72,96}45分　1本勝負 {pos 72,108}60分　1本勝負 
+EN {at 72,60}No Time Limit{pos 72,72}15 Min, 1 Fall{pos 72,84}30 Min, 1 Fall{pos 72,96}45 Min, 1 Fall{pos 72,108}60 Min, 1 Fall
+
+@ 8FA8F4 words=30
+JP {at 64,64}スタンダードルール{pos 64,80}シュートルール{pos 64,96}デスマッチルール
+EN {at 64,64}Standard Rules{pos 64,80}Shoot Rules{pos 64,96}Death Match
+
+@ 8FA930 words=21
+JP {at 64,64}スタンダードルール{pos 64,80}デスマッチルール
+EN {at 64,64}Standard Rules{pos 64,80}Death Match
+
+@ 8FA95A words=46
+JP {at 72,76}無地のリング　{pos 72,88}超日本プロレス{pos 72,100}ＲＥＡＬ'Ｓ　 {pos 72,112}ＢＯＭ　　　　{pos 72,124}ＷＷＫ　　　　
+EN {at 72,76}Plain Ring{pos 72,88}Super Japan{pos 72,100}REAL'S{pos 72,112}BOM{pos 72,124}WWK
+
+@ 8FA9B6 words=9
+JP {at 72,76}ＢＯＭ　　　　
+EN {at 72,76}BOM
+
+@ 8FA9C8 words=57
+JP {at 72,92}場外カウント　10 20 なし{pos 72,104}ﾗﾝﾊﾞｰｼﾞｬｯｸ　　ON OFF{pos 72,116}ﾛｰﾌﾟﾌﾞﾚｲｸ 　　ON OFF
+EN {at 72,92}Count-Out{x 84}10{x 102}20{x 120}None{pos 72,104}Lumberjack{x 84}ON{x 102}OFF{pos 72,116}Rope Break{x 84}ON{x 102}OFF
+
+@ 8FAA3A words=17
+JP {at 16,188}【バーサス・モード】　　　　　
+EN {at 16,188}[Versus Mode]
+
+@ 8FAA5C words=17
+JP {at 16,188}【トーナメント・モード】　　　
+EN {at 16,188}[Tournament Mode]
+
+@ 8FAA7E words=28
+JP {at 16,204}16ﾁｰﾑ参加の勝ち抜き戦(0〜4Player)　 
+EN {at 16,204}16-team knockout (0-4 players)
+
+@ 8FAAB6 words=17
+JP {at 16,188}【リーグ・モード】　　　　　　
+EN {at 16,188}[League Mode]
+
+@ 8FAAD8 words=28
+JP {at 16,204}10ﾁｰﾑ参加の総当たり戦(0〜4Player)　 
+EN {at 16,204}A 10-team round robin (0-4 players)
+
+@ 8FAB10 words=17
+JP {at 16,188}【マックスボルテージ・モード】
+EN {at 16,188}[Max Voltage Mode]
+
+@ 8FAB32 words=20
+JP {at 16,204}プロレスラー体験シミュレーション　　
+EN {at 16,204}Live the life of a pro wrestler
+
+@ 8FAB5A words=17
+JP {at 16,188}【オプション・モード】　　　　
+EN {at 16,188}[Option Mode]
+
+@ 8FAB7C words=20
+JP {at 16,204}ゲームの環境設定　　　　　　　　　　
+EN {at 16,204}Game settings
+
+@ 8FABA4 words=18
+JP 非常事態的名前{pos 76,34}VER NAME
+EN Emergency Name{pos 76,34}VER NAME
+
+@ 8FABC8 words=16
+JP {at 100,10}【超日本ﾌﾟﾛﾚｽﾘﾝｸﾞ】
+EN {at 100,10}[Super Japan]
+
+@ 8FABE8 words=179
+JP {at 40,26}那形 影虎　　{pos 40,42}ｱｰｻｰ 新田　　{pos 40,58}ｿﾛﾓﾝ 内海　　{pos 40,74}ｱﾚｯｸｽ 福永　 {pos 40,90}ﾚｵﾎﾟﾙﾄﾞ 龍見 {pos 40,106}ﾀｲﾀﾝ 城ノ内　{pos 40,122}L.ﾜｲﾊﾞｰﾝ　　 {pos 40,138}犬神 月緒　　{pos 160,26}ｸﾞﾘｽﾞﾘｰ 鷹井 {pos 160,42}ﾏｽｸﾄﾞ ﾛﾎﾞ　　{pos 160,58}ｷﾗｰ.信長　　 {pos 160,74}ｴﾝｼﾞｪﾙ 工藤　{pos 160,90}ｽﾊﾟﾛｰ 白石　 {pos 160,106}ｻﾞ ｻﾝﾀﾞｰﾎﾞﾙﾄ {pos 160,122}ﾋﾞﾙ ﾎﾞｲｼﾞｬｰ　
+EN {at 40,26}K. Nagata{pos 40,42}Arthur Nitta{pos 40,58}Solomon Utsumi{pos 40,74}Alex Fukunaga{pos 40,90}L. Tatsumi{pos 40,106}Titan Jonouchi{pos 40,122}L. Wyvern{pos 40,138}Tsukio Inugami{pos 160,26}Grizzly Takai{pos 160,42}Masked Robo{pos 160,58}K. Nobunaga{pos 160,74}Angel Kudo{pos 160,90}S. Shiraishi{pos 160,106}Thunderbolt{pos 160,122}Bill Voyager
+
+@ 8FAD4E words=12
+JP {at 100,10}【ＷＷＫ】　　　　 
+EN {at 100,10}[WWK]
+
+@ 8FAD66 words=207
+JP {at 40,26}ｽﾊﾟｰｸ ｽﾀｰ　　{pos 40,42}The G.ｺﾞｴﾓﾝ　{pos 40,58}E R ｶﾝﾌｰ 　　{pos 40,74}ﾘﾋﾀｰ ﾍﾞﾙﾓﾝﾄﾞ {pos 40,90}ｴﾙ ｸﾞﾗﾃﾞｨｳｽ　{pos 40,106}ﾐﾙ ｻﾗﾏﾝﾀﾞ　　{pos 40,122}ﾋﾞﾙ ｺﾏﾝﾀﾞｰ　 {pos 40,138}ﾗﾝｽ ｿﾙｼﾞｬｰ　 {pos 160,26}ﾐｽﾀｰ ｽﾅｯﾁｬｰ　{pos 160,42}ﾐｽﾀｰ ｼﾞｪﾙ　　{pos 160,58}ﾄﾞｸﾀｰ ﾐｽﾄ　　{pos 160,74}ﾐｽﾃｨｯｸ ﾀﾞﾊﾞﾊﾞ{pos 160,90}ﾋﾞｯｸﾞ ｻﾞ ﾓｱｲ {pos 160,106}ｽﾍﾟﾙ ｱﾄﾗﾝﾃｨｽ {pos 160,122}The G.月風魔 
+EN {at 40,26}Spark Star{pos 40,42}The G. Goemon{pos 40,58}E.R. Kung-Fu{pos 40,74}R. Belmondo{pos 40,90}El Gradius{pos 40,106}Mil Salamanda{pos 40,122}Bill Commander{pos 40,138}Lance Soldier{pos 160,26}Mr. Snatcher{pos 160,42}Mister Jell{pos 160,58}Doctor Myst{pos 160,74}M. Dabadaba{pos 160,90}Big the Moai{pos 160,106}Super Atlantis{pos 160,122}G. Getsu Fuma
+
+@ 8FAF04 words=12
+JP {at 100,10}【ＢＯＭ】　　　　 
+EN {at 100,10}[BOM]
+
+@ 8FAF1C words=126
+JP {at 40,26}番堂 長門　　{pos 40,42}ﾊﾞｯｶｽ 岩井　 {pos 40,58}ﾐｽﾀｰ 祭蔵　　{pos 40,74}柳生 剣豪郎　{pos 40,90}ﾏｽｸﾄﾞ ｸﾗｰｹﾝ　{pos 40,106}ﾃﾗｰ ﾃﾑｼﾞﾝ　　{pos 40,122}ｳﾙﾌ ｻﾞ ﾄﾏﾎｰｸ {pos 40,138}ｱﾌﾞﾗ ｶﾀﾞﾌﾞﾗｰ {pos 160,26}ﾒｶﾞ ｷﾝｸﾞ　　 {pos 160,42}ﾃﾞｽ ﾌﾞﾗｯﾄﾞﾏﾝ 
+EN {at 40,26}Nagato Bando{pos 40,42}Bacchus Iwai{pos 40,58}Mister Saizo{pos 40,74}Kengoro Yagyu{pos 40,90}Masked Kraken{pos 40,106}Terror Temujin{pos 40,122}W. Tomahawk{pos 40,138}Abra Kadabra{pos 160,26}Mega King{pos 160,42}D. Bloodman
+
+@ 8FB018 words=12
+JP {at 100,10}【ＲＥＡＬ'Ｓ】　　
+EN {at 100,10}[REAL'S]
+
+@ 8FB030 words=114
+JP {at 40,26}椎名 優　　　{pos 40,42}鳴海 幸司　　{pos 40,58}和田 健四郎　{pos 40,74}北方 宗典　　{pos 40,90}ﾆｺﾗｲ ﾋﾞﾀﾞﾙｽｷｰ{pos 40,106}ｼﾞｭﾄﾞｰ ｺﾝｺﾙﾄﾞ{pos 40,122}村上 誠　　　{pos 40,138}ｱｲｱﾝ 山上　　{pos 160,26}ｶｲｾﾞﾙ ｴｱﾊﾙﾄ　{pos 160,42}ﾀﾞﾘﾙ ﾀﾞｸﾞﾗｽ　
+EN {at 40,26}Yu Shiina{pos 40,42}Koji Narumi{pos 40,58}Kenshiro Wada{pos 40,74}M. Kitakata{pos 40,90}N. Vidalski{pos 40,106}Judo Concord{pos 40,122}M. Murakami{pos 40,138}Iron Yamagami{pos 160,26}K. Erhardt{pos 160,42}Daryl Douglas
+
+@ 8FB114 words=12
+JP {at 100,10}【伝説のレスラー】 
+EN {at 100,10}[Legends]
+
+@ 8FB12C words=14
+JP {at 40,26}ﾏｯｸｽ.ﾏｰｷｭﾘｰ　
+EN {at 40,26}Max Mercury
+
+@ 8FB174 words=9
+JP {at 16,194}前の画面に戻る
+EN {at 16,194}Back
+
+@ 8FB186 words=7
+JP {at 16,170}シャッフル
+EN {at 16,170}Shuffle
+
+@ 8FB198 words=9
+JP {at 88,202}前の画面に戻る
+EN {at 88,202}Back
+
+@ 8FB1AA words=8
+JP {at 90,16}勝利者: {c1b}
+EN {at 90,16}Winner: {c1b}
+
+@ 8FB1BA words=5
+JP 選手に、
+EN ...
+
+@ 8FB1C4 words=8
+JP {at 90,16}優勝者: {c1b}
+EN {at 90,16}Champion: {c1b}
+
+@ 8FB1D4 words=10
+JP {at 90,16}赤ｺｰﾅｰ: {c1b}
+EN {at 90,16}Red: {c1b}
+
+@ 8FB1E8 words=10
+JP {at 90,16}青ｺｰﾅｰ: {c1b}
+EN {at 90,16}Blue: {c1b}
+
+@ 8FB1FC words=75
+JP {at 90,140}｢勝った {c24}選手に、{pos 90,156}　お話を聞いてみます｣{pos 16,176}｢いかがでした？ 今日の試合は？｣{pos 16,192}｢点数を付けるとすれば、何点ですか？｣{pos 16,208}｢次の目標は？｣
+EN {at 90,140}"Winner {c24}, let's{pos 90,156} hear from you!"{pos 16,176}"How was today's match?"{pos 16,192}"What score would you give it?"{pos 16,208}"What's next?"
+
+@ 8FB292 words=76
+JP {at 90,140}｢引き分けた {c24}選手に、{pos 90,156}　お話を聞いてみます｣{pos 16,176}｢引き分けということですが…｣{pos 16,192}｢試合前のコンディションは？｣{pos 16,208}｢相手に一言お願いします｣
+EN {at 90,140}"A draw for {c24}.{pos 90,156} Let's get a word."{pos 16,176}"So, it ended in a draw..."{pos 16,192}"How did you feel going in?"{pos 16,208}"Any words for your foe?"
+
+@ 8FB32A words=72
+JP {at 90,140}｢優勝した {c24}選手に、{pos 90,156}　お話を聞いてみます｣{pos 16,176}｢おめでとうございます!!｣{pos 16,192}｢全体を通しての感想を｣{pos 16,208}｢ファンに一言お願いします｣
+EN {at 90,140}"Champion {c24}, let's{pos 90,156} hear from you!"{pos 16,176}"Congratulations!!"{pos 16,192}"Your thoughts overall?"{pos 16,208}"A word for the fans?"
+
+@ 8FB3BA words=158
+JP {at 10,26}CPUの強さ{pos 84,26}弱い{pos 124,26}普通{pos 164,26}強い{pos 204,26}最強{pos 10,42}文字表示{pos 84,42}遅い{pos 124,42}普通{pos 164,42}速い{pos 204,42}最速{pos 10,58}ｻｳﾝﾄﾞﾓｰﾄﾞ{pos 82,58}ｽﾃﾚｵ{pos 122,58}ﾓﾉﾗﾙ{pos 10,74}試合中実況{pos 82,74}あり{pos 122,74}なし{pos 10,90}ｷｰ割りあて{pos 10,106}小技(ﾊﾟﾝﾁ){pos 10,122}中技(ｷｯｸ){pos 10,138}大技{pos 10,154}つかみ{pos 10,170}ﾌｫｰﾙ{pos 10,186}ﾀﾞｯｼｭ{pos 90,90}1P{pos 130,90}2P{pos 170,90}3P{pos 210,90}4P{pos 10,202}前の画面に戻る
+EN {at 10,26}CPU Level{pos 84,26}Easy{pos 124,26}Norm{pos 164,26}Hard{pos 204,26}Max{pos 10,42}Text Spd{pos 84,42}Slow{pos 124,42}Norm{pos 164,42}Fast{pos 204,42}Max{pos 10,58}Sound{pos 82,58}2-Ch{pos 122,58}Mono{pos 10,74}Commentary{pos 82,74}On{pos 122,74}Off{pos 10,90}Buttons{pos 10,106}Punch{pos 10,122}Kick{pos 10,138}Heavy{pos 10,154}Grab{pos 10,170}Pin{pos 10,186}Dash{pos 90,90}1P{pos 130,90}2P{pos 170,90}3P{pos 210,90}4P{pos 10,202}Back
+
+@ 8FB4F6 words=9
+JP {at 90,194}前の画面に戻る
+EN {at 90,194}Back
+
+@ 8FB508 words=7
+JP YBAXLR-
+
+@ 8FB516 words=25
+JP {at 80,34}コンバート画面へ{pos 80,58}エディット画面へ{pos 110,138}終　了
+EN {at 80,34}Learn Moves{pos 80,58}Edit Moves{pos 110,138}Exit
+
+@ 8FB548 words=112
+JP {at 16,40}(ダウンの相手に攻撃){pos 16,54}.相手があおむけ{pos 64,68}頭に　　上段のﾊﾟﾝﾁ{pos 64,82}足に　　空手ﾁｮｯﾌﾟ{pos 16,100}.相手がうつぶせ{pos 64,114}頭に　　ﾓﾝｺﾞﾘｱﾝﾁｮｯﾌﾟ{pos 64,128}足に　　下段のﾊﾟﾝﾁ{pos 16,146}(カウンター小技){pos 16,160}.相手がダッシュ中
+EN {at 16,40}(Attack a downed foe){pos 16,54}.Foe face-up{pos 64,68}Head{x 36}High Punch{pos 64,82}Legs{x 36}Karate Chop{pos 16,100}.Foe face-down{pos 64,114}Head{x 36}Mongolian Chop{pos 64,128}Legs{x 36}Low Punch{pos 16,146}(Light counter){pos 16,160}.Foe is running
+
+@ 8FB628 words=46
+JP {at 16,40}(場外へダイブ/助走なし){pos 16,54}.相手が場外{pos 16,100}(場外へダイブ/助走あり){pos 16,114}.相手が場外
+EN {at 16,40}(Dive outside, no run-up){pos 16,54}.Foe outside{pos 16,100}(Dive outside, run-up){pos 16,114}.Foe outside
+
+@ 8FB684 words=157
+JP {at 8,22}【中技(ｷｯｸ)ボタン】{pos 16,40}(通常攻撃){pos 16,54}.相手がｽﾀﾝﾃﾞｨﾝｸﾞ{pos 64,68}距離が近い　　上段のﾊﾟﾝﾁ{pos 64,82}距離が遠い　　空手ﾁｮｯﾌﾟ{pos 16,100}.相手が片ヒザ{pos 64,114}距離が近い　　ﾓﾝｺﾞﾘｱﾝﾁｮｯﾌﾟ{pos 64,128}距離が遠い　　下段のﾊﾟﾝﾁ{pos 16,146}.相手がﾛｰﾌﾟﾀﾞｳﾝ or　　上段のﾊﾟﾝﾁ{pos 16,160} 逆さ吊り or ﾎﾟｽﾄ上
+EN {at 8,22}[Medium (Kick) Btn]{pos 16,40}(Normal){pos 16,54}.Foe standing{pos 64,68}Close{x 36}High Punch{pos 64,82}Far{x 36}Karate Chop{pos 16,100}.Foe kneeling{pos 64,114}Close{x 36}Mongolian Chop{pos 64,128}Far{x 36}Low Punch{pos 16,146}.Foe on ropes or{x 120}High Punch{pos 16,160} Tree of Woe or on post
+
+@ 8FB7BE words=75
+JP {at 16,40}(ダウンの相手にグランド攻撃){pos 16,54}.相手があおむけ{pos 64,68}頭に{pos 64,82}足に{pos 16,100}.相手がうつぶせ{pos 64,114}頭に{pos 64,128}足に{pos 16,146}(カウンター中技){pos 16,160}.相手がダッシュ中
+EN {at 16,40}(Ground attack on downed foe){pos 16,54}.Foe face-up{pos 64,68}Head{pos 64,82}Legs{pos 16,100}.Foe face-down{pos 64,114}Head{pos 64,128}Legs{pos 16,146}(Counter Medium){pos 16,160}.Foe is running
+
+@ 8FB854 words=90
+JP {at 8,22}【大技】{pos 16,40}(その場飛び攻撃){pos 16,54}.相手の状態によらず共通{pos 16,68}(カウンター大技){pos 16,82}.相手がダッシュ中{pos 16,100}(ｴﾌﾟﾛﾝから場外へのダイブ){pos 16,114}.場外の相手の方向にﾀﾞｯｼｭして
+EN {at 8,22}[Heavy]{pos 16,40}(Jump in place){pos 16,54}.Any foe position{pos 16,68}(Counter Heavy){pos 16,82}.Foe is running{pos 16,100}(Dive from apron to floor){pos 16,114}.Dash toward foe outside
+
+@ 8FB908 words=47
+JP {at 8,22}【つかみボタン】{pos 16,36}(リング内から雪崩式攻撃){pos 16,50}.相手がポスト上で{pos 64,64}前向き{pos 64,78}後ろ向き
+EN {at 8,22}[Grab Button]{pos 16,36}(Avalanche from in-ring){pos 16,50}.Foe on the post{pos 64,64}Front{pos 64,78}Back
+
+@ 8FB966 words=91
+JP {at 8,22}【小技(ﾊﾟﾝﾁ)ボタン】{pos 16,40}(ダッシュ小技){pos 16,54}(対角線ダッシュ 小技){pos 16,68}.相手がｺｰﾅｰﾀﾞｳﾝ状態{pos 16,82}(ﾀﾞｳﾝの相手にﾀﾞｯｼｭ & 打撃){pos 16,100}.あおむけ、うつぶせ共通
+EN {at 8,22}[Light (Punch) Btn]{pos 16,40}(Dash Light){pos 16,54}(Diagonal dash Light){pos 16,68}.Foe down in corner{pos 16,82}(Dash & strike downed foe){pos 16,100}.Face-up or face-down
+
+@ 8FBA1C words=90
+JP {at 8,22}【中技(ｷｯｸ)ボタン】{pos 16,36}(ダッシュ中技){pos 16,50}(対角線ダッシュ 中技){pos 16,64}.相手がｺｰﾅｰﾀﾞｳﾝ状態{pos 16,78}(ﾀﾞｳﾝの相手にﾀﾞｯｼｭ & 打撃){pos 16,92}.あおむけ,うつ状せ共通
+EN {at 8,22}[Medium (Kick) Btn]{pos 16,36}(Dash Medium){pos 16,50}(Diagonal dash Medium){pos 16,64}.Foe down in corner{pos 16,78}(Dash & strike downed foe){pos 16,92}.Face-up or face-down
+
+@ 8FBAD0 words=49
+JP {at 8,22}【大技ボタン】{pos 16,40}(ダッシュ大技){pos 16,54}(対角線ダッシュ 大技){pos 16,68}.相手がｺｰﾅｰﾀﾞｳﾝ状態
+EN {at 8,22}[Heavy Button]{pos 16,40}(Dash Heavy){pos 16,54}(Diagonal dash Heavy){pos 16,68}.Foe down in corner
+
+@ 8FBB32 words=74
+JP {at 8,22}【小技(ﾊﾟﾝﾁ)ボタン】{pos 16,40}(ダイブ攻撃){pos 16,54}.相手がリング上{pos 16,68}.相手が場外{pos 8,82}【中技(ｷｯｸ)ボタン】{pos 16,100}.相手がリング上{pos 16,114}.相手が場外
+EN {at 8,22}[Light (Punch) Btn]{pos 16,40}(Dive attack){pos 16,54}.Foe in the ring{pos 16,68}.Foe outside{pos 8,82}[Medium (Kick) Btn]{pos 16,100}.Foe in the ring{pos 16,114}.Foe outside
+
+@ 8FBBC6 words=85
+JP {at 8,22}【大技ボタン】{pos 16,40}(ダイブ攻撃){pos 16,54}.相手がリング上{pos 16,68}.相手が場外{pos 8,82}【つかみボタン】{pos 16,100}(ポストからつかんで雪崩攻撃){pos 16,114}.相手がポスト上で{pos 64,128}前向き{pos 64,146}後ろ向き
+EN {at 8,22}[Heavy Button]{pos 16,40}(Dive attack){pos 16,54}.Foe in the ring{pos 16,68}.Foe outside{pos 8,82}[Grab Button]{pos 16,100}(Grab from post: avalanche){pos 16,114}.Foe on the post{pos 64,128}Front{pos 64,146}Back
+
+@ 8FBC70 words=45
+JP {at 8,22}【小技(ﾊﾟﾝﾁ)ボタン】{pos 16,40}(十字キー入力){pos 64,54}ニュートラル{pos 64,68}上{pos 64,82}下{pos 64,96}左{pos 64,110}右
+EN {at 8,22}[Light (Punch) Btn]{pos 16,40}(D-pad input){pos 64,54}Neutral{pos 64,68}Up{pos 64,82}Dn{pos 64,96}Lt{pos 64,110}Rt
+
+@ 8FBCCA words=44
+JP {at 8,22}【中技(ｷｯｸ)ボタン】{pos 16,40}(十字キー入力){pos 64,54}ニュートラル{pos 64,68}上{pos 64,82}下{pos 64,96}左{pos 64,110}右
+EN {at 8,22}[Medium (Kick) Btn]{pos 16,40}(D-pad input){pos 64,54}Neutral{pos 64,68}Up{pos 64,82}Dn{pos 64,96}Lt{pos 64,110}Rt
+
+@ 8FBD22 words=40
+JP {at 8,22}【つかみボタン】{pos 16,40}(十字キー入力){pos 64,54}ニュートラル{pos 64,68}上{pos 64,82}下{pos 64,96}左{pos 64,110}右
+EN {at 8,22}[Grab Button]{pos 16,40}(D-pad input){pos 64,54}Neutral{pos 64,68}Up{pos 64,82}Dn{pos 64,96}Lt{pos 64,110}Rt
+
+@ 8FBD72 words=12
+JP {at 8,22}【バックグラップル】
+EN {at 8,22}[Back Grapple]
+
+@ 8FBD8A words=48
+JP {at 8,8}入門届作成{pos 16,24}名前　　　凰　烈火{pos 16,40}誕生日　　12月　27日{pos 16,56}ｽﾎﾟｰﾂ歴　 なし{pos 16,88}終了
+EN {at 8,8}Entry Form{pos 16,24}Name{x 50}Otori Rekka{pos 16,40}Birthday{x 50}Dec. 27{pos 16,56}Sports{x 50}None{pos 16,88}Done
+
+@ 8FBDEA words=13
+JP 0123456789年目月
+
+@ 8FBE04 words=46
+JP {at 76,44}人間は１人参戦{pos 76,56}人間は２人参戦{pos 76,68}人間は３人参戦{pos 76,80}人間は４人参戦{pos 76,92}人間は参戦しない
+EN {at 76,44}1 human player{pos 76,56}2 human players{pos 76,68}3 human players{pos 76,80}4 human players{pos 76,92}No humans (CPU)
+
+@ 8FBE60 words=12
+JP {at 160,10}SETUP画面に戻る
+EN {at 160,10}Back to SETUP
+
+@ 8FBE78 words=15
+JP {at 76,44}シングル (1 vs 1)
+EN {at 76,44}Singles (1 vs 1)
+
+@ 8FBE96 words=30
+JP {at 76,56}タッグ４ (2 vs 2){pos 76,68}タッグ６ (3 vs 3)
+EN {at 76,56}Tag (2 vs 2){pos 76,68}6-Man Tag (3 vs 3)
+
+@ 8FBED2 words=60
+JP {at 76,44}　　　　 1P vs CPU　　　　{pos 76,56}　　　　 1P vs 2P　　　　 {pos 76,68}　　　　CPU vs CPU　　　　
+EN {at 76,44}　　　　 1P vs CPU　　　　{pos 76,56}　　　　 1P vs 2P　　　　 {pos 76,68}　　　　CPU vs CPU　　　　
+
+@ 8FBF4A words=158
+JP {at 76,44}　　　1P 1P vs CPU CPU　　{pos 76,56}　　　1P 1P vs 2P 2P　　　{pos 76,68}　　　1P 2P vs CPU CPU　　{pos 76,80}　　　1P 1P vs 2P 3P　　　{pos 76,92}　　　1P 2P vs 3P 3P　　　{pos 76,104}　　　1P 2P vs 3P 4P　　　{pos 76,116}　　CPU CPU vs CPU CPU　　
+EN {at 76,44}{x 36}1P 1P vs CPU CPU{x 156} {pos 76,56}{x 36}1P 1P vs 2P 2P{x 156} {pos 76,68}{x 36}1P 2P vs CPU CPU{x 156} {pos 76,80}{x 36}1P 1P vs 2P 3P{x 156} {pos 76,92}{x 36}1P 2P vs 3P 3P{x 156} {pos 76,104}{x 36}1P 2P vs 3P 4P{x 156} {pos 76,116}{x 24}CPU CPU vs CPU CPU{x 156} 
+
+@ 8FC086 words=242
+JP {at 76,44} 1P CPU CPU vs CPU CPU CPU{pos 76,56}　 1P 1P 1P vs CPU CPU CPU{pos 76,68}　 1P 1P 1P vs 2P 2P 2P　 {pos 76,80}　1P 2P CPU vs CPU CPU CPU{pos 76,92}　 1P 2P 3P vs CPU CPU CPU{pos 76,104}　 1P 2P 3P vs 4P 4P 4P　 {pos 76,116}　1P 2P CPU vs 3P 4P CPU　{pos 76,128}　 1P 2P 3P vs 4P CPU CPU {pos 76,140}CPU CPU CPU vs CPU CPU CPU
+EN {at 76,44}{x 14}1P CPU CPU vs CPU CPU CPU{x 156} {pos 76,56}{x 20}1P 1P 1P vs CPU CPU CPU{x 156} {pos 76,68}{x 30}1P 1P 1P vs 2P 2P 2P{x 156} {pos 76,80}{x 18}1P 2P CPU vs CPU CPU CPU{x 156} {pos 76,92}{x 20}1P 2P 3P vs CPU CPU CPU{x 156} {pos 76,104}{x 30}1P 2P 3P vs 4P 4P 4P{x 156} {pos 76,116}{x 24}1P 2P CPU vs 3P 4P CPU{x 156} {pos 76,128}{x 24}1P 2P 3P vs 4P CPU CPU{x 156} {pos 76,140}{x 12}CPU CPU CPU vs CPU CPU CPU
+
+@ 8FC28A words=4
+JP PTS
+
+@ 8FC292 words=7
+JP {c28}　{c0f}PTS
+EN {c28}　{c0f}PTS
+
+@ 8FC2A0 words=10
+JP 技を習得しますか？
+EN Learn this move?
+
+@ 8FC2B4 words=12
+JP はい      いいえ
+EN Yes      No
+
+@ 8FC2CC words=86
+JP {at 12,26}スタンディング状態の相手へ攻撃{pos 60,42}近距離{pos 60,58}遠距離{pos 12,74}片ヒザ状態の相手へ攻撃{pos 60,90}近距離{pos 60,106}遠距離{pos 12,122}ロープダウン状態の相手へ攻撃{pos 12,154}ダッシュ中の相手へ攻撃(カウンター)
+EN {at 12,26}Attack on standing foe{pos 60,42}Close{pos 60,58}Far{pos 12,74}Attack on kneeling foe{pos 60,90}Close{pos 60,106}Far{pos 12,122}Attack on foe in the ropes{pos 12,154}Attack on running foe (Counter)
+
+@ 8FC378 words=86
+JP {at 12,26}仰向けの相手に攻撃{pos 60,42}頭部側{pos 60,58}脚部側{pos 12,74}うつ状せの相手に攻撃{pos 60,90}頭部側{pos 60,106}脚部側{pos 12,122}仰向けの相手に攻撃{pos 60,138}頭部側{pos 60,154}脚部側{pos 12,170}うつ状せの相手に攻撃{pos 60,186}頭部側{pos 60,202}脚部側
+EN {at 12,26}Vs. face-up foe{pos 60,42}Head{pos 60,58}Feet{pos 12,74}Vs. face-down foe{pos 60,90}Head{pos 60,106}Feet{pos 12,122}Vs. face-up foe{pos 60,138}Head{pos 60,154}Feet{pos 12,170}Vs. face-down foe{pos 60,186}Head{pos 60,202}Feet
+
+@ 8FC424 words=26
+JP {at 12,26}打撃大技{pos 12,82}ダッシュ中の相手へ攻撃(カウンター)
+EN {at 12,26}Big Hit{pos 12,82}Attack on running foe (Counter)
+
+@ 8FC458 words=109
+JP {at 12,26}ダッシュ攻撃(小技){pos 16,42}縦横ダッシュ{pos 16,58}対角線ダッシュ{pos 16,74}ﾀﾞｳﾝ中の相手に{pos 12,98}ダッシュ攻撃(中技){pos 16,114}縦横ダッシュ{pos 16,130}対角線ダッシュ{pos 16,146}ﾀﾞｳﾝ中の相手に{pos 12,170}ダッシュ攻撃(大技){pos 16,186}縦横ダッシュ{pos 16,202}対角線ダッシュ
+EN {at 12,26}Dash attack (Light){pos 16,42}Straight dash{pos 16,58}Diagonal dash{pos 16,74}On downed foe{pos 12,98}Dash attack (Med.){pos 16,114}Straight dash{pos 16,130}Diagonal dash{pos 16,146}On downed foe{pos 12,170}Dash attack (Heavy){pos 16,186}Straight dash{pos 16,202}Diagonal dash
+
+@ 8FC532 words=84
+JP {at 12,26}ポスト上ダイブ　　相手に対して…{pos 24,42}正面向き{pos 12,66}ポスト上ダイブ　　相手に対して…{pos 24,82}正面向き{pos 24,98}背面向き{pos 12,122}ポスト上ダイブ　　相手に対して…{pos 24,138}正面向き{pos 24,154}背面向き
+EN {at 12,26}Top-rope dive   Foe is…{pos 24,42}Facing{pos 12,66}Top-rope dive   Foe is…{pos 24,82}Facing{pos 24,98}Turned{pos 12,122}Top-rope dive   Foe is…{pos 24,138}Facing{pos 24,154}Turned
+
+@ 8FC5DA words=20
+JP {at 12,26}グラップル攻撃 (小) 右向きの場合
+EN {at 12,26}Grapple (Light), facing right
+
+@ 8FC602 words=20
+JP {at 12,26}グラップル攻撃 (中) 右向きの場合
+EN {at 12,26}Grapple (Medium), facing right
+
+@ 8FC62A words=20
+JP {at 12,26}グラップル攻撃 (大) 右向きの場合
+EN {at 12,26}Grapple (Heavy), facing right
+
+@ 8FC652 words=32
+JP {at 12,26}バックグラップル攻撃{pos 28,50}絞め技系{pos 28,74}投げ技系１{pos 28,98}投げ技系２
+EN {at 12,26}Back grapple attack{pos 28,50}Holds{pos 28,74}Throws 1{pos 28,98}Throws 2
+
+@ 8FC692 words=56
+JP {at 12,26}スワンダイブ式攻撃{pos 16,42}ロープ際で{pos 12,66}スーパーダイブ攻撃{pos 14,82}助走ｵｰﾄ{pos 12,106}バックをとられた時の反撃{pos 12,146}アピール
+EN {at 12,26}Springboard Atk{pos 16,42}at ropes{pos 12,66}Top-rope Dive{pos 14,82}Auto Run{pos 12,106}Counter from Behind{pos 12,146}Taunt
+
+@ 8FC702 words=45
+JP {at 24,34}髪の毛{pos 24,58}上半身{pos 24,82}ﾀｲﾂ&ｻﾎﾟｰﾀｰ{pos 24,106}スパッツ{pos 24,130}シューズ{pos 9,162}キャンセル{pos 26,186}決定
+EN {at 24,34}Hair{pos 24,58}Torso{pos 24,82}Tights&Pads{pos 24,106}Pants{pos 24,130}Boots{pos 23,162}Cancel{pos 34,186}OK
+
+@ 8FC75C words=4
+JP no{c13}
+
+@ 8FC76A words=2
+JP 秒分
+
+@ 8FC76E words=6
+JP 試合時間:
+EN Time:
+
+@ 8FC77A words=9
+JP {at 16,192} せりふ「{c1b}」
+EN {at 16,192} Line: "{c1b}"
+
+@ 8FC78C words=58
+JP {at 32,80}バックアップメモリがこわれて{pos 32,96}いるか、カセットがうまくささって{pos 32,112}いません。一度抜いてさしなおして{pos 32,128}下さい。
+EN {at 32,80}The backup memory is damaged{pos 32,96}or the cartridge isn't inserted{pos 32,112}properly. Remove it and{pos 32,128}reinsert.
+
+@ 8FC800 words=3
+JP 1P
+
+@ 8FC806 words=3
+JP 2P
+
+@ 8FC80C words=3
+JP 3P
+
+@ 8FC812 words=3
+JP 4P
+
+@ 8FC818 words=3
+JP 5P
+
+@ 8FC81E words=3
+JP 6P
+
+@ 8FC824 words=3
+JP 1C
+
+@ 8FC82A words=3
+JP 2C
+
+@ 8FC830 words=3
+JP 3C
+
+@ 8FC836 words=3
+JP 4C
+
+@ 8FC83C words=3
+JP 5C
+
+@ 8FC842 words=3
+JP 6C
+
+@ 8FC848 words=27
+JP {at 64,64}ＧＡＭＥ　ＯＶＥＲ{pos 32,128}次の君の挑戦を待っているぞ…
+EN {at 64,64}GAME OVER{pos 32,128}We await your next challenge...
+
+@ 8FC87E words=16
+JP ●那形、ＳＷＧＰ挑戦権獲得!!
+EN ●Nagata earns SWGP title shot!!
+
+@ 8FC89E words=17
+JP {skip}先シリーズで内海を破り、破竹の{end}
+EN {skip}After beating Utsumi last series,{end}
+
+@ 8FC8C0 words=16
+JP 勢いを見せる那形のＳＷＧＰ初挑{end}
+EN hot Nagata earns his first SWGP{end}
+
+@ 8FC8E0 words=12
+JP 戦（９月）が決定した。
+EN title shot in September.
+
+@ 8FC8F8 words=16
+JP ●Ｌ・ワイバーン来月凱旋帰国!
+EN ●L. Wyvern returns next month!
+
+@ 8FC918 words=17
+JP {skip}昨年からヨーロッパ、カルガリー{end}
+EN {skip}Wyvern, on excursion in Europe{end}
+
+@ 8FC93A words=16
+JP 地区を遠征していたワイバーンが{end}
+EN and Calgary since last year, is{end}
+
+@ 8FC95A words=12
+JP 来月いよいよ帰国する。
+EN finally coming home.
+
+@ 8FC972 words=15
+JP ●来月、練習生のプロテスト!
+EN ●Trainee pro test next month!
+
+@ 8FC990 words=17
+JP {skip}３月に練習生として超日本プロレ{end}
+EN {skip}The trainee who joined SJPW{end}
+
+@ 8FC9B2 words=8
+JP スに入門した、{end}
+EN in March,{end}
+
+@ 8FC9C2 words=6
+JP 『{name1} {name2}』{end}
+EN "{name1} {name2}",{end}
+
+@ 8FC9CE words=16
+JP のプロテストが６月に行われる。
+EN takes the pro test in June.
+
+@ 8FC9EE words=15
+JP ●グッドシェイプ講座　その１
+EN ●Good Shape Class, Part 1
+
+@ 8FCA0C words=12
+JP {skip}身長と体重の関係……{end}
+EN {skip}Height and weight...{end}
+
+@ 8FCA24 words=16
+JP 体重を増やしつつトレーニングを{end}
+EN Train while putting on weight{end}
+
+@ 8FCA44 words=14
+JP 行えば筋力がアップします。
+EN and your power will go up.
+
+@ 8FCA60 words=13
+JP ●新人『{name1}』デビュー!!
+EN ●Rookie "{name1}" debuts!!
+
+@ 8FCA7A words=17
+JP {skip}先月のプロテストを見事合格した{end}
+EN {skip}After acing last month's test,{end}
+
+@ 8FCA9C words=13
+JP 新人レスラー{name1}のデビュー{end}
+EN rookie {name1} debuts{end}
+
+@ 8FCAB6 words=14
+JP 戦が今月、金沢で行われる。
+EN this month in Kanazawa.
+
+@ 8FCAD2 words=15
+JP ●グッドシェイプ講座　その２
+EN ●Good Shape Class, Part 2
+
+@ 8FCAF0 words=17
+JP {skip}体重のＭＡＸは身長によって変化{end}
+EN {skip}Your max weight depends on your{end}
+
+@ 8FCB12 words=16
+JP します。また、体重が増えるとス{end}
+EN height. And don't forget: more{end}
+
+@ 8FCB32 words=16
+JP ピードが落ちることも忘れずに。
+EN weight means less speed.
+
+@ 8FCB52 words=16
+JP ●福永、那形戦　本誌大予想!!
+EN ●Fukunaga vs. Nagata: Our Pick!!
+
+@ 8FCB72 words=17
+JP {skip}編集部では７対３で、福永有利の{end}
+EN {skip}Our editors make Fukunaga a 7-3{end}
+
+@ 8FCB94 words=16
+JP 予想をたてている。自分のペース{end}
+EN favorite. When he sets the pace,{end}
+
+@ 8FCBB4 words=16
+JP で戦う福永は、絶対的に強いぞ。
+EN Fukunaga is all but unbeatable.
+
+@ 8FCBD4 words=18
+JP ●那形、勝つ!!　新王者、誕生!!
+EN ●Nagata wins!! A new champ!!
+
+@ 8FCBF8 words=17
+JP {skip}那形の秘密兵器サイクロンクラッ{end}
+EN {skip}Nagata's secret weapon, the{end}
+
+@ 8FCC1A words=16
+JP チが福永を捕らえた!福永も必死{end}
+EN Cyclone Clutch, caught Fukunaga!{end}
+
+@ 8FCC3A words=17
+JP に耐えるが、ついにギブアップ!!
+EN He hung on, but finally gave up!!
+
+@ 8FCC5C words=14
+JP ●『ヤングタイガー杯』開催
+EN ●Young Tiger Cup announced
+
+@ 8FCC78 words=16
+JP {skip}優勝者は海外武者修行として、{end}
+EN {skip}The winner gets a learning tour{end}
+
+@ 8FCC98 words=16
+JP 半年間アメリカ（ＷＷＫ地区）の{end}
+EN abroad: 6 months on WWK's shows{end}
+
+@ 8FCCB8 words=10
+JP 興行に参加できる。
+EN in America.
+
+@ 8FCCCC words=15
+JP ●グッドシェイプ講座　その３
+EN ●Good Shape Class, Part 3
+
+@ 8FCCEA words=13
+JP {skip}トレーニングと休息……{end}
+EN {skip}Training and rest...{end}
+
+@ 8FCD04 words=16
+JP トレーニングの効果を上げるコツ{end}
+EN The secret to better training{end}
+
+@ 8FCD24 words=15
+JP は適度な休息をとることです。
+EN is getting the right rest.
+
+@ 8FCD42 words=16
+JP ●超日本、格闘技界に進出か!?
+EN ●SJPW into martial arts!?
+
+@ 8FCD62 words=17
+JP {skip}超日本プロレスが、今年９月に格{end}
+EN {skip}SJPW has announced it will hold{end}
+
+@ 8FCD84 words=16
+JP 闘技トーナメントを開催すること{end}
+EN a martial arts tournament this{end}
+
+@ 8FCDA4 words=7
+JP を発表した。
+EN September.
+
+@ 8FCDB2 words=16
+JP ●３月｢星★獲ります｣興行開催
+EN ●March "Star Hunt" show set
+
+@ 8FCDD2 words=17
+JP {skip}｢メインイベンター｣対｢若手｣{end}
+EN {skip}"Main eventers" vs. "young guns"{end}
+
+@ 8FCDF4 words=16
+JP という興味深いカードが組まれた{end}
+EN - that's the intriguing card for{end}
+
+@ 8FCE14 words=11
+JP 大会が来月行われる。
+EN next month's show.
+
+@ 8FCE2A words=15
+JP ●グッドシェイプ講座　その４
+EN ●Good Shape Class, Part 4
+
+@ 8FCE48 words=17
+JP {skip}Ｗ，Ｓ，Ｒに割り振るポイントは{end}
+EN {skip}The points you give W, S and R{end}
+
+@ 8FCE6A words=16
+JP トレーニング量を表します。その{end}
+EN set your training load. More{end}
+
+@ 8FCE8A words=16
+JP 分、体力を消耗するので注意!!
+EN load costs stamina. Careful!!
+
+@ 8FCEAA words=15
+JP ●グッドシェイプ講座　その５
+EN ●Good Shape Class, Part 5
+
+@ 8FCEC8 words=17
+JP {skip}何度も同じ箇所を負傷していると{end}
+EN {skip}Hurt the same spot over and over{end}
+
+@ 8FCEEA words=16
+JP クセになってケガしやすくなりま{end}
+EN and it gets easier to re-injure.{end}
+
+@ 8FCF0A words=16
+JP す。くれぐれも無理は禁物です。
+EN Whatever you do, don't overdo it.
+
+@ 8FCF2A words=16
+JP ●スパーク、王座防衛記録更新中
+EN ●Spark extends defense record
+
+@ 8FCF4A words=17
+JP {skip}ＷＷＫ世界ヘビー級王者スパーク{end}
+EN {skip}WWK world champ Spark Star beat{end}
+
+@ 8FCF6C words=16
+JP が、Ｇ・ゴエモンを破り５０回目{end}
+EN The G. Goemon for his 50th{end}
+
+@ 8FCF8C words=10
+JP の防衛に成功した。
+EN successful title defense.
+
+@ 8FCFA0 words=12
+JP {at 16,30}{wcfb8}●{name1}、凱旋帰国!!
+EN {at 16,30}{wcfb8}●{name1} is back!!
+
+@ 8FCFB8 words=18
+JP {at 16,26}{wcfdc}●ザ・サンダーボルト、凱旋!!
+EN {at 16,26}{wcfdc}●The Thunderbolt is back!!
+
+@ 8FCFDC words=16
+JP {at 16,30}{wcffc}{skip}昨年のＹＴ杯を制した{name1}が{end}
+EN {at 16,30}{wcffc}{skip}YT Cup winner {name1}{end}
+
+@ 8FCFFC words=18
+JP {at 16,26}{wd020}昨年のＹＴ杯を制したサンダーが{end}
+EN {at 16,26}{wd020}YT Cup winner Thunder{end}
+
+@ 8FD020 words=16
+JP 今月凱旋帰国する。アメリカ遠征{end}
+EN returns this month. His U.S. tour{end}
+
+@ 8FD040 words=12
+JP での成長が期待される。
+EN should have made him stronger.
+
+@ 8FD058 words=17
+JP ●村上誠、プロ転向の意志表明!?
+EN ●Makoto Murakami to turn pro!?
+
+@ 8FD07A words=17
+JP {skip}五輪日本代表選手（アマレス）の{end}
+EN {skip}Olympic amateur wrestler Makoto{end}
+
+@ 8FD09C words=16
+JP 村上誠が「大学卒業後、プロでや{end}
+EN Murakami says, "After college, I{end}
+
+@ 8FD0BC words=11
+JP りたい」と発言した。
+EN want to go pro."
+
+@ 8FD0D2 words=17
+JP ●超日主催格闘技戦、来月開催!!
+EN ●SJPW fight tourney next month!!
+
+@ 8FD0F4 words=17
+JP {skip}ダグラス、ビダルスキー、コンコ{end}
+EN {skip}Douglas, Vidalski, Concord and{end}
+
+@ 8FD116 words=16
+JP ルド等、世界の強豪が参加表明。{end}
+EN more world-class fighters are in.{end}
+
+@ 8FD136 words=16
+JP 超日からは、鳴海の出場が有力。
+EN Narumi is SJPW's likely entrant.
+
+@ 8FD156 words=15
+JP ●格闘技戦、予選スタート!!
+EN ●Tourney qualifiers begin!!
+
+@ 8FD174 words=15
+JP {skip}予選Ａリーグ出場選手は……{end}
+EN {skip}Qualifier Block A entrants...{end}
+
+@ 8FD192 words=14
+JP 北方、山上、ビダルスキー、{end}
+EN Kitakata, Yamagami, Vidalski,{end}
+
+@ 8FD1AE words=13
+JP {at 17,30}{wd1c8}超日本プロレスの{name1}。
+EN {at 17,30}{wd1c8}and SJPW's {name1}.
+
+@ 8FD1C8 words=14
+JP {at 17,26}{wd1e4}超日本プロレスの鳴海。
+EN {at 17,26}{wd1e4}and SJPW's Narumi.
+
+@ 8FD1E4 words=16
+JP ●格闘技戦、本戦出場者決定!!
+EN ●Fight tourney final 4 set!!
+
+@ 8FD204 words=16
+JP {skip}ダグラス、椎名、コンコルド、{end}
+EN {skip}Douglas, Shiina, Concord{end}
+
+@ 8FD224 words=11
+JP {at 18,30}{wd24e}{w1e13}{wd23a}超日本の{name1}が{end}
+EN {at 18,30}{wd24e}{w1e13}{wd23a}and SJPW's {name1}{end}
+
+@ 8FD23A words=10
+JP {at 19,26}{wd24e}ビダルスキーが{end}
+EN {at 19,26}{wd24e}and Vidalski{end}
+
+@ 8FD24E words=10
+JP {at 18,26}{wd262}超日本の鳴海が{end}
+EN {at 18,26}{wd262}and SJPW's Narumi{end}
+
+@ 8FD262 words=13
+JP ベスト４進出をはたした。
+EN are in the final four.
+
+@ 8FD27C words=15
+JP ●格闘技戦、優勝者を予想!!
+EN ●Who'll win the fight tourney!?
+
+@ 8FD29A words=17
+JP {skip}やはり本命は、総合格闘技のダグ{end}
+EN {skip}The favorite has to be MMA's{end}
+
+@ 8FD2BC words=16
+JP ラスか？同門で元キックボクサー{end}
+EN Douglas. His stablemate, ex-kick-{end}
+
+@ 8FD2DC words=11
+JP の椎名も有力候補だ。
+EN boxer Shiina, is a top pick too.
+
+@ 8FD2F2 words=15
+JP {at 20,30}{wd310}●格闘技戦、優勝は{name1}!!
+EN {at 20,30}{wd310}●{name1} wins the tourney!!
+
+@ 8FD310 words=18
+JP {at 20,26}{wd334}●格闘技戦、優勝はダグラス!!
+EN {at 20,26}{wd334}●Douglas wins the tourney!!
+
+@ 8FD334 words=15
+JP {at 20,30}{wd38e}{skip}超日本プロレスの{name1}が、{end}
+EN {at 20,30}{wd38e}{skip}SJPW's {name1} beats{end}
+
+@ 8FD352 words=16
+JP 大本命、ダグラスを破り優勝!!{end}
+EN big favorite Douglas to win it!!{end}
+
+@ 8FD372 words=14
+JP プロレスの強さを証明した。
+EN Pro wrestling proved its might.
+
+@ 8FD38E words=18
+JP {at 20,26}{wd3e2}総合格闘技のダグラスが優勝!!{end}
+EN {at 20,26}{wd3e2}MMA fighter Douglas wins it all!!{end}
+
+@ 8FD3B2 words=16
+JP 同門、椎名も健闘。シャークデン{end}
+EN Shiina fought well too - a boost{end}
+
+@ 8FD3D2 words=8
+JP の株を上げた。
+EN for Shark Den.
+
+@ 8FD3E2 words=12
+JP ●椎名、新団体設立!!
+EN ●Shiina's new promotion!!
+
+@ 8FD3FA words=17
+JP {skip}総合格闘技の椎名が、新団体設立{end}
+EN {skip}MMA star Shiina held a press{end}
+
+@ 8FD41C words=10
+JP 記者会見を行った。{end}
+EN conference on his new promotion.{end}
+
+@ 8FD430 words=14
+JP 団体名は「ＲＥＡＬ'Ｓ」。
+EN Its name: "REAL'S".
+
+@ 8FD44C words=16
+JP ●ＲＥＡＬ'Ｓ、旗揚げ興行!!
+EN ●REAL'S debut show!!
+
+@ 8FD46C words=18
+JP {skip}ＲＥＡＬ'Ｓの旗揚げ興行が、来月{end}
+EN {skip}REAL'S holds its first show next{end}
+
+@ 8FD490 words=15
+JP 博多っ子スータレーンで開催。{end}
+EN month at Hakata Starlane.{end}
+
+@ 8FD4AE words=16
+JP チケットは１５分で完売した!!
+EN Tickets sold out in 15 minutes!!
+
+@ 8FD4CE words=15
+JP ●テムジン軒、２号店オープン
+EN ●Temujin-ken opens 2nd shop
+
+@ 8FD4EC words=17
+JP {skip}元超日本のレスラー、テラー・テ{end}
+EN {skip}Ex-SJPW wrestler Terror Temujin{end}
+
+@ 8FD50E words=16
+JP ムジン氏のラーメン屋の２号店が{end}
+EN has opened a 2nd ramen shop,{end}
+
+@ 8FD52E words=10
+JP 池袋にオープン!!
+EN in Ikebukuro!!
+
+@ 8FD542 words=17
+JP ●椎名、ＲＥＡＬ'Ｓ初代王者に!
+EN ●Shiina is first REAL'S champ!
+
+@ 8FD564 words=17
+JP {skip}メインイベントで、椎名がダグラ{end}
+EN {skip}In the main event, Shiina KO'd{end}
+
+@ 8FD586 words=17
+JP スをＫＯで破り、ＲＥＡＬ'Ｓ初代{end}
+EN Douglas to be crowned the first{end}
+
+@ 8FD5A8 words=14
+JP チャンピオンに認定された。
+EN REAL'S champion.
+
+@ 8FD5C4 words=19
+JP {at 21,30}{wd5ea}●超日３選手、ＲＥＡＬ'Ｓへ!!
+EN {at 21,30}{wd5ea}●3 SJPW stars jump to REAL'S!!
+
+@ 8FD5EA words=19
+JP {at 21,26}{wd610}●超日２選手、ＲＥＡＬ'Ｓへ!!
+EN {at 21,26}{wd610}●2 SJPW stars jump to REAL'S!!
+
+@ 8FD610 words=19
+JP {at 21,30}{wd650}{skip}超日本プロレスの、鳴海と番堂、{end}
+EN {at 21,30}{wd650}{skip}SJPW's Narumi, Bando and{end}
+
+@ 8FD636 words=13
+JP {name1}がＲＥＡＬ'Ｓへ移籍。{end}
+EN {name1} move to REAL'S.{end}
+
+@ 8FD650 words=18
+JP {at 21,26}{wd68a}超日本プロレスの、鳴海と番堂が{end}
+EN {at 21,26}{wd68a}SJPW's Narumi and Bando{end}
+
+@ 8FD674 words=11
+JP ＲＥＡＬ'Ｓへ移籍。{end}
+EN move to REAL'S.{end}
+
+@ 8FD68A words=16
+JP 番堂は、スランプ脱出なるか!?
+EN Can Bando escape his slump!?
+
+@ 8FD6AA words=14
+JP ●プロレス番長、空回り!!
+EN ●Bancho Bando flounders!!
+
+@ 8FD6C6 words=18
+JP {skip}ＲＥＡＬ'Ｓに移籍した番堂だが、{end}
+EN {skip}Bando moved to REAL'S, but his{end}
+
+@ 8FD6EA words=16
+JP やはりスタイルが、かみ合わず。{end}
+EN style just doesn't mesh there.{end}
+
+@ 8FD70A words=14
+JP 村上に、屈辱の秒殺負け…。
+EN Murakami beat him in seconds...
+
+@ 8FD726 words=12
+JP ●格闘ファッション講座
+EN ●Fight Fashion Tips
+
+@ 8FD73E words=18
+JP {skip}夏はＲＥＡＬ'Ｓっぽくキメよう!{end}
+EN {skip}This summer, go REAL'S style!{end}
+
+@ 8FD762 words=16
+JP タイツとシューズは、同じ色で。{end}
+EN Match your tights and boots.{end}
+
+@ 8FD782 words=16
+JP スパッツは、つけないのがコツ!
+EN And the trick: no spats!
+
+@ 8FD7A2 words=13
+JP ●番堂よ、何処へ行く!?
+EN ●Where to now, Bando!?
+
+@ 8FD7BC words=18
+JP {skip}番堂の、ＲＥＡＬ'Ｓ退団が発表さ{end}
+EN {skip}Bando has left REAL'S. His{end}
+
+@ 8FD7E0 words=13
+JP れた。今後の活動は未定。{end}
+EN future plans are unknown.{end}
+
+@ 8FD7FA words=11
+JP このまま引退か…!?
+EN Is this retirement...!?
+
+@ 8FD810 words=16
+JP ●打撃攻撃の傾向と対策　その１
+EN ●Beating Strikers, Part 1
+
+@ 8FD830 words=17
+JP {skip}真正面から接近すればカモにされ{end}
+EN {skip}Come straight in and you're easy{end}
+
+@ 8FD852 words=16
+JP ます。軸をずらしながら接近し、{end}
+EN prey. Close in off-angle, then{end}
+
+@ 8FD872 words=16
+JP スキを狙ってグラップルだっ!!
+EN grapple when they slip up!!
+
+@ 8FD892 words=16
+JP ●打撃攻撃の傾向と対策　その２
+EN ●Beating Strikers, Part 2
+
+@ 8FD8B2 words=17
+JP {skip}接近戦において、速射打撃（掌打{end}
+EN {skip}Up close, watch out for rapid{end}
+
+@ 8FD8D4 words=17
+JP など）は要注意!!待ちグラップル{end}
+EN strikes like palm strikes!! Stay{end}
+
+@ 8FD8F6 words=16
+JP で、落ちついて対処しましょう。
+EN calm and wait-grapple to counter.
+
+@ 8FD916 words=13
+JP ●岩井、超日本を円満退団
+EN ●Iwai leaves SJPW amicably
+
+@ 8FD930 words=17
+JP {skip}１５年間にわたり、超日本で戦い{end}
+EN {skip}After 15 years of fighting for{end}
+
+@ 8FD952 words=16
+JP 続けた、闘将バッカス岩井が９月{end}
+EN SJPW, veteran Bacchus Iwai left{end}
+
+@ 8FD972 words=15
+JP の試合を最後に円満退団した。
+EN amicably after his Sept. match.
+
+@ 8FD990 words=13
+JP ●岩井、番堂に決闘状!!
+EN ●Iwai challenges Bando!!
+
+@ 8FD9AA words=16
+JP {skip}「番堂のフヌケ野郎は俺の弟子{end}
+EN {skip}"That gutless Bando shames me{end}
+
+@ 8FD9CA words=16
+JP   として恥ずかしい。俺自らが{end}
+EN as his mentor. It's only right{end}
+
+@ 8FD9EA words=15
+JP 　引導を渡すのが筋だっ!!」
+EN that I finish him myself!!"
+
+@ 8FDA08 words=16
+JP ●岩井、番堂戦はデスマッチ!?
+EN ●Iwai vs. Bando: Death Match!?
+
+@ 8FDA28 words=17
+JP {skip}岩井、番堂の師弟対決は、特殊リ{end}
+EN {skip}The Iwai-Bando master vs. pupil{end}
+
+@ 8FDA4A words=16
+JP ングによるデスマッチであること{end}
+EN clash will be a death match in a{end}
+
+@ 8FDA6A words=11
+JP が、明らかになった。
+EN special ring, it was revealed.
+
+@ 8FDA80 words=16
+JP ●壮絶デスマッチ、岩井勝つ!!
+EN ●Iwai wins brutal death match!!
+
+@ 8FDAA0 words=16
+JP {skip}決闘は師匠の勝利で終わった。{end}
+EN {skip}The master won the duel, but{end}
+
+@ 8FDAC0 words=16
+JP しかし弟子も大健闘。岩井は体を{end}
+EN the pupil fought hard. Iwai gave{end}
+
+@ 8FDAE0 words=14
+JP 張って番堂を復活させた…。
+EN his all to bring Bando back...
+
+@ 8FDAFC words=15
+JP ●番堂、岩井、新団体設立!!
+EN ●Bando, Iwai form new group!!
+
+@ 8FDB1A words=17
+JP {skip}番堂、岩井が新団体ＢＯＭの設立{end}
+EN {skip}Bando and Iwai announced a new{end}
+
+@ 8FDB3C words=16
+JP を発表。しかし参加選手など問題{end}
+EN promotion, BOM. But problems like{end}
+
+@ 8FDB5C words=7
+JP は山積みだ。
+EN the roster are piling up.
+
+@ 8FDB6A words=16
+JP ●番堂、ＢＯＭの初代王者に!!
+EN ●Bando is first BOM champ!!
+
+@ 8FDB8A words=17
+JP {skip}タイトルデスマッチで番堂が、強{end}
+EN {skip}In a title death match, Bando{end}
+
+@ 8FDBAC words=16
+JP 豪ブラッドマンを破り、ＢＯＭの{end}
+EN beat mighty Bloodman to become{end}
+
+@ 8FDBCC words=17
+JP 初代チャンピオンに認定された!!
+EN BOM's first-ever champion!!
+
+@ 8FDBEE words=13
+JP ●椎名、番堂にエール!!
+EN ●Shiina cheers Bando on!!
+
+@ 8FDC08 words=16
+JP {skip}「番堂選手の完全復活を喜んで{end}
+EN {skip}"I'm glad Bando is fully back.{end}
+
+@ 8FDC28 words=15
+JP 　いる。ルールの問題はあるが{end}
+EN The rules differ, but I'd like{end}
+
+@ 8FDC46 words=13
+JP 　交流戦も行ってみたい」
+EN to try an interpromotion bout."
+
+@ 8FDC60 words=18
+JP {at 22,30}{wdc84}●超日、反乱でまっぷたつに!!
+EN {at 22,30}{wdc84}●SJPW torn in two by revolt!!
+
+@ 8FDC84 words=19
+JP {at 22,26}{wdcaa}●ＲＥＡＬ'Ｓ、衛星放送開始!!
+EN {at 22,26}{wdcaa}●REAL'S goes satellite!!
+
+@ 8FDCAA words=18
+JP {at 22,30}{wdd0e}{skip}ベルトへの挑戦権が得られない{end}
+EN {at 22,30}{wdd0e}{skip}Denied a shot at the belt,{end}
+
+@ 8FDCCE words=16
+JP ワイバーンが反乱を起こした!!{end}
+EN Wyvern has started a revolt!!{end}
+
+@ 8FDCEE words=16
+JP 超日は正規軍と反乱軍に分裂!!
+EN SJPW: Loyalists vs. rebels!!
+
+@ 8FDD0E words=19
+JP {at 22,26}{wdd66}ＲＥＡＬ'Ｓの試合が、民営衛星放{end}
+EN {at 22,26}{wdd66}REAL'S matches will be shown{end}
+
+@ 8FDD34 words=16
+JP 送ＢＯＷＢＯＷで、全国放送され{end}
+EN nationwide on satellite channel{end}
+
+@ 8FDD54 words=9
+JP ることになった。
+EN BOWBOW.
+
+@ 8FDD66 words=17
+JP ●デスマッチ、一言アドバイス!!
+EN ●Death match quick tip!!
+
+@ 8FDD88 words=17
+JP {skip}デスマッチではロープに振られて{end}
+EN {skip}In death matches, you can stop{end}
+
+@ 8FDDAA words=16
+JP も、自分で停止できるぞ。接近し{end}
+EN after an Irish whip. But if you're{end}
+
+@ 8FDDCA words=15
+JP すぎていると間に合わないが。
+EN too close, you can't stop in time.
+
+@ 8FDDE8 words=16
+JP ●戦闘不能状態をどう活かすか？
+EN ●Exploiting a stunned foe
+
+@ 8FDE08 words=17
+JP {skip}頭上のダメージマーク表示中は、{end}
+EN {skip}While the damage mark is shown,{end}
+
+@ 8FDE2A words=16
+JP 行動不能だけでなく、ガード力が{end}
+EN he can't move, and his guard{end}
+
+@ 8FDE4A words=17
+JP 低下する。大技も決まりやすい!!
+EN drops too. Big moves hit easily!!
+
+@ 8FDE6C words=15
+JP ●３団体、移籍自由化に合意。
+EN ●3 groups agree: free transfers
+
+@ 8FDE8A words=17
+JP {skip}日本プロレス３団体は、選手の移{end}
+EN {skip}Japan's 3 promotions agreed to{end}
+
+@ 8FDEAC words=16
+JP 籍に対し、本人の意志を尊重する{end}
+EN respect wrestlers' own wishes{end}
+
+@ 8FDECC words=9
+JP 姿勢で合意した。
+EN on transfers.
+
+@ 8FDEDE words=16
+JP ●スパロー白石、意外な特技!?
+EN ●Shiraishi's surprise skill!?
+
+@ 8FDEFE words=17
+JP {skip}白石選手の趣味は料理。若手時代{end}
+EN {skip}Shiraishi's hobby is cooking. As{end}
+
+@ 8FDF20 words=16
+JP 彼が作ったキムチチャンコは選手{end}
+EN a rookie, his kimchi chanko was{end}
+
+@ 8FDF40 words=15
+JP たちに好評だった、とのこと。
+EN a big hit with the other guys.
+
+@ 8FDF5E words=15
+JP ●バッカス岩井、引退試合!!
+EN ●Bacchus Iwai to retire!!
+
+@ 8FDF7C words=17
+JP {skip}岩井が、２０年のレスラー生活に{end}
+EN {skip}Iwai will end his 20-year{end}
+
+@ 8FDF9E words=14
+JP 終止符をうつことになった。{end}
+EN wrestling career.{end}
+
+@ 8FDFBA words=13
+JP 相手は、番堂か{name1}が有力。
+EN His foe: likely Bando or {name1}.
+
+@ 8FDFD4 words=16
+JP ●日本プロレス界、大ピンチ!!
+EN ●Japanese wrestling in crisis!!
+
+@ 8FDFF4 words=17
+JP {skip}ＷＷＫ会長は、来年のマーケット{end}
+EN {skip}The WWK chairman announced it{end}
+
+@ 8FE016 words=16
+JP を、日本に絞ることを発表した。{end}
+EN will focus on Japan next year.{end}
+
+@ 8FE036 words=13
+JP 世界市場の独占が狙いか？
+EN Is world domination the goal?
+
+@ 8FE050 words=10
+JP ●プロレス技特集１
+EN ●Move File 1
+
+@ 8FE064 words=25
+JP {skip}『ｽﾌﾟﾗｯｼｭﾏｳﾝﾃﾝ,垂直落下式DDT』{end}
+EN {skip}"Splash Mountain, Spike DDT"{end}
+
+@ 8FE096 words=16
+JP これらは現プロレス界においての{end}
+EN These are the 2 deadliest moves{end}
+
+@ 8FE0B6 words=10
+JP ２大強力技である。
+EN in wrestling today.
+
+@ 8FE0CA words=10
+JP ●プロレス技特集２
+EN ●Move File 2
+
+@ 8FE0DE words=9
+JP {skip}『咽輪落とし』{end}
+EN {skip}"Chokeslam"{end}
+
+@ 8FE0F0 words=16
+JP この技がもっともかけにくい技と{end}
+EN It's said to be the hardest move{end}
+
+@ 8FE110 words=7
+JP されている。
+EN to pull off.
+
+@ 8FE11E words=10
+JP ●プロレス技特集３
+EN ●Move File 3
+
+@ 8FE132 words=12
+JP {skip}『ﾋｰﾙﾎｰﾙﾄﾞ』{end}
+EN {skip}"Heel Hold"{end}
+
+@ 8FE14A words=16
+JP この技は、対戦相手の足を骨折に{end}
+EN This move can easily leave the{end}
+
+@ 8FE16A words=13
+JP 追い込みやすい技である。
+EN opponent with a broken leg.
+
+@ 8FE184 words=10
+JP ●プロレス技特集４
+EN ●Move File 4
+
+@ 8FE198 words=14
+JP {skip}『金的ｽﾄﾝﾋﾟﾝｸﾞ』{end}
+EN {skip}"Low Blow Stomp"{end}
+
+@ 8FE1B4 words=16
+JP この技は、反則であるがもっとも{end}
+EN It's a foul, but no move dazes{end}
+
+@ 8FE1D4 words=13
+JP 錯乱させやすい技である。
+EN a foe more easily.
+
+@ 8FE1EE words=10
+JP ●プロレス技特集５
+EN ●Move File 5
+
+@ 8FE202 words=11
+JP {skip}『ｱｲｱﾝｸﾛｰ』{end}
+EN {skip}"Iron Claw"{end}
+
+@ 8FE218 words=16
+JP この技は、もっとも流血しやすく{end}
+EN This move draws blood the most{end}
+
+@ 8FE238 words=10
+JP 注意が必要である。
+EN easily. Use with care.
+
+@ 8FE24C words=10
+JP ●興行関係者の嘆き
+EN ●A promoter sighs
+
+@ 8FE260 words=17
+JP {skip}「確かに移籍は自由だが、チャン{end}
+EN {skip}"Sure, transfers are free, but{end}
+
+@ 8FE282 words=16
+JP ピオンはたまには団体に戻ってタ{end}
+EN champs should come home now and{end}
+
+@ 8FE2A2 words=13
+JP イトル戦を行って欲しい」
+EN then to defend their titles."
+
+@ 8FE2BC words=13
+JP ●マーキュリーの正体は？
+EN ●Who is Mercury?
+
+@ 8FE2D6 words=17
+JP {skip}ＷＷＫは彼の経歴について、一切{end}
+EN {skip}WWK has revealed nothing about{end}
+
+@ 8FE2F8 words=16
+JP 情報公開を行っていない。まさに{end}
+EN his background. He is a true{end}
+
+@ 8FE318 words=11
+JP 謎に包まれた強豪だ。
+EN powerhouse shrouded in mystery.
+
+@ 8FE32E words=15
+JP ●鷹井、プエルトリコ新団体へ
+EN ●Takai to new Puerto Rico group
+
+@ 8FE34C words=17
+JP {skip}プエルトリコの新団体が、超日の{end}
+EN {skip}A new Puerto Rican promotion has{end}
+
+@ 8FE36E words=16
+JP 鷹井選手を初代王者に認定。鷹井{end}
+EN made SJPW's Takai its 1st champ.{end}
+
+@ 8FE38E words=15
+JP 選手は来年から同団体に参戦。
+EN He joins them next year.
+
+@ 8FE3AC words=14
+JP ●「凰烈火」のリングネーム
+EN ●The ring name "Otori Rekka"
+
+@ 8FE3C8 words=17
+JP {skip}「凰烈火」と言うリングネームは{end}
+EN {skip}The ring name "Otori Rekka" was{end}
+
+@ 8FE3EA words=16
+JP 超日本の前エースが使っていた、{end}
+EN used by SJPW's former ace. It's a{end}
+
+@ 8FE40A words=11
+JP 由緒ある名前である。
+EN name steeped in history.
+
+@ 8FE420 words=16
+JP ●新田、練習生を語る（その１）
+EN ●Nitta on trainees (Part 1)
+
+@ 8FE440 words=17
+JP {skip}「スポーツ経験者は能力に非常に{end}
+EN {skip}"Those with a sports background{end}
+
+@ 8FE462 words=16
+JP 優れている部分もある。しかし、{end}
+EN excel in some areas, but they're{end}
+
+@ 8FE482 words=15
+JP 劣る部分もあわせ持っている」
+EN weaker in others, too."
+
+@ 8FE4A0 words=16
+JP ●新田、練習生を語る（その２）
+EN ●Nitta on trainees (Part 2)
+
+@ 8FE4C0 words=17
+JP {skip}「スポーツ未経験者は特に突出し{end}
+EN {skip}"Those without one don't stand{end}
+
+@ 8FE4E2 words=16
+JP た所はないが、劣る所もなく平均{end}
+EN out, but have no weak spots.{end}
+
+@ 8FE502 words=12
+JP 的に高い能力といえる」
+EN They're solid all round."
+
+@ 8FE51A words=16
+JP ●新田、練習生を語る（その３）
+EN ●Nitta on trainees (Part 3)
+
+@ 8FE53A words=17
+JP {skip}「経験者、未経験者どちらが有利{end}
+EN {skip}"Neither one has the edge. It{end}
+
+@ 8FE55C words=16
+JP とは言えない。要は道場での稽古{end}
+EN all comes down to training in{end}
+
+@ 8FE57C words=8
+JP 次第だっ!!」
+EN the dojo!!"
+
+@ 8FE58C words=10
+JP ●シルバー氏の証言
+EN ●Silver speaks
+
+@ 8FE5A0 words=17
+JP {skip}「マーキュリーのスタイルは会長{end}
+EN {skip}"Mercury's style is a lot like{end}
+
+@ 8FE5C2 words=16
+JP の全盛期と、よく似ている。あれ{end}
+EN the chairman's in his prime. Never{end}
+
+@ 8FE5E2 words=15
+JP 程強い新人は見たことがない」
+EN seen a rookie that strong."
+
+@ 8FE600 words=13
+JP ●{name1}、レスラー人生５周年
+EN ●5 years for {name1}
+
+@ 8FE61A words=14
+JP {skip}９６年に超日本に入門した{end}
+EN {skip}Having joined SJPW in 1996,{end}
+
+@ 8FE636 words=10
+JP {name1}選手が、もうすぐ{end}
+EN {name1} will soon mark{end}
+
+@ 8FE64A words=16
+JP レスラー生活、５周年を迎える。
+EN 5 years as a wrestler.
+
+@ 8FE66A words=17
+JP ●ＷＷＫの野望、阻止なるか…!?
+EN ●Can WWK's ambition be stopped!?
+
+@ 8FE68C words=17
+JP {skip}全世界タイトル統一プランの発表{end}
+EN {skip}About a year has passed since{end}
+
+@ 8FE6AE words=16
+JP から、約１年。果たして４大タイ{end}
+EN the world title unification plan.{end}
+
+@ 8FE6CE words=8
+JP トルの行方は？
+EN Who will hold the 4 belts?
+
+@ 8FE6DE words=17
+JP {skip}アメリカに到着した君は早速、推{end}
+EN {skip}Arriving in America, you went{end}
+
+@ 8FE700 words=16
+JP 薦状を持ってＷＷＫのオフィスを{end}
+EN straight to the WWK office with{end}
+
+@ 8FE720 words=5
+JP 訪れた。{end}
+EN your letter of recommendation.{end}
+
+@ 8FE72A words=17
+JP {skip}{c1f}【ジークフリートＷＷＫ会長】{end}
+EN {skip}{c1f}[WWK Chairman Siegfried]{end}
+
+@ 8FE74C words=16
+JP 日本から来たヤングボーイとは君{end}
+EN So you're the young boy from{end}
+
+@ 8FE76C words=13
+JP かね？話は聞いているよ。{end}
+EN Japan? I've heard all about you.{end}
+
+@ 8FE786 words=17
+JP {skip}君にはＷＷＫのＴＶテーピングで{end}
+EN {skip}You'll wrestle in matches at{end}
+
+@ 8FE7A8 words=11
+JP 試合をしてもらおう。{end}
+EN WWK's TV tapings.{end}
+
+@ 8FE7BE words=17
+JP {skip}短い間だが、本場アメリカンレス{end}
+EN {skip}It's a short stay, but go home{end}
+
+@ 8FE7E0 words=14
+JP リングを学んで帰りたまえ。{end}
+EN knowing real American wrestling.{end}
+
+@ 8FE7FC words=13
+JP {skip}…そうそう、君に専属の{end}
+EN {skip}...Oh yes, I'll assign you{end}
+
+@ 8FE816 words=13
+JP マネージャーをつけよう。{end}
+EN a personal manager.{end}
+
+@ 8FE830 words=15
+JP {skip}{c20}【ミス・マドレーヌ】と、{end}
+EN {skip}{c20}[Miss Madeleine] and...{end}
+
+@ 8FE84E words=13
+JP {skip}{c21}【ドン・シルバー】。{end}
+EN {skip}{c21}[Don Silver].{end}
+
+@ 8FE868 words=18
+JP {skip}{c1f}２人ともいずれ劣らぬ腕利きだ。{end}
+EN {skip}{c1f}Both are as skilled as they come.{end}
+
+@ 8FE88C words=16
+JP {skip}君の好きな方を指名したまえ。{end}
+EN {skip}Pick whichever one you like.{end}
+
+@ 8FE8AC words=10
+JP 　ミス・マドレーヌ{end}
+EN   Miss Madeleine{end}
+
+@ 8FE8C0 words=24
+JP 　ドン・シルバー{c0e}{w1e00}{we97a}{skip}{c2a}{c21}【ドン・シルバー】{end}
+EN   Don Silver{c0e}{w1e00}{we97a}{skip}{c2a}{c21}[Don Silver]{end}
+
+@ 8FE8F0 words=16
+JP 小僧、ビッグになりたければ俺の{end}
+EN Kid, if you wanna make it big,{end}
+
+@ 8FE910 words=10
+JP 言う事を聞くんだ。{end}
+EN you do what I say.{end}
+
+@ 8FE924 words=17
+JP {skip}俺は何人ものトップレスラーを育{end}
+EN {skip}I'm a veteran. I've made plenty{end}
+
+@ 8FE946 words=16
+JP ててきたベテランだ。大船に乗っ{end}
+EN of top wrestlers. You're in good{end}
+
+@ 8FE966 words=10
+JP た気でいていいぜ。
+EN hands, believe me.
+
+@ 8FE97A words=15
+JP {at 0,26}{wea4c}{c2a}{c20}【ミス・マドレーヌ】{end}
+EN {at 0,26}{wea4c}{c2a}{c20}[Miss Madeleine]{end}
+
+@ 8FE998 words=16
+JP ボウヤ、これから帰国するまで、{end}
+EN Boy, until you go home,{end}
+
+@ 8FE9B8 words=14
+JP 私の言う事をお聞きなさい。{end}
+EN you'll do as I say.{end}
+
+@ 8FE9D4 words=16
+JP {skip}私はマリー・マドレーヌ……。{end}
+EN {skip}I am Marie Madeleine...{end}
+
+@ 8FE9F4 words=16
+JP 超一流の「美人」マネージャー。{end}
+EN the finest "beautiful" manager.{end}
+
+@ 8FEA14 words=17
+JP {skip}いい子にしてればスーパースター{end}
+EN {skip}Be a good boy and I'll make{end}
+
+@ 8FEA36 words=11
+JP にしてあげてよっ!!
+EN you a superstar!!
+
+@ 8FEA4C words=15
+JP {at 1,30}{weaa2}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{weaa2}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FEA6A words=16
+JP とにかくウエートトレーニングを{end}
+EN Above all, do weight training{end}
+
+@ 8FEA8A words=12
+JP しこたま、おやりっ!!
+EN till you drop!!
+
+@ 8FEAA2 words=13
+JP {at 1,26}{weaec}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{weaec}{c20}[Don Silver]{end}
+
+@ 8FEABC words=16
+JP トレーニングなんざ適当にやって{end}
+EN Training? Just go through the{end}
+
+@ 8FEADC words=8
+JP りゃいいんだ。
+EN motions.
+
+@ 8FEAEC words=15
+JP {at 1,30}{web46}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{web46}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FEB0A words=17
+JP いいことっ!!フォームの美しい、{end}
+EN Listen!! Polish your high-flying{end}
+
+@ 8FEB2C words=13
+JP 飛び技を磨きなさいっ!!
+EN moves into things of beauty!!
+
+@ 8FEB46 words=13
+JP {at 1,26}{web9a}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{web9a}{c20}[Don Silver]{end}
+
+@ 8FEB60 words=16
+JP 相手が、来たら殴る。ひるんだら{end}
+EN He comes at you, punch. He{end}
+
+@ 8FEB80 words=13
+JP 蹴る。それが基本だっ!!
+EN flinches, kick. Basics!!
+
+@ 8FEB9A words=15
+JP {at 1,30}{wec3c}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{wec3c}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FEBB8 words=16
+JP 今時、そんなコスチュームは流行{end}
+EN Nobody wears a costume like{end}
+
+@ 8FEBD8 words=7
+JP らないわね。{end}
+EN that these days.{end}
+
+@ 8FEBE6 words=17
+JP {skip}ギラギラで、ハデハデなカラーに{end}
+EN {skip}Make it flashy and glittery,{end}
+
+@ 8FEC08 words=16
+JP 変えて、キザでセクシーな色男を{end}
+EN and play a slick, sexy{end}
+
+@ 8FEC28 words=10
+JP 演出するのよっ!!
+EN ladies' man!!
+
+@ 8FEC3C words=13
+JP {at 1,26}{wecda}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{wecda}{c20}[Don Silver]{end}
+
+@ 8FEC56 words=16
+JP いいか、グラウンド技術なんぞ覚{end}
+EN Listen, you don't need to learn{end}
+
+@ 8FEC76 words=12
+JP える必要はないからな。{end}
+EN any mat wrestling.{end}
+
+@ 8FEC8E words=17
+JP {skip}殴る、蹴る、急所攻撃、首を絞め{end}
+EN {skip}Punch, kick, hit low, choke{end}
+
+@ 8FECB0 words=16
+JP る…。覚えることは、それで十分{end}
+EN 'em... That's all you need to{end}
+
+@ 8FECD0 words=5
+JP だっ!!
+EN know!!
+
+@ 8FECDA words=15
+JP {at 1,30}{wed58}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{wed58}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FECF8 words=5
+JP ボウヤ、{end}
+EN Boy,{end}
+
+@ 8FED02 words=15
+JP ここは日本じゃないのよっ!!{end}
+EN this isn't Japan!!{end}
+
+@ 8FED20 words=17
+JP {skip}もっと、リングの広さを利用して{end}
+EN {skip}Use the whole ring and move{end}
+
+@ 8FED42 words=11
+JP 動き回りなさいっ!!
+EN around more!!
+
+@ 8FED58 words=14
+JP {at 1,26}{wee00}{skip}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{wee00}{skip}{c20}[Don Silver]{end}
+
+@ 8FED74 words=4
+JP 小僧、{end}
+EN Kid,{end}
+
+@ 8FED7C words=17
+JP 何でもっとパンチを使わねえっ!!{end}
+EN why ain't you punchin' more!?{end}
+
+@ 8FED9E words=17
+JP {skip}ここじゃ日本人ってだけでヒール{end}
+EN {skip}Here, being Japanese makes you{end}
+
+@ 8FEDC0 words=16
+JP なんだ。そいつを利用してもっと{end}
+EN a heel. So use it, and fight{end}
+
+@ 8FEDE0 words=16
+JP ダーティなファイトをやれっ!!
+EN even dirtier!!
+
+@ 8FEE00 words=15
+JP {skip}{c1f}【リヒター・ベルモンド】{end}
+EN {skip}{c1f}[Richter Belmondo]{end}
+
+@ 8FEE1E words=16
+JP 君は確か、超日本からきたボーイ{end}
+EN You're the boy from Super Japan,{end}
+
+@ 8FEE3E words=14
+JP だね。サンダーは元気かい？{end}
+EN right? How's Thunder doing?{end}
+
+@ 8FEE5A words=17
+JP {skip}僕がカルガリーでサーキットして{end}
+EN {skip}Back when I worked the Calgary{end}
+
+@ 8FEE7C words=16
+JP いた頃、サンダーのコーチをした{end}
+EN circuit, I did some coaching{end}
+
+@ 8FEE9C words=9
+JP ことがあるのさ。{end}
+EN for Thunder.{end}
+
+@ 8FEEAE words=17
+JP {skip}彼に超日本の道場を紹介したのも{end}
+EN {skip}I'm the one who sent him to the{end}
+
+@ 8FEED0 words=16
+JP 僕なんだ。あのトレーニングシス{end}
+EN SJPW dojo, too. Their training's{end}
+
+@ 8FEEF0 words=14
+JP テムは、荒っぽいが優秀だ。{end}
+EN rough, but it works.{end}
+
+@ 8FEF0C words=17
+JP {skip}君も相当、シゴかれているようだ{end}
+EN {skip}They've worked you hard, I see.{end}
+
+@ 8FEF2E words=13
+JP ね。試合を見れば判るよ。
+EN It shows when you wrestle.
+
+@ 8FEF48 words=15
+JP {at 1,30}{weff2}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{weff2}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FEF66 words=16
+JP ファンに対して、サービスが足り{end}
+EN You're not giving the fans{end}
+
+@ 8FEF86 words=8
+JP ないのよっ!!{end}
+EN enough of a show!!{end}
+
+@ 8FEF96 words=17
+JP {skip}会場をご覧なさい。大勢の観客が{end}
+EN {skip}Look around the arena. Never{end}
+
+@ 8FEFB8 words=16
+JP ボウヤを見つめていることを、常{end}
+EN forget that a big crowd is{end}
+
+@ 8FEFD8 words=13
+JP に意識するの。わかった？
+EN watching you, boy. Got it?
+
+@ 8FEFF2 words=14
+JP {at 1,26}{wf0a2}{skip}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{wf0a2}{skip}{c20}[Don Silver]{end}
+
+@ 8FF00E words=16
+JP 寝っ転がって、客に見えねえこと{end}
+EN What's the use of rolling around{end}
+
+@ 8FF02E words=11
+JP やってどうするっ!!{end}
+EN where the crowd can't see?!!{end}
+
+@ 8FF044 words=17
+JP {skip}観客は金を払って試合を見に来て{end}
+EN {skip}The fans pay good money to see{end}
+
+@ 8FF066 words=16
+JP いるんだ。プロはな、客に見せて{end}
+EN a match. A pro's job is to give{end}
+
+@ 8FF086 words=14
+JP ナンボのもんなんだぞっ!!
+EN 'em a show, got it?!!
+
+@ 8FF0A2 words=13
+JP {skip}{c1f}【スパーク・スター】{end}
+EN {skip}{c1f}[Spark Star]{end}
+
+@ 8FF0BC words=16
+JP アメリカと日本のスタイルの違い{end}
+EN The gap between American and{end}
+
+@ 8FF0DC words=15
+JP に、とまどっているようだな。{end}
+EN Japanese styles has you lost.{end}
+
+@ 8FF0FA words=17
+JP {skip}今の君にとって大事なことは、夢{end}
+EN {skip}What matters most for you now{end}
+
+@ 8FF11C words=11
+JP を見失わないことだ。{end}
+EN is keeping your dream in sight.{end}
+
+@ 8FF132 words=17
+JP {skip}異国の地では、自分を見失いパニ{end}
+EN {skip}In a foreign land, it's easy to{end}
+
+@ 8FF154 words=10
+JP ックに陥りがちだ。{end}
+EN lose yourself and panic.{end}
+
+@ 8FF168 words=17
+JP {skip}そんなときこそ、夢を思い出せ。{end}
+EN {skip}That's when to recall your dream.{end}
+
+@ 8FF18A words=16
+JP 必ず正しい道へ導いてくれる…。{end}
+EN It will always guide you true...{end}
+
+@ 8FF1AA words=17
+JP {skip}ふふっ、これは私が初めて日本へ{end}
+EN {skip}Heh. A Japanese wrestler taught{end}
+
+@ 8FF1CC words=16
+JP 行った時、ある日本人レスラーに{end}
+EN me that when I first went to{end}
+
+@ 8FF1EC words=10
+JP 教えられたことだ。
+EN Japan.
+
+@ 8FF200 words=17
+JP {skip}遠征最後の試合を終えた君は、空{end}
+EN {skip}The tour over, you wait at the{end}
+
+@ 8FF222 words=16
+JP 港で日本行きの便を待っている。{end}
+EN airport for your flight to Japan.{end}
+
+@ 8FF242 words=15
+JP {at 1,30}{wf2fe}{skip}{c1f}【ミス・マドレーヌ】{end}
+EN {at 1,30}{wf2fe}{skip}{c1f}[Miss Madeleine]{end}
+
+@ 8FF260 words=16
+JP ボウヤ、トップを取りたければ二{end}
+EN If you want the top spot, boy,{end}
+
+@ 8FF280 words=9
+JP の線でいなさい。{end}
+EN be the handsome hero.{end}
+
+@ 8FF292 words=17
+JP {skip}そして本当の色男は、強さも兼ね{end}
+EN {skip}And a true ladies' man is{end}
+
+@ 8FF2B4 words=11
+JP 備えているものよ…。{end}
+EN strong, too...{end}
+
+@ 8FF2CA words=17
+JP {skip}じゃあね。日本での活躍を楽しみ{end}
+EN {skip}Bye now. I'll be watching how{end}
+
+@ 8FF2EC words=9
+JP にしているわ。{c2a}
+EN you do in Japan.{c2a}
+
+@ 8FF2FE words=14
+JP {at 1,26}{wf3c0}{skip}{c20}【ドン・シルバー】{end}
+EN {at 1,26}{wf3c0}{skip}{c20}[Don Silver]{end}
+
+@ 8FF31A words=16
+JP 俺が現役だった頃は、目の肥えた{end}
+EN In my day, plenty of fans had{end}
+
+@ 8FF33A words=9
+JP 客も大勢いた…。{end}
+EN an eye for wrestling...{end}
+
+@ 8FF34C words=17
+JP {skip}しかし、レスリングの技術が必要{end}
+EN {skip}But the days when you needed{end}
+
+@ 8FF36E words=11
+JP だったのは昔の話だ。{end}
+EN real wrestling skill are gone.{end}
+
+@ 8FF384 words=17
+JP {skip}生き延びたければ、俺の教えたこ{end}
+EN {skip}If you want to survive, don't{end}
+
+@ 8FF3A6 words=13
+JP とを忘れるなよ、小僧。{c2a}
+EN forget what I taught you, kid.{c2a}
+
+@ 8FF3C0 words=3
+JP {at 60,35}{c13}
+EN {at 60,35}{c13}
+
+@ 8FF3C6 words=3
+JP {at 108,35}{c13}
+EN {at 108,35}{c13}
+
+@ 8FF3CC words=8
+JP 体力が回復!!
+EN Stamina up!!
+
+@ 8FF3DC words=9
+JP 体力を消耗した…
+EN Stamina sapped...
+
+@ 8FF3EE words=8
+JP 筋力が回復!!
+EN Strength up!!
+
+@ 8FF3FE words=9
+JP 筋力を消耗した…
+EN Strength sapped...
+
+@ 8FF410 words=9
+JP 耐久力が回復!!
+EN Endurance up!!
+
+@ 8FF422 words=10
+JP 耐久力を消耗した…
+EN Endurance sapped...
+
+@ 8FF436 words=10
+JP ガード力が回復!!
+EN Guard up!!
+
+@ 8FF44A words=11
+JP ガード力を消耗した…
+EN Guard sapped...
+
+@ 8FF460 words=12
+JP 打ポイントがアップ!!
+EN Strike Pts up!!
+
+@ 8FF478 words=11
+JP 打ポイントがダウン…
+EN Strike Pts down...
+
+@ 8FF48E words=12
+JP 投ポイントがアップ!!
+EN Throw Pts up!!
+
+@ 8FF4A6 words=11
+JP 投ポイントがダウン…
+EN Throw Pts down...
+
+@ 8FF4BC words=12
+JP 極ポイントがアップ!!
+EN Submit Pts up!!
+
+@ 8FF4D4 words=11
+JP 極ポイントがダウン…
+EN Submit Pts down...
+
+@ 8FF4EA words=9
+JP {at 90,34}本　名　{name1} {name2}
+EN {at 92,35}Name{x 44}{name1} {name2}
+
+@ 8FF4FC words=8
+JP {at 90,50}年　齢　{c13}歳
+EN {at 92,51}Age{x 44}{c13}
+
+@ 8FF50C words=17
+JP {at 90,66}誕生日　1977年 {c13}月 {c14}日
+EN {at 92,67}Born{x 44}{c13}/{c14}/1977
+
+@ 8FF52E words=17
+JP {at 90,66}誕生日　1978年 {c13}月 {c14}日
+EN {at 92,67}Born{x 44}{c13}/{c14}/1978
+
+@ 8FF550 words=11
+JP {at 24,98}キャリア　　{c17} 年
+EN {at 12,99}Career{x 84}{c17} yrs
+
+@ 8FF566 words=10
+JP {at 12,114}スポーツ経験　{c1e}
+EN {at 12,115}Sport{x 84}{c1e}
+
+@ 8FF57A words=11
+JP {at 12,130}ニックネーム　なし
+EN {at 12,131}Nickname{x 84}None
+
+@ 8FF596 words=6
+JP {at 24,146}負傷箇所
+EN {at 12,147}Injury
+
+@ 8FF5A2 words=11
+JP {at 12,162}タイトル記録　なし
+EN {at 12,163}Titles{x 84}None
+
+@ 8FF5B8 words=5
+JP SWGP
+
+@ 8FF5C2 words=5
+JP WWK 
+
+@ 8FF5CC words=5
+JP BOM 
+
+@ 8FF5D6 words=7
+JP REAL'S
+
+@ 8FF5E4 words=4
+JP {at 96,146}なし
+EN {at 96,147}None
+
+@ 8FF5EC words=7
+JP {at 96,146}脚部 靱帯
+EN {at 96,147}Leg ligament
+
+@ 8FF5FA words=7
+JP {at 96,146}腕部 靱帯
+EN {at 96,147}Arm ligament
+
+@ 8FF608 words=9
+JP {at 96,146}腕部 靱帯 他
+EN {at 96,147}Arm lig. etc.
+
+@ 8FF61A words=8
+JP {at 96,146}腰部 椎間板
+EN {at 96,147}Spinal disc
+
+@ 8FF62A words=10
+JP {at 96,146}腰部 椎間板 他
+EN {at 96,147}Spinal disc etc.
+
+@ 8FF63E words=7
+JP {at 96,146}頸部 捻挫
+EN {at 96,146}Neck sprain
+
+@ 8FF64C words=9
+JP {at 96,146}頸部 捻挫 他
+EN {at 96,146}Neck sprain etc.
+
+@ 8FF65E words=7
+JP {at 96,146}脚部 骨折
+EN {at 96,146}Broken leg
+
+@ 8FF66C words=7
+JP {at 96,146}腕部 骨折
+EN {at 96,146}Broken arm
+
+@ 8FF67A words=9
+JP {at 96,146}腕部 骨折 他
+EN {at 96,146}Broken arm etc.
+
+@ 8FF68C words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF698 words=17
+JP 俺の負けだ。優勝おめでとうっ!!{end}
+EN I'm beaten. Congrats on the win!!{end}
+
+@ 8FF6BA words=14
+JP 君の優勝を祝福するよっ!!
+EN You earned that title!!
+
+@ 8FF6D6 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF6E2 words=15
+JP 今日は俺の勝ちだが、どちらが{end}
+EN I won today, but either of us{end}
+
+@ 8FF700 words=16
+JP 優勝してもおかしくなかった…。
+EN could have taken it all...
+
+@ 8FF720 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF72C words=16
+JP こんなにあっさり負けてしまって{end}
+EN Beaten that easily... Some{end}
+
+@ 8FF74C words=16
+JP は、先輩の面目丸つぶれだな…。
+EN senior I turned out to be...
+
+@ 8FF76C words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF778 words=16
+JP 優勝はともかく、後輩に負けるわ{end}
+EN Title or no title, I can't lose{end}
+
+@ 8FF798 words=12
+JP けにはいかないんだよ。
+EN to my junior.
+
+@ 8FF7B0 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF7BC words=16
+JP ハードファイトの連続だった…。{end}
+EN Hard fight after hard fight...{end}
+
+@ 8FF7DC words=16
+JP その分、うれしい優勝だよっ!!
+EN That makes this win sweeter!!
+
+@ 8FF7FC words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF808 words=17
+JP おお、さすがプロレスラーじゃ!!{end}
+EN Whoa, now that's a pro wrestler!!{end}
+
+@ 8FF82A words=14
+JP ぶっとい腕をしちゅうっ!!{end}
+EN Look at them thick arms!!{end}
+
+@ 8FF846 words=17
+JP {skip}スマン、スマン。レスラーと戦う{end}
+EN {skip}Sorry, sorry! First time fightin'{end}
+
+@ 8FF868 words=16
+JP のは初めてじゃき、ついハシャい{end}
+EN a wrestler, so I got a little{end}
+
+@ 8FF888 words=17
+JP でしもうたぜよっ。かっかっか!!
+EN carried away. Har har har!!
+
+@ 8FF8AA words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF8B6 words=17
+JP 椎名を倒したというのは、君か!?{end}
+EN You're the one who beat Shiina!?{end}
+
+@ 8FF8D8 words=12
+JP まだ、若く見えるが…。{end}
+EN You look so young...{end}
+
+@ 8FF8F0 words=8
+JP {skip}いや、失礼。{end}
+EN {skip}Forgive me.{end}
+
+@ 8FF900 words=16
+JP 椎名を倒した男となれば、全力を{end}
+EN A man who beat Shiina deserves{end}
+
+@ 8FF920 words=17
+JP もって、のぞまねばなるまいっ!!
+EN everything I've got!!
+
+@ 8FF942 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF94E words=16
+JP 俺はキックボクサーなんだ。寝技{end}
+EN I'm a kickboxer. On the mat, I{end}
+
+@ 8FF96E words=15
+JP じゃ、手も足もでやしねえ…。
+EN can't do a damn thing...
+
+@ 8FF98C words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF998 words=16
+JP 打撃技に対応できない限り、何度{end}
+EN Till I can handle strikes, I'll{end}
+
+@ 8FF9B8 words=16
+JP 戦っても、私は負けるだろう…。
+EN lose every time we fight...
+
+@ 8FF9D8 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FF9E4 words=17
+JP 俺の負けじゃ!!けど、君の様な男{end}
+EN I lose!! But meetin' a man like{end}
+
+@ 8FFA06 words=17
+JP に出会えたと思うと嬉しいぜよ!!
+EN you sure makes me happy!!
+
+@ 8FFA28 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFA34 words=10
+JP 何という強さだ!!{end}
+EN What strength!!{end}
+
+@ 8FFA48 words=15
+JP 椎名を倒してしまうわけだ…。
+EN No wonder Shiina fell...
+
+@ 8FFA66 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFA72 words=16
+JP はっはっは、立ち技で遅れをとる{end}
+EN Ha ha ha! I ain't too rusty to{end}
+
+@ 8FFA92 words=15
+JP ほどサビついちゃいないぜ!!
+EN win a stand-up fight!!
+
+@ 8FFAB0 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFABC words=16
+JP 私のスープレックスを何度も受け{end}
+EN You took suplex after suplex{end}
+
+@ 8FFADC words=16
+JP て、よく戦った。敬意を表そう。
+EN and fought well. My respect.
+
+@ 8FFAFC words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFB08 words=16
+JP 気持ちのいい試合じゃったっ!!{end}
+EN Now that was a fine match!!{end}
+
+@ 8FFB28 words=16
+JP 君とは、何度でも戦いたくなる。
+EN I'd fight you any day, friend.
+
+@ 8FFB48 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFB54 words=16
+JP 君はまだまだ強くなる。私のジム{end}
+EN You'll get much stronger. Why{end}
+
+@ 8FFB74 words=15
+JP 「シャークデン」に来ないか？
+EN not join my gym, "Shark Den"?
+
+@ 8FFB92 words=6
+JP {skip}{c1f}【{c1b}】{end}
+EN {skip}{c1f}[{c1b}]{end}
+
+@ 8FFB9E words=16
+JP 椎名よ、腕を上げたな。次も俺が{end}
+EN You've improved, Shiina. I may{end}
+
+@ 8FFBBE words=15
+JP 優勝できるとは限らない程に。
+EN not be the winner next time.
+
+@ 8FFBDC words=14
+JP ﾔﾝｸﾞﾀｲｶﾞｰ杯争奪戦
+EN Young Tiger Cup
+
+@ 8FFBF8 words=11
+JP 格闘ﾄｰﾅﾒﾝﾄ予選
+EN Fight Tmt. Prelim
+
+@ 8FFC0E words=12
+JP 格闘ﾄｰﾅﾒﾝﾄ優勝戦
+EN Fight Tmt. Final
+
+@ 8FFC26 words=19
+JP {at 24,40}★{c1b} 選手が、{pos 24,56}　勝ちました!!
+EN {at 24,40}★{c1b}{pos 24,56} wins the match!!
+
+@ 8FFC4C words=19
+JP {at 48,40}★{c24} 選手が、{pos 48,56}　勝ちました!!
+EN {at 48,40}★{c24}{pos 48,56} wins the match!!
+
+@ 8FFC72 words=18
+JP {at 48,40}★{c24} 組が、{pos 48,56}　勝ちました!!
+EN {at 48,40}★{c24}{pos 48,56} win the match!!
+
+@ 8FFC96 words=10
+JP {skip}1996年　3月{end}
+EN {skip}March 1996{end}
+
+@ 8FFCAA words=18
+JP {skip}{c1f}『最強のプロレスラー』を目指す{end}
+EN {skip}{c1f}At 18, set on becoming the{end}
+
+@ 8FFCCE words=16
+JP 18歳の君は、超日本プロレスに{end}
+EN "strongest pro wrestler," you{end}
+
+@ 8FFCEE words=7
+JP やってきた。{end}
+EN join Super Japan Pro-Wrestling.{end}
+
+@ 8FFCFC words=12
+JP {skip}超日本プロレス・・・{end}
+EN {skip}Super Japan Pro-Wrestling...{end}
+
+@ 8FFD14 words=17
+JP {skip}総勢18人の屈強なるレスリング{end}
+EN {skip}A promotion boasting 18 of{end}
+
+@ 8FFD36 words=16
+JP エリートたちが所属するプロレス{end}
+EN the toughest elite wrestlers{end}
+
+@ 8FFD56 words=7
+JP 団体である。{end}
+EN around.{end}
+
+@ 8FFD64 words=17
+JP {skip}これから始まる5年間のレスラー{end}
+EN {skip}Over the next 5 years of your{end}
+
+@ 8FFD86 words=16
+JP 人生の中で、君はどのように成長{end}
+EN wrestling life, how will you{end}
+
+@ 8FFDA6 words=16
+JP するのだろうか・・・・・・・。{end}
+EN grow, I wonder.......{end}
+
+@ 8FFDC6 words=8
+JP {skip}{c20}【受付嬢】{end}
+EN {skip}{c20}[Receptionist]{end}
+
+@ 8FFDD6 words=16
+JP あなたのファイルを作成します。{end}
+EN I'll prepare your file now.{end}
+
+@ 8FFDF6 words=6
+JP {skip}入門届に{end}
+EN {skip}Please fill in your name,{end}
+
+@ 8FFE02 words=14
+JP 名前、誕生日、スポーツ歴を{end}
+EN birthday and sports background{end}
+
+@ 8FFE1E words=10
+JP 記入してください。
+EN on the entry form.
+
+@ 8FFE32 words=8
+JP {skip}{c20}【受付嬢】{end}
+EN {skip}{c20}[Receptionist]{end}
+
+@ 8FFE42 words=13
+JP ファイルを作成しました。{end}
+EN Your file is complete.{end}
+
+@ 8FFE5C words=17
+JP {skip}それでは道場へ案内いたします。{end}
+EN {skip}Now, I'll show you to the dojo.{end}
+
+@ 8FFE7E words=10
+JP こちらへ、どうぞ。
+EN This way, please.
+
+@ 8FFE92 words=22
+JP {at 64,138}メインメニューに戻る{pos 64,170}ゲームを終了する
+EN {at 64,138}Return to Main Menu{pos 64,170}Quit Game
