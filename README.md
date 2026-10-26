@@ -16,6 +16,11 @@ English fits in the room the Japanese used.
 
 **[See screenshots](docs/SCREENSHOTS.md)** of the patched game.
 
+**[Read the player's guide](https://kactusken.github.io/Jikkyou-Power-Pro-Wrestling-English/guide/)**
+to the whole game, in English: modes, rules, controls, every wrestler's moves, the Max
+Voltage career mode with an interactive map of its story branches and endings (spoilers are
+folded away), and secrets.
+
 > **Status: v1.0.** Complete: every mode is translated and has been played. If you find text
 > that is cut off, overlaps or is still in Japanese, please [report it](#reporting-problems).
 > [CHANGELOG.md](CHANGELOG.md) lists what's in each release.
@@ -58,9 +63,9 @@ Then:
   when a match is announced. Shorter names fit.
 - **Saves.** Start a new save with the patched game. Saves from the unpatched Japanese game
   haven't been tested.
-- **Guide.** [docs/guide/](docs/guide/index.html) is a player's guide to the whole game: modes,
+- **Guide.** The [player's guide](https://kactusken.github.io/Jikkyou-Power-Pro-Wrestling-English/guide/) covers the whole game: modes,
   rules, controls, moves, the roster, the Max Voltage career mode with an interactive story map
-  (spoilers are folded away), and secrets. It's a single HTML page; open it in a browser.
+  (spoilers are folded away), and secrets. Its source is in [docs/guide/](docs/guide/).
 - **Bug fixes.** Two story bugs of the original game are fixed: the side you pick in the SJPW
   revolt (May 1999) is now recorded, and SJPW's reaction to Max Mercury after the split now
   shows. See [docs/MAX_VOLTAGE.md](docs/MAX_VOLTAGE.md#bugs-fixed).
@@ -90,9 +95,9 @@ the game's formats.
 | [docs/PATCHES.md](docs/PATCHES.md) | How each code patch works |
 | [docs/TECHNICAL.md](docs/TECHNICAL.md) | The ROM layout, text format, the English text engine, and packed graphics |
 | [docs/PLATFORM.md](docs/PLATFORM.md) | SNES pitfalls for this kind of work |
-| [docs/guide/](docs/guide/index.html) | The player's guide (text CC BY-SA 4.0, see its LICENSE) |
+| [Player's guide](https://kactusken.github.io/Jikkyou-Power-Pro-Wrestling-English/guide/) | The player's guide (text CC BY-SA 4.0, see [its LICENSE](docs/guide/LICENSE)) |
 | [docs/HIDDEN_CONTENT.md](docs/HIDDEN_CONTENT.md) | Unlockables, debug features, and unused and cut content |
-| [docs/MAX_VOLTAGE.md](docs/MAX_VOLTAGE.md) | The career mode: the monthly loop, the story calendar, branches, endings, save format and testing tools; the story map is in the [player's guide](docs/guide/index.html#mv-endings) |
+| [docs/MAX_VOLTAGE.md](docs/MAX_VOLTAGE.md) | The career mode: the monthly loop, the story calendar, branches, endings, save format and testing tools; the story map is in the [player's guide](https://kactusken.github.io/Jikkyou-Power-Pro-Wrestling-English/guide/#mv-endings) |
 | [tools/README.md](tools/README.md) | Every tool, what it's for and how to run it |
 
 Quick start:
